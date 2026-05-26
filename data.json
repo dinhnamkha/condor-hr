@@ -1,465 +1,620 @@
 {
-  "generatedAt": "2026-05-26T10:14:49.486845",
+  "generatedAt": "2026-05-26T10:27:41.035071",
   "generatedDate": "26/05/2026",
   "totalEmployees": 57,
   "employees": [
     {
-      "mnv": "1.0",
-      "phanbo": "",
+      "mnv": "1",
+      "phanloai": "CT",
       "hoTen": "Hiếu",
       "to": "",
       "noiLV": "Office",
       "chucvu": "1.General Manager"
     },
     {
-      "mnv": "14.0",
-      "phanbo": "",
+      "mnv": "14",
+      "phanloai": "CT",
       "hoTen": "Oanh",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "6.NV chất lượng LB"
     },
     {
-      "mnv": "37.0",
-      "phanbo": "",
+      "mnv": "37",
+      "phanloai": "CT",
       "hoTen": "Mai",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "6.NV kỹ thuật LB"
     },
     {
-      "mnv": "38.0",
-      "phanbo": "",
+      "mnv": "38",
+      "phanloai": "CT",
       "hoTen": "Huyền",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
     },
     {
-      "mnv": "46.0",
-      "phanbo": "",
+      "mnv": "46",
+      "phanloai": "CT",
       "hoTen": "Huyền",
       "to": "",
       "noiLV": "Office",
       "chucvu": "3.Manager C"
     },
     {
-      "mnv": "47.0",
-      "phanbo": "",
+      "mnv": "47",
+      "phanloai": "CT",
       "hoTen": "Nga",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "6.Leader A"
     },
     {
-      "mnv": "59.0",
-      "phanbo": "",
+      "mnv": "59",
+      "phanloai": "CT",
       "hoTen": "Phụng",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
     },
     {
-      "mnv": "108.0",
-      "phanbo": "",
+      "mnv": "108",
+      "phanloai": "CT",
       "hoTen": "Coi",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "6.Leader A"
     },
     {
-      "mnv": "127.0",
-      "phanbo": "",
+      "mnv": "127",
+      "phanloai": "CT",
       "hoTen": "Trang",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "5.Supervisor A"
     },
     {
-      "mnv": "132.0",
-      "phanbo": "",
+      "mnv": "132",
+      "phanloai": "CT",
       "hoTen": "Tùng",
       "to": "",
       "noiLV": "Office",
       "chucvu": "2.Senior Manager"
     },
     {
-      "mnv": "134.0",
-      "phanbo": "",
+      "mnv": "134",
+      "phanloai": "CT",
       "hoTen": "Trí",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "3.Manager B"
     },
     {
-      "mnv": "154.0",
-      "phanbo": "",
+      "mnv": "154",
+      "phanloai": "CT",
       "hoTen": "Dũng",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "5.Phó Super Leader SA"
     },
     {
-      "mnv": "160.0",
-      "phanbo": "",
+      "mnv": "160",
+      "phanloai": "CT",
       "hoTen": "Hiếu",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "6.NV kỹ thuật LA"
     },
     {
-      "mnv": "175.0",
-      "phanbo": "",
+      "mnv": "175",
+      "phanloai": "CT",
       "hoTen": "Quỳnh",
       "to": "",
       "noiLV": "Office",
       "chucvu": "6.Leader A"
     },
     {
-      "mnv": "183.0",
-      "phanbo": "",
+      "mnv": "183",
+      "phanloai": "CT",
       "hoTen": "Mai",
       "to": "",
       "noiLV": "Office",
       "chucvu": "3.Manager B"
     },
     {
-      "mnv": "207.0",
-      "phanbo": "",
+      "mnv": "207",
+      "phanloai": "CT",
       "hoTen": "Lan",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
     },
     {
-      "mnv": "248.0",
-      "phanbo": "",
+      "mnv": "248",
+      "phanloai": "CT",
       "hoTen": "Quốc",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "4.Chief B"
     },
     {
-      "mnv": "269.0",
-      "phanbo": "",
+      "mnv": "269",
+      "phanloai": "CT",
       "hoTen": "Anh",
       "to": "",
       "noiLV": "Office",
       "chucvu": "7.Staff"
     },
     {
-      "mnv": "305.0",
-      "phanbo": "",
+      "mnv": "305",
+      "phanloai": "CT",
       "hoTen": "Quốc",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
     },
     {
-      "mnv": "311.0",
-      "phanbo": "",
+      "mnv": "311",
+      "phanloai": "CT",
       "hoTen": "Linh",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
     },
     {
-      "mnv": "317.0",
-      "phanbo": "",
+      "mnv": "317",
+      "phanloai": "CT",
       "hoTen": "Khánh",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "6.NV kỹ thuật LA"
     },
     {
-      "mnv": "343.0",
-      "phanbo": "",
+      "mnv": "343",
+      "phanloai": "CT",
       "hoTen": "Đạt",
       "to": "",
       "noiLV": "Office",
       "chucvu": "4.Chief B"
     },
     {
-      "mnv": "345.0",
-      "phanbo": "",
+      "mnv": "345",
+      "phanloai": "CT",
       "hoTen": "Kha",
       "to": "",
       "noiLV": "Office",
       "chucvu": "4.Chief C"
     },
     {
-      "mnv": "394.0",
-      "phanbo": "",
+      "mnv": "394",
+      "phanloai": "CT",
       "hoTen": "Phương",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "3.Manager C"
     },
     {
-      "mnv": "412.0",
-      "phanbo": "",
+      "mnv": "412",
+      "phanloai": "CT",
       "hoTen": "Thanh",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
     },
     {
-      "mnv": "426.0",
-      "phanbo": "",
+      "mnv": "426",
+      "phanloai": "CT",
       "hoTen": "Hậu",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "4.Chief B"
     },
     {
-      "mnv": "437.0",
-      "phanbo": "",
+      "mnv": "437",
+      "phanloai": "CT",
       "hoTen": "Khuê",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "5.Supervisor C"
     },
     {
-      "mnv": "438.0",
-      "phanbo": "",
+      "mnv": "438",
+      "phanloai": "CT",
       "hoTen": "Quang",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "5.Super Leader SA"
     },
     {
-      "mnv": "445.0",
-      "phanbo": "",
+      "mnv": "445",
+      "phanloai": "CT",
       "hoTen": "Phúc",
       "to": "",
       "noiLV": "Office",
       "chucvu": "Staff"
     },
     {
-      "mnv": "448.0",
-      "phanbo": "",
+      "mnv": "448",
+      "phanloai": "CT",
       "hoTen": "Phe",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
     },
     {
-      "mnv": "451.0",
-      "phanbo": "",
+      "mnv": "451",
+      "phanloai": "TV",
       "hoTen": "Cuộc",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "Staff"
     },
     {
-      "mnv": "452.0",
-      "phanbo": "",
+      "mnv": "452",
+      "phanloai": "CT",
       "hoTen": "Đức",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
     },
     {
-      "mnv": "453.0",
-      "phanbo": "",
+      "mnv": "453",
+      "phanloai": "CT",
       "hoTen": "Nguyện",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
     },
     {
-      "mnv": "456.0",
-      "phanbo": "",
+      "mnv": "456",
+      "phanloai": "CT",
       "hoTen": "Nghĩa",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "Staff"
     },
     {
-      "mnv": "459.0",
-      "phanbo": "",
+      "mnv": "459",
+      "phanloai": "TV",
       "hoTen": "Ánh",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
     },
     {
-      "mnv": "460.0",
-      "phanbo": "",
+      "mnv": "460",
+      "phanloai": "CT",
       "hoTen": "Hoàng",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
-      "mnv": "461.0",
-      "phanbo": "",
+      "mnv": "461",
+      "phanloai": "TV",
       "hoTen": "Hinh",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "Staff"
     },
     {
-      "mnv": "462.0",
-      "phanbo": "",
+      "mnv": "462",
+      "phanloai": "TV",
       "hoTen": "Tùng",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
-      "mnv": "463.0",
-      "phanbo": "",
+      "mnv": "463",
+      "phanloai": "TV",
       "hoTen": "Trường",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "Staff"
     },
     {
-      "mnv": "3001.0",
-      "phanbo": "",
+      "mnv": "3001",
+      "phanloai": "GCN",
       "hoTen": "Hằng",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
-      "mnv": "3003.0",
-      "phanbo": "",
+      "mnv": "3003",
+      "phanloai": "GCN",
       "hoTen": "Mộng",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
-      "mnv": "3016.0",
-      "phanbo": "",
+      "mnv": "3016",
+      "phanloai": "GCN",
       "hoTen": "Lan",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
-      "mnv": "3017.0",
-      "phanbo": "",
+      "mnv": "3017",
+      "phanloai": "GCN",
       "hoTen": "Thơ",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
-      "mnv": "3031.0",
-      "phanbo": "",
+      "mnv": "3031",
+      "phanloai": "GCN",
       "hoTen": "Trinh",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
-      "mnv": "3032.0",
-      "phanbo": "",
+      "mnv": "3032",
+      "phanloai": "GCN",
       "hoTen": "Điệp",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
-      "mnv": "3034.0",
-      "phanbo": "",
+      "mnv": "3034",
+      "phanloai": "GCN",
       "hoTen": "Hoa",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
-      "mnv": "3035.0",
-      "phanbo": "",
+      "mnv": "3035",
+      "phanloai": "GCN",
       "hoTen": "Diệu",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
-      "mnv": "3041.0",
-      "phanbo": "",
+      "mnv": "3041",
+      "phanloai": "GCN",
       "hoTen": "My",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
-      "mnv": "3052.0",
-      "phanbo": "",
+      "mnv": "3052",
+      "phanloai": "GCN",
       "hoTen": "Lành",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
-      "mnv": "3053.0",
-      "phanbo": "",
+      "mnv": "3053",
+      "phanloai": "GCN",
       "hoTen": "Tình",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
-      "mnv": "3060.0",
-      "phanbo": "",
+      "mnv": "3060",
+      "phanloai": "GCN",
       "hoTen": "Huy",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
-      "mnv": "3062.0",
-      "phanbo": "",
+      "mnv": "3062",
+      "phanloai": "GCN",
       "hoTen": "Đường",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
-      "mnv": "3063.0",
-      "phanbo": "",
+      "mnv": "3063",
+      "phanloai": "GCN",
       "hoTen": "Chi",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
-      "mnv": "3068.0",
-      "phanbo": "",
+      "mnv": "3068",
+      "phanloai": "GCN",
       "hoTen": "Hải",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
-      "mnv": "3069.0",
-      "phanbo": "",
+      "mnv": "3069",
+      "phanloai": "GCN",
       "hoTen": "Hằng",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
-      "mnv": "3073.0",
-      "phanbo": "",
+      "mnv": "3073",
+      "phanloai": "GCN",
       "hoTen": "Tuyết",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
-      "mnv": "3074.0",
-      "phanbo": "",
+      "mnv": "3074",
+      "phanloai": "GCN",
       "hoTen": "Hoà",
       "to": "",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     }
   ],
-  "absences": [],
-  "todayAbsences": []
+  "absences": [
+    {
+      "ngay": "25/05/2026",
+      "mnv": "1",
+      "hoTen": "Võ Ngọc Hiếu",
+      "noiLV": "Office",
+      "to": "",
+      "loai": "Vắng không phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "25/05/2026",
+      "mnv": "160",
+      "hoTen": "Trương Ngọc Hiếu",
+      "noiLV": "Factory",
+      "to": "",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "25/05/2026",
+      "mnv": "14",
+      "hoTen": "Nguyễn Thị Kim Oanh",
+      "noiLV": "Factory",
+      "to": "",
+      "loai": "Đi công tác",
+      "lydo": ""
+    },
+    {
+      "ngay": "25/05/2026",
+      "mnv": "269",
+      "hoTen": "Nguyễn Tuấn Anh",
+      "noiLV": "Office",
+      "to": "",
+      "loai": "Đi công tác",
+      "lydo": ""
+    },
+    {
+      "ngay": "25/05/2026",
+      "mnv": "311",
+      "hoTen": "Nguyễn Trúc Linh",
+      "noiLV": "Factory",
+      "to": "",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "26/05/2026",
+      "mnv": "345",
+      "hoTen": "Đinh Nam Kha",
+      "noiLV": "Office",
+      "to": "",
+      "loai": "Vắng không phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "26/05/2026",
+      "mnv": "343",
+      "hoTen": "Bùi Tiến Đạt",
+      "noiLV": "Office",
+      "to": "",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "26/05/2026",
+      "mnv": "426",
+      "hoTen": "Nguyễn Văn Hậu",
+      "noiLV": "Factory",
+      "to": "",
+      "loai": "Đi công tác",
+      "lydo": "Công tác Hoàn Cầu"
+    },
+    {
+      "ngay": "26/05/2026",
+      "mnv": "46",
+      "hoTen": "Hoàng Thị Thanh Huyền",
+      "noiLV": "Office",
+      "to": "",
+      "loai": "Đi công tác",
+      "lydo": ""
+    },
+    {
+      "ngay": "26/05/2026",
+      "mnv": "183",
+      "hoTen": "Nguyễn Thị Ngọc Mai",
+      "noiLV": "Office",
+      "to": "",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "26/05/2026",
+      "mnv": "437",
+      "hoTen": "Hoàng Minh Khuê",
+      "noiLV": "Factory",
+      "to": "",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    }
+  ],
+  "todayAbsences": [
+    {
+      "ngay": "26/05/2026",
+      "mnv": "345",
+      "hoTen": "Đinh Nam Kha",
+      "noiLV": "Office",
+      "to": "",
+      "loai": "Vắng không phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "26/05/2026",
+      "mnv": "343",
+      "hoTen": "Bùi Tiến Đạt",
+      "noiLV": "Office",
+      "to": "",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "26/05/2026",
+      "mnv": "426",
+      "hoTen": "Nguyễn Văn Hậu",
+      "noiLV": "Factory",
+      "to": "",
+      "loai": "Đi công tác",
+      "lydo": "Công tác Hoàn Cầu"
+    },
+    {
+      "ngay": "26/05/2026",
+      "mnv": "46",
+      "hoTen": "Hoàng Thị Thanh Huyền",
+      "noiLV": "Office",
+      "to": "",
+      "loai": "Đi công tác",
+      "lydo": ""
+    },
+    {
+      "ngay": "26/05/2026",
+      "mnv": "183",
+      "hoTen": "Nguyễn Thị Ngọc Mai",
+      "noiLV": "Office",
+      "to": "",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "26/05/2026",
+      "mnv": "437",
+      "hoTen": "Hoàng Minh Khuê",
+      "noiLV": "Factory",
+      "to": "",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    }
+  ]
 }
