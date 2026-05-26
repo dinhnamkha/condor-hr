@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-26T07:44:21.070669",
+  "generatedAt": "2026-05-26T07:51:44.069463",
   "generatedDate": "26/05/2026",
   "totalEmployees": 57,
   "employees": [
     {
       "mnv": "1.0",
-      "phanbo": "642.0",
+      "phanbo": "",
       "hoTen": "Hiếu",
       "to": "",
       "noiLV": "Office",
@@ -13,7 +13,7 @@
     },
     {
       "mnv": "14.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Oanh",
       "to": "",
       "noiLV": "Factory",
@@ -21,7 +21,7 @@
     },
     {
       "mnv": "37.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Mai",
       "to": "",
       "noiLV": "Factory",
@@ -29,7 +29,7 @@
     },
     {
       "mnv": "38.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Huyền",
       "to": "",
       "noiLV": "Factory",
@@ -37,7 +37,7 @@
     },
     {
       "mnv": "46.0",
-      "phanbo": "642.0",
+      "phanbo": "",
       "hoTen": "Huyền",
       "to": "",
       "noiLV": "Office",
@@ -45,7 +45,7 @@
     },
     {
       "mnv": "47.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Nga",
       "to": "",
       "noiLV": "Factory",
@@ -53,7 +53,7 @@
     },
     {
       "mnv": "59.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Phụng",
       "to": "",
       "noiLV": "Factory",
@@ -61,7 +61,7 @@
     },
     {
       "mnv": "108.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Coi",
       "to": "",
       "noiLV": "Factory",
@@ -69,7 +69,7 @@
     },
     {
       "mnv": "127.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Trang",
       "to": "",
       "noiLV": "Factory",
@@ -77,7 +77,7 @@
     },
     {
       "mnv": "132.0",
-      "phanbo": "642.0",
+      "phanbo": "",
       "hoTen": "Tùng",
       "to": "",
       "noiLV": "Office",
@@ -85,7 +85,7 @@
     },
     {
       "mnv": "134.0",
-      "phanbo": "627.0",
+      "phanbo": "",
       "hoTen": "Trí",
       "to": "",
       "noiLV": "Factory",
@@ -93,7 +93,7 @@
     },
     {
       "mnv": "154.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Dũng",
       "to": "",
       "noiLV": "Factory",
@@ -101,7 +101,7 @@
     },
     {
       "mnv": "160.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Hiếu",
       "to": "",
       "noiLV": "Factory",
@@ -109,7 +109,7 @@
     },
     {
       "mnv": "175.0",
-      "phanbo": "642.0",
+      "phanbo": "",
       "hoTen": "Quỳnh",
       "to": "",
       "noiLV": "Office",
@@ -117,7 +117,7 @@
     },
     {
       "mnv": "183.0",
-      "phanbo": "642.0",
+      "phanbo": "",
       "hoTen": "Mai",
       "to": "",
       "noiLV": "Office",
@@ -125,7 +125,7 @@
     },
     {
       "mnv": "207.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Lan",
       "to": "",
       "noiLV": "Factory",
@@ -133,7 +133,7 @@
     },
     {
       "mnv": "248.0",
-      "phanbo": "627.0",
+      "phanbo": "",
       "hoTen": "Quốc",
       "to": "",
       "noiLV": "Factory",
@@ -141,7 +141,7 @@
     },
     {
       "mnv": "269.0",
-      "phanbo": "642.0",
+      "phanbo": "",
       "hoTen": "Anh",
       "to": "",
       "noiLV": "Office",
@@ -149,7 +149,7 @@
     },
     {
       "mnv": "305.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Quốc",
       "to": "",
       "noiLV": "Factory",
@@ -157,7 +157,7 @@
     },
     {
       "mnv": "311.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Linh",
       "to": "",
       "noiLV": "Factory",
@@ -165,7 +165,7 @@
     },
     {
       "mnv": "317.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Khánh",
       "to": "",
       "noiLV": "Factory",
@@ -173,7 +173,7 @@
     },
     {
       "mnv": "343.0",
-      "phanbo": "642.0",
+      "phanbo": "",
       "hoTen": "Đạt",
       "to": "",
       "noiLV": "Office",
@@ -181,7 +181,7 @@
     },
     {
       "mnv": "345.0",
-      "phanbo": "642.0",
+      "phanbo": "",
       "hoTen": "Kha",
       "to": "",
       "noiLV": "Office",
@@ -189,7 +189,7 @@
     },
     {
       "mnv": "394.0",
-      "phanbo": "627.0",
+      "phanbo": "",
       "hoTen": "Phương",
       "to": "",
       "noiLV": "Factory",
@@ -197,7 +197,7 @@
     },
     {
       "mnv": "412.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Thanh",
       "to": "",
       "noiLV": "Factory",
@@ -205,7 +205,7 @@
     },
     {
       "mnv": "426.0",
-      "phanbo": "627.0",
+      "phanbo": "",
       "hoTen": "Hậu",
       "to": "",
       "noiLV": "Factory",
@@ -213,7 +213,7 @@
     },
     {
       "mnv": "437.0",
-      "phanbo": "627.0",
+      "phanbo": "",
       "hoTen": "Khuê",
       "to": "",
       "noiLV": "Factory",
@@ -221,7 +221,7 @@
     },
     {
       "mnv": "438.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Quang",
       "to": "",
       "noiLV": "Factory",
@@ -229,7 +229,7 @@
     },
     {
       "mnv": "445.0",
-      "phanbo": "642.0",
+      "phanbo": "",
       "hoTen": "Phúc",
       "to": "",
       "noiLV": "Office",
@@ -237,7 +237,7 @@
     },
     {
       "mnv": "448.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Phe",
       "to": "",
       "noiLV": "Factory",
@@ -245,7 +245,7 @@
     },
     {
       "mnv": "451.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Cuộc",
       "to": "",
       "noiLV": "Factory",
@@ -253,7 +253,7 @@
     },
     {
       "mnv": "452.0",
-      "phanbo": "627.0",
+      "phanbo": "",
       "hoTen": "Đức",
       "to": "",
       "noiLV": "Factory",
@@ -261,7 +261,7 @@
     },
     {
       "mnv": "453.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Nguyện",
       "to": "",
       "noiLV": "Factory",
@@ -269,7 +269,7 @@
     },
     {
       "mnv": "456.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Nghĩa",
       "to": "",
       "noiLV": "Factory",
@@ -277,7 +277,7 @@
     },
     {
       "mnv": "459.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Ánh",
       "to": "",
       "noiLV": "Factory",
@@ -285,7 +285,7 @@
     },
     {
       "mnv": "460.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Hoàng",
       "to": "",
       "noiLV": "Factory",
@@ -293,7 +293,7 @@
     },
     {
       "mnv": "461.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Hinh",
       "to": "",
       "noiLV": "Factory",
@@ -301,7 +301,7 @@
     },
     {
       "mnv": "462.0",
-      "phanbo": "627.0",
+      "phanbo": "",
       "hoTen": "Tùng",
       "to": "",
       "noiLV": "Factory",
@@ -309,7 +309,7 @@
     },
     {
       "mnv": "463.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Trường",
       "to": "",
       "noiLV": "Factory",
@@ -317,7 +317,7 @@
     },
     {
       "mnv": "3001.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Hằng",
       "to": "",
       "noiLV": "Factory",
@@ -325,7 +325,7 @@
     },
     {
       "mnv": "3003.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Mộng",
       "to": "",
       "noiLV": "Factory",
@@ -333,7 +333,7 @@
     },
     {
       "mnv": "3016.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Lan",
       "to": "",
       "noiLV": "Factory",
@@ -341,7 +341,7 @@
     },
     {
       "mnv": "3017.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Thơ",
       "to": "",
       "noiLV": "Factory",
@@ -349,7 +349,7 @@
     },
     {
       "mnv": "3031.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Trinh",
       "to": "",
       "noiLV": "Factory",
@@ -357,7 +357,7 @@
     },
     {
       "mnv": "3032.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Điệp",
       "to": "",
       "noiLV": "Factory",
@@ -365,7 +365,7 @@
     },
     {
       "mnv": "3034.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Hoa",
       "to": "",
       "noiLV": "Factory",
@@ -373,7 +373,7 @@
     },
     {
       "mnv": "3035.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Diệu",
       "to": "",
       "noiLV": "Factory",
@@ -381,7 +381,7 @@
     },
     {
       "mnv": "3041.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "My",
       "to": "",
       "noiLV": "Factory",
@@ -389,7 +389,7 @@
     },
     {
       "mnv": "3052.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Lành",
       "to": "",
       "noiLV": "Factory",
@@ -397,7 +397,7 @@
     },
     {
       "mnv": "3053.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Tình",
       "to": "",
       "noiLV": "Factory",
@@ -405,7 +405,7 @@
     },
     {
       "mnv": "3060.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Huy",
       "to": "",
       "noiLV": "Factory",
@@ -413,7 +413,7 @@
     },
     {
       "mnv": "3062.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Đường",
       "to": "",
       "noiLV": "Factory",
@@ -421,7 +421,7 @@
     },
     {
       "mnv": "3063.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Chi",
       "to": "",
       "noiLV": "Factory",
@@ -429,7 +429,7 @@
     },
     {
       "mnv": "3068.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Hải",
       "to": "",
       "noiLV": "Factory",
@@ -437,7 +437,7 @@
     },
     {
       "mnv": "3069.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Hằng",
       "to": "",
       "noiLV": "Factory",
@@ -445,7 +445,7 @@
     },
     {
       "mnv": "3073.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Tuyết",
       "to": "",
       "noiLV": "Factory",
@@ -453,7 +453,7 @@
     },
     {
       "mnv": "3074.0",
-      "phanbo": "622.0",
+      "phanbo": "",
       "hoTen": "Hoà",
       "to": "",
       "noiLV": "Factory",
