@@ -3,464 +3,771 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Condor HR · Dashboard</title>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans+Thai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<title>Condor HR · 人事ダッシュボード</title>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-  :root {
-    /* LIGHT MODE BACKGROUNDS */
-    --bg:#f8fafc; 
-    --surface:#ffffff; 
-    --surface2:#f1f5f9; 
-    --surface3:#e2e8f0;
-    --border:#cbd5e1; 
-    --border2:#94a3b8;
-    
-    /* BRAND & STATUS COLORS (OPTIMIZED FOR LIGHT MODE) */
-    --accent:#1d4ed8; 
-    --accent2:#2563eb;
-    --red:#dc2626; 
-    --red-dim:rgba(220,38,38,0.08);
-    --yellow:#b45309; 
-    --yellow-dim:rgba(180,83,9,0.08);
-    --green:#16a34a; 
-    --green-dim:rgba(22,163,74,0.08);
-    --blue-dim:rgba(29,78,216,0.08);
-    --orange:#ea580c; 
-    --purple:#7c3aed;
-    
-    /* LIGHT MODE TEXT COLORS */
-    --text:#0f172a; 
-    --text2:#475569; 
-    --text3:#64748b;
-    --mono:'IBM Plex Mono',monospace; 
-    --sans:'IBM Plex Sans Thai',sans-serif;
-    --r:8px;
-    --shadow: 0 1px 3px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.1);
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:14px;min-height:100vh}
+:root{
+  --bg:#eef1f5;
+  --white:#ffffff;
+  --surface2:#f5f7fa;
+  --border:#dde2ea;
+  --border2:#c8d0db;
+  --ink:#0f172a;
+  --ink2:#1e293b;
+  --muted:#64748b;
+  --muted2:#94a3b8;
 
-  /* TOPBAR */
-  .topbar{display:flex;align-items:center;justify-content:space-between;padding:0 24px;height:64px;background:var(--surface);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100;box-shadow: var(--shadow)}
-  .logo-mark{width:36px;height:36px;background:var(--accent);display:grid;place-items:center;font-family:var(--mono);font-weight:700;font-size:15px;color:#fff;clip-path:polygon(0 0,100% 0,100% 70%,70% 100%,0 100%)}
-  .logo-wrap{display:flex;align-items:center;gap:14px}
-  /* PHÓNG TO TIÊU ĐỀ CHÍNH */
-  .logo-text{font-family:var(--mono);font-weight:700;font-size:20px;letter-spacing:1px;color:var(--accent)}
-  .logo-sub{font-family:var(--mono);font-size:11px;color:var(--text3);letter-spacing:2px;margin-top:2px;font-weight:500}
-  .topbar-right{display:flex;align-items:center;gap:16px}
-  .clock{font-family:var(--mono);font-size:20px;font-weight:700;color:var(--accent);letter-spacing:1px}
-  .date-lbl{font-family:var(--mono);font-size:12px;color:var(--text2);text-align:right;line-height:1.6}
-  .dot{width:10px;height:10px;border-radius:50%;background:var(--green);box-shadow:0 0 8px var(--green);animation:blink 2s infinite}
-  @keyframes blink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
+  --blue:#1d4ed8;      --blue-bg:#eff6ff;   --blue-b:#bfdbfe;
+  --green:#15803d;     --green-bg:#f0fdf4;  --green-b:#86efac;
+  --red:#b91c1c;       --red-bg:#fef2f2;    --red-b:#fca5a5;
+  --amber:#92400e;     --amber-bg:#fffbeb;  --amber-b:#fcd34d;
+  --orange:#9a3412;    --orange-bg:#fff7ed; --orange-b:#fdba74;
+  --purple:#5b21b6;    --purple-bg:#f5f3ff; --purple-b:#c4b5fd;
+  --teal:#0f766e;      --teal-bg:#f0fdfa;   --teal-b:#5eead4;
+  --slate:#334155;
 
-  /* LOADING / ERROR */
-  #loadingState{display:flex;flex-direction:column;align-items:center;justify-content:center;height:60vh;gap:16px}
-  .spinner{width:36px;height:36px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin 1s linear infinite}
-  @keyframes spin{to{transform:rotate(360deg)}}
-  .load-text{font-family:var(--mono);font-size:13px;color:var(--text3);letter-spacing:2px}
+  --sans:'Be Vietnam Pro',sans-serif;
+  --mono:'JetBrains Mono',monospace;
+  --r:10px; --r2:14px;
+  --sh:0 1px 3px rgba(0,0,0,.07),0 1px 2px rgba(0,0,0,.05);
+  --sh2:0 4px 16px rgba(0,0,0,.08);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:14px;min-height:100vh;line-height:1.6}
 
-  /* DATA FRESHNESS */
-  .freshness-bar{display:flex;align-items:center;justify-content:space-between;padding:10px 24px;background:var(--surface2);border-bottom:1px solid var(--border);font-family:var(--mono);font-size:12px;font-weight:500}
-  .fresh-ok{color:var(--green)} .fresh-old{color:var(--yellow)} .fresh-err{color:var(--red)}
-  .refresh-hint{color:var(--text3)}
+/* ══ TOPBAR ══ */
+.topbar{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 24px;height:58px;
+  background:var(--white);
+  border-bottom:2px solid var(--blue);
+  box-shadow:var(--sh2);
+  position:sticky;top:0;z-index:200;
+}
+.logo-wrap{display:flex;align-items:center;gap:12px}
+.logo-mark{
+  width:36px;height:36px;border-radius:9px;
+  background:linear-gradient(135deg,#1d4ed8 0%,#60a5fa 100%);
+  display:grid;place-items:center;
+  font-family:var(--mono);font-weight:600;font-size:13px;color:#fff;
+  box-shadow:0 2px 8px rgba(29,78,216,.4);
+  letter-spacing:-0.5px;
+}
+.logo-titles{}
+.logo-main{font-family:var(--mono);font-weight:600;font-size:14px;letter-spacing:1.5px;color:var(--ink)}
+.logo-sub{font-size:10px;color:var(--muted);letter-spacing:2.5px;margin-top:1px}
 
-  /* MAIN */
-  .main{padding:24px;display:grid;gap:20px}
-  #dashboard{display:none}
-  #dashboard.on{display:block}
+.topbar-center{
+  display:flex;align-items:center;gap:8px;
+  background:var(--surface2);border:1px solid var(--border);
+  border-radius:8px;padding:5px 14px;
+}
+.topbar-center span{font-size:12px;color:var(--muted);font-weight:500}
+.live-pill{
+  display:flex;align-items:center;gap:5px;
+  background:var(--green-bg);border:1px solid var(--green-b);
+  border-radius:20px;padding:2px 10px;font-size:11px;font-weight:600;color:var(--green);
+}
+.live-pill::before{
+  content:'';width:6px;height:6px;border-radius:50%;
+  background:var(--green);animation:pulse 2s infinite;
+}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
 
-  /* KPI */
-  .kpi-strip{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
-  @media(max-width:1200px){.kpi-strip{grid-template-columns:repeat(3,1fr)}}
-  @media(max-width:768px){.kpi-strip{grid-template-columns:repeat(2,1fr)}}
-  .kpi{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:18px 16px;position:relative;overflow:hidden;box-shadow:var(--shadow);animation:up .4s ease both}
-  .kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:4px}
-  .k-blue::before{background:var(--accent)} .k-green::before{background:var(--green)}
-  .k-red::before{background:var(--red)} .k-yellow::before{background:var(--yellow)}
-  .k-purple::before{background:var(--purple)} .k-orange::before{background:var(--orange)}
-  .kpi-lbl{font-family:var(--mono);font-size:11px;color:var(--text3);letter-spacing:1px;text-transform:uppercase;margin-bottom:6px;font-weight:600}
-  .kpi-val{font-family:var(--mono);font-size:32px;font-weight:700;line-height:1}
-  .k-blue .kpi-val{color:var(--accent)} .k-green .kpi-val{color:var(--green)}
-  .k-red .kpi-val{color:var(--red)} .k-yellow .kpi-val{color:var(--yellow)}
-  .k-purple .kpi-val{color:var(--purple)} .k-orange .kpi-val{color:var(--orange)}
-  .kpi-sub{font-size:12px;color:var(--text2);margin-top:6px;font-weight:500}
-  .kpi-pct{position:absolute;top:18px;right:16px;font-family:var(--mono);font-size:12px;font-weight:700;background:var(--surface2);padding:2px 6px;border-radius:4px;color:var(--text2)}
-  @keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+.topbar-right{display:flex;align-items:center;gap:12px}
+.clock-wrap{text-align:right}
+.clock{font-family:var(--mono);font-size:18px;font-weight:600;color:var(--blue);letter-spacing:1px;display:block}
+.date-lbl{font-size:11px;color:var(--muted);display:block;margin-top:1px}
+.refresh-btn{
+  display:flex;align-items:center;gap:6px;
+  background:var(--white);border:1.5px solid var(--border2);
+  border-radius:8px;padding:7px 14px;cursor:pointer;
+  font-size:12px;font-weight:600;color:var(--slate);
+  transition:all .15s;box-shadow:var(--sh);
+}
+.refresh-btn:hover{border-color:var(--blue);color:var(--blue);background:var(--blue-bg)}
+.refresh-btn svg{transition:transform .4s}
+.refresh-btn:active svg{transform:rotate(360deg)}
 
-  /* PANEL */
-  .panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden;animation:up .4s ease both}
-  .ph{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;border-bottom:1px solid var(--border);background:var(--surface2)}
-  /* PHÓNG TO TIÊU ĐỀ KHỐI / PANEL */
-  .pt{font-family:var(--sans);font-weight:700;font-size:15px;color:var(--text);display:flex;align-items:center;gap:8px}
-  .badge{font-family:var(--mono);font-size:11px;padding:3px 8px;border-radius:4px;font-weight:700}
-  .b-red{background:var(--red-dim);color:var(--red);border:1px solid rgba(220,38,38,.25)}
-  .b-yellow{background:var(--yellow-dim);color:var(--yellow);border:1px solid rgba(180,83,9,.25)}
-  .b-green{background:var(--green-dim);color:var(--green);border:1px solid rgba(22,163,74,.25)}
-  .b-blue{background:var(--blue-dim);color:var(--accent);border:1px solid rgba(29,78,216,.25)}
-  .b-grey{background:var(--surface3);color:var(--text2);border:1px solid var(--border)}
+/* ══ FRESHNESS ══ */
+.freshbar{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:7px 24px;background:var(--white);
+  border-bottom:1px solid var(--border);font-size:12px;
+}
+.freshbar.ok   {border-left:3px solid var(--green)}
+.freshbar.warn {border-left:3px solid #f59e0b}
+.freshbar.old  {border-left:3px solid var(--red)}
+.fresh-msg{font-weight:500}
+.ok   .fresh-msg{color:var(--green)}
+.warn .fresh-msg{color:#92400e}
+.old  .fresh-msg{color:var(--red)}
+.fresh-hint{color:var(--muted2);font-size:11px}
 
-  /* TABLE */
-  .tbl{width:100%;border-collapse:collapse}
-  .tbl th{font-family:var(--sans);font-size:11px;font-weight:700;color:var(--text2);letter-spacing:0.5px;text-transform:uppercase;padding:10px 14px;text-align:left;border-bottom:2px solid var(--border);background:var(--surface2)}
-  .tbl td{padding:11px 14px;border-bottom:1px solid var(--border);font-size:13px;color:var(--text);vertical-align:middle;font-weight:500}
-  .tbl tr:last-child td{border-bottom:none}
-  .tbl tbody tr:hover td{background:var(--surface2)}
-  
-  /* CHIPS & BADGES IN TABLE */
-  .chip-mnv{font-family:var(--mono);font-size:11px;font-weight:600;background:var(--surface2);color:var(--accent);padding:3px 7px;border-radius:4px;border:1px solid var(--border)}
-  .chip-to{font-size:12px;color:var(--text);font-weight:500;background:var(--surface3);padding:3px 8px;border-radius:4px}
-  .chip-noi{font-size:11px;padding:3px 7px;border-radius:4px;font-family:var(--mono);font-weight:700}
-  .noi-f{background:rgba(22,163,74,.1);color:var(--green);border:1px solid rgba(22,163,74,.2)}
-  .noi-o{background:var(--blue-dim);color:var(--accent);border:1px solid rgba(29,78,216,.2)}
-  .chip-hd{font-size:11px;font-weight:700;padding:3px 9px;border-radius:4px;font-family:var(--mono)}
-  .hd-ct{background:rgba(180,83,9,.1);color:var(--yellow);border:1px solid rgba(180,83,9,.2)}
-  .hd-gcn{background:rgba(124,58,237,.1);color:var(--purple);border:1px solid rgba(124,58,237,.2)}
-  .hd-tv{background:rgba(234,88,12,.1);color:var(--orange);border:1px solid rgba(234,88,12,.2)}
+/* ══ STATES ══ */
+#loadingState{display:flex;flex-direction:column;align-items:center;justify-content:center;height:65vh;gap:14px}
+.spinner{width:38px;height:38px;border:3px solid var(--border2);border-top-color:var(--blue);border-radius:50%;animation:spin 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.load-text{font-size:13px;color:var(--muted);font-weight:500}
+#errorState{display:none;padding:60px 24px;text-align:center}
+.err-icon{font-size:44px;margin-bottom:12px}
+.err-title{font-size:17px;font-weight:700;color:var(--red);margin-bottom:8px}
+.err-body{font-size:13px;color:var(--muted);max-width:480px;margin:0 auto;line-height:1.8}
+.err-code{
+  display:inline-block;margin-top:12px;padding:7px 16px;
+  background:var(--surface2);border:1px solid var(--border);border-radius:8px;
+  font-family:var(--mono);font-size:12px;color:var(--blue);
+}
 
-  /* BAR CHART */
-  .bar-list{padding:16px;display:flex;flex-direction:column;gap:12px}
-  .bar-item{display:flex;align-items:center;gap:12px}
-  .bar-lbl{font-family:var(--sans);font-size:13px;font-weight:600;color:var(--text2);width:140px;flex-shrink:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .bar-track{flex:1;height:8px;background:var(--surface2);border-radius:4px;overflow:hidden;border:1px solid var(--border)}
-  .bar-fill{height:100%;border-radius:4px;transition:width 1.2s cubic-bezier(.22,1,.36,1)}
-  .bar-cnt{font-family:var(--mono);font-size:12px;font-weight:700;color:var(--text);width:45px;text-align:right}
+/* ══ MAIN ══ */
+#dashboard{display:none}
+#dashboard.on{display:block}
+.main{padding:20px 24px;display:flex;flex-direction:column;gap:16px}
 
-  /* BREAKDOWN CRDS */
-  .bd-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border)}
-  .bd-cell{background:var(--surface);padding:16px}
-  .bd-lbl{font-family:var(--mono);font-size:11px;color:var(--text3);letter-spacing:1px;text-transform:uppercase;margin-bottom:6px;font-weight:600}
-  .bd-val{font-family:var(--mono);font-size:28px;font-weight:700}
-  .bd-sub{font-size:12px;color:var(--text2);margin-top:4px;font-weight:500}
+/* ══ KPI STRIP ══ */
+.kpi-strip{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+@media(max-width:1200px){.kpi-strip{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:680px){.kpi-strip{grid-template-columns:repeat(2,1fr)}}
 
-  /* LAYOUT */
-  .two-col{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-  .three-col{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px}
-  @media(max-width:950px){.two-col,.three-col{grid-template-columns:1fr}}
-  
-  /* PHÓNG TO TIÊU ĐỀ PHÂN ĐOẠN / SECTION */
-  .section-lbl{font-family:var(--sans);font-size:16px;font-weight:700;letter-spacing:0.5px;color:var(--text);display:flex;align-items:center;gap:12px;margin-top:10px}
-  .section-lbl::after{content:'';flex:1;height:2px;background:var(--border)}
+.kpi{
+  background:var(--white);border:1px solid var(--border);border-radius:var(--r2);
+  padding:18px 16px 14px;position:relative;overflow:hidden;
+  box-shadow:var(--sh);animation:fadeUp .45s ease both;
+  transition:transform .15s,box-shadow .15s;
+}
+.kpi:hover{transform:translateY(-2px);box-shadow:var(--sh2)}
+.kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;border-radius:var(--r2) var(--r2) 0 0}
+.k-blue::before   {background:linear-gradient(90deg,#1d4ed8,#60a5fa)}
+.k-green::before  {background:linear-gradient(90deg,#15803d,#4ade80)}
+.k-teal::before   {background:linear-gradient(90deg,#0f766e,#2dd4bf)}
+.k-red::before    {background:linear-gradient(90deg,#b91c1c,#f87171)}
+.k-amber::before  {background:linear-gradient(90deg,#92400e,#fbbf24)}
+.k-orange::before {background:linear-gradient(90deg,#9a3412,#fb923c)}
 
-  /* SCROLL */
-  .scroll{max-height:320px;overflow-y:auto}
-  .scroll::-webkit-scrollbar{width:6px}
-  .scroll::-webkit-scrollbar-track{background:var(--surface2)}
-  .scroll::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
-  .scroll::-webkit-scrollbar-thumb:hover{background:var(--border2)}
+.kpi-label-ja{font-size:10px;font-weight:600;color:var(--muted2);letter-spacing:.5px;display:block}
+.kpi-label-vi{font-size:12px;font-weight:600;color:var(--muted);margin-bottom:10px;display:block;letter-spacing:.3px}
+.kpi-val{font-family:var(--mono);font-size:36px;font-weight:700;line-height:1;display:block}
+.k-blue  .kpi-val{color:var(--blue)}
+.k-green .kpi-val{color:var(--green)}
+.k-teal  .kpi-val{color:var(--teal)}
+.k-red   .kpi-val{color:var(--red)}
+.k-amber .kpi-val{color:var(--amber)}
+.k-orange .kpi-val{color:var(--orange)}
+.kpi-sub-vi{font-size:11px;color:var(--muted2);margin-top:5px;display:block}
+.kpi-pct{
+  position:absolute;bottom:12px;right:12px;
+  font-family:var(--mono);font-size:10px;font-weight:600;
+  background:var(--surface2);border:1px solid var(--border);
+  padding:2px 8px;border-radius:20px;color:var(--muted);
+}
+@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 
-  /* SEARCH & FILTERS */
-  .search-bar{display:flex;gap:8px;padding:12px 18px;border-bottom:1px solid var(--border);background:var(--surface2);flex-wrap:wrap}
-  .filter-btn{font-family:var(--sans);font-size:12px;font-weight:600;padding:5px 14px;border-radius:4px;cursor:pointer;border:1px solid var(--border2);background:var(--surface);color:var(--text2);transition:all .15s}
-  .filter-btn.on{border-color:var(--accent);color:#ffffff;background:var(--accent)}
-  .filter-btn:hover:not(.on){color:var(--text);border-color:var(--text)}
-  .txt-search{background:var(--surface);border:1px solid var(--border2);color:var(--text);padding:5px 12px;border-radius:4px;font-family:var(--sans);font-size:12px;outline:none;width:200px;font-weight:500}
-  .txt-search:focus{border-color:var(--accent);box-shadow: 0 0 0 2px var(--blue-dim)}
+/* ══ PANEL ══ */
+.panel{
+  background:var(--white);border:1px solid var(--border);
+  border-radius:var(--r2);overflow:hidden;
+  box-shadow:var(--sh);animation:fadeUp .4s ease both;
+}
+.ph{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:12px 18px;border-bottom:1px solid var(--border);
+  background:var(--surface2);
+}
+.pt{font-weight:700;font-size:13px;display:flex;align-items:center;gap:8px;color:var(--ink2)}
+.pt-ja{font-size:10px;font-weight:500;color:var(--muted2);display:block;margin-top:1px}
+.badge{
+  font-family:var(--mono);font-size:11px;font-weight:700;
+  padding:3px 11px;border-radius:20px;
+}
+.b-blue  {background:var(--blue-bg);  color:var(--blue);  border:1px solid var(--blue-b)}
+.b-green {background:var(--green-bg); color:var(--green); border:1px solid var(--green-b)}
+.b-red   {background:var(--red-bg);   color:var(--red);   border:1px solid var(--red-b)}
+.b-amber {background:var(--amber-bg); color:var(--amber); border:1px solid var(--amber-b)}
+.b-orange{background:var(--orange-bg);color:var(--orange);border:1px solid var(--orange-b)}
+.b-grey  {background:var(--surface2); color:var(--muted); border:1px solid var(--border)}
 
-  /* STATUS ATTENDANCE */
-  .st-present{color:var(--green);font-family:var(--sans);font-size:12px;font-weight:700}
-  .st-vang{color:var(--red);font-family:var(--sans);font-size:12px;font-weight:700}
-  .st-nghi{color:var(--yellow);font-family:var(--sans);font-size:12px;font-weight:700}
-  .st-ct{color:var(--orange);font-family:var(--sans);font-size:12px;font-weight:700}
+/* ══ TABLE ══ */
+.tbl{width:100%;border-collapse:collapse}
+.tbl th{
+  font-size:10px;font-weight:700;color:var(--muted);letter-spacing:1px;text-transform:uppercase;
+  padding:9px 14px;text-align:left;
+  border-bottom:1px solid var(--border);background:var(--surface2);white-space:nowrap;
+}
+.tbl td{
+  padding:10px 14px;border-bottom:1px solid var(--border);
+  font-size:13px;color:var(--ink2);vertical-align:middle;
+}
+.tbl tbody tr:last-child td{border-bottom:none}
+.tbl tbody tr:hover td{background:#f8fafc}
+.tbl tbody tr.absent td{background:#fef9f9}
 
-  /* FOOTER */
-  .footer{margin:20px 24px 32px;padding:14px 18px;background:var(--surface);border:1px solid var(--border);border-radius:var(--r);box-shadow:var(--shadow);display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;color:var(--text2);font-weight:500}
+/* CHIPS */
+.chip-mnv{
+  font-family:var(--mono);font-size:11px;font-weight:600;
+  background:var(--blue-bg);color:var(--blue);
+  padding:2px 8px;border-radius:6px;border:1px solid var(--blue-b);
+}
+.chip-to{
+  font-size:11px;color:var(--slate);
+  background:var(--surface2);border:1px solid var(--border);
+  padding:2px 9px;border-radius:6px;
+}
+.chip-noi{font-size:11px;font-weight:600;padding:2px 9px;border-radius:6px}
+.noi-f{background:var(--green-bg);color:var(--green);border:1px solid var(--green-b)}
+.noi-o{background:var(--blue-bg);color:var(--blue);border:1px solid var(--blue-b)}
 
-  /* EMPTY */
-  .empty{padding:30px;text-align:center;color:var(--text3);font-family:var(--sans);font-size:13px;font-weight:500}
+/* Loại HĐ */
+.hd-ct {font-size:11px;font-weight:700;padding:2px 9px;border-radius:6px;background:var(--blue-bg);color:var(--blue);border:1px solid var(--blue-b)}
+.hd-tv {font-size:11px;font-weight:700;padding:2px 9px;border-radius:6px;background:var(--orange-bg);color:var(--orange);border:1px solid var(--orange-b)}
+.hd-gcn{font-size:11px;font-weight:700;padding:2px 9px;border-radius:6px;background:var(--purple-bg);color:var(--purple);border:1px solid var(--purple-b)}
+
+/* Status */
+.st-present{font-size:12px;font-weight:500;color:var(--green);display:flex;align-items:center;gap:5px}
+.st-present::before{content:'';width:7px;height:7px;border-radius:50%;background:var(--green);flex-shrink:0}
+.st-vang  {font-size:12px;font-weight:700;color:var(--red)}
+.st-nghi  {font-size:12px;font-weight:700;color:var(--amber)}
+.st-congтас{font-size:12px;font-weight:700;color:var(--blue)}
+
+/* ══ BREAKDOWN GRID ══ */
+.bd-grid{display:grid;grid-template-columns:1fr 1fr;background:var(--border);gap:1px}
+.bd-cell{background:var(--white);padding:16px 18px}
+.bd-lbl-vi{font-size:12px;font-weight:600;color:var(--muted);margin-bottom:2px}
+.bd-lbl-ja{font-size:10px;color:var(--muted2);margin-bottom:7px}
+.bd-val{font-family:var(--mono);font-size:28px;font-weight:700}
+.bd-sub{font-size:11px;color:var(--muted2);margin-top:4px}
+
+/* ══ BAR CHART ══ */
+.bar-list{padding:14px 18px;display:flex;flex-direction:column;gap:11px}
+.bar-item{display:flex;align-items:center;gap:10px}
+.bar-lbl{font-size:12px;font-weight:500;color:var(--ink2);width:148px;flex-shrink:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar-track{flex:1;height:8px;background:var(--surface2);border-radius:4px;overflow:hidden;border:1px solid var(--border)}
+.bar-fill{height:100%;border-radius:4px;transition:width 1.3s cubic-bezier(.22,1,.36,1)}
+.bar-cnt{font-family:var(--mono);font-size:11px;color:var(--muted);width:42px;text-align:right;flex-shrink:0}
+
+/* ══ LAYOUT HELPERS ══ */
+.two-col  {display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.three-col{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
+@media(max-width:960px){.two-col,.three-col{grid-template-columns:1fr}}
+
+.section-hdr{
+  display:flex;align-items:center;gap:14px;margin-top:4px;
+}
+.section-hdr-text{}
+.section-hdr-vi{font-size:13px;font-weight:700;color:var(--ink2)}
+.section-hdr-ja{font-size:10px;color:var(--muted2);margin-top:1px}
+.section-hdr::after{content:'';flex:1;height:1px;background:var(--border2)}
+
+/* ══ SCROLL ══ */
+.scroll{max-height:320px;overflow-y:auto}
+.scroll::-webkit-scrollbar{width:5px}
+.scroll::-webkit-scrollbar-track{background:transparent}
+.scroll::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px}
+
+/* ══ FILTER / SEARCH ══ */
+.filter-bar{
+  display:flex;gap:6px;padding:10px 18px;
+  border-bottom:1px solid var(--border);
+  flex-wrap:wrap;align-items:center;background:var(--white);
+}
+.filter-btn{
+  font-size:12px;font-weight:600;padding:5px 14px;border-radius:20px;cursor:pointer;
+  border:1.5px solid var(--border2);background:transparent;color:var(--muted);
+  transition:all .15s;white-space:nowrap;
+}
+.filter-btn.on{border-color:var(--blue);color:var(--blue);background:var(--blue-bg)}
+.filter-btn:hover:not(.on){background:var(--surface2);color:var(--ink)}
+.txt-search{
+  background:var(--surface2);border:1.5px solid var(--border2);
+  color:var(--ink);padding:5px 14px;border-radius:20px;
+  font-size:12px;outline:none;width:200px;font-family:var(--sans);
+  transition:border-color .15s;
+}
+.txt-search:focus{border-color:var(--blue);background:var(--white)}
+.txt-search::placeholder{color:var(--muted2)}
+
+/* ══ EMPTY ══ */
+.empty{padding:28px;text-align:center;color:var(--muted2);font-size:13px}
+
+/* ══ FOOTER ══ */
+.footer{
+  margin:4px 0 24px;padding:13px 20px;
+  background:var(--white);border:1px solid var(--border);border-radius:var(--r2);
+  box-shadow:var(--sh);
+  display:flex;justify-content:space-between;align-items:center;
+  font-size:12px;color:var(--muted);
+}
+.footer strong{color:var(--ink2)}
 </style>
 </head>
 <body>
 
+<!-- ══ TOPBAR ══ -->
 <div class="topbar">
   <div class="logo-wrap">
     <div class="logo-mark">HR</div>
-    <div>
-      <div class="logo-text">CONDOR · HR</div>
-      <div class="logo-sub">PERSONNEL DASHBOARD</div>
+    <div class="logo-titles">
+      <div class="logo-main">CONDOR · HR</div>
+      <div class="logo-sub">人事管理ダッシュボード</div>
     </div>
   </div>
+
+  <div class="topbar-center">
+    <div class="live-pill">LIVE</div>
+    <span id="todayBanner">——</span>
+  </div>
+
   <div class="topbar-right">
-    <div class="dot"></div>
-    <div>
-      <div class="clock" id="clock">--:--:--</div>
-      <div class="date-lbl" id="dateLbl">--</div>
+    <button class="refresh-btn" onclick="location.reload()">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M23 4v6h-6"/><path d="M1 20v-6h6"/>
+        <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+      </svg>
+      Refresh / 更新
+    </button>
+    <div class="clock-wrap">
+      <span class="clock" id="clock">--:--:--</span>
+      <span class="date-lbl" id="dateLbl">--</span>
     </div>
   </div>
 </div>
 
-<div id="freshnessBar" class="freshness-bar" style="display:none">
-  <span id="freshMsg"></span>
-  <span class="refresh-hint">Cập nhật: chạy lại Colab → upload data.json mới lên GitHub</span>
+<!-- ══ FRESHNESS BAR ══ -->
+<div id="freshnessBar" class="freshbar" style="display:none">
+  <span class="fresh-msg" id="freshMsg"></span>
+  <span class="fresh-hint">更新方法: Colab で Condor_HR を実行 → data.json を GitHub へ push</span>
 </div>
 
+<!-- ══ LOADING ══ -->
 <div id="loadingState">
   <div class="spinner"></div>
-  <div class="load-text">ĐANG TẢI DỮ LIỆU...</div>
+  <div class="load-text">データを読み込み中… / Đang tải dữ liệu...</div>
 </div>
 
-<div id="errorState" style="display:none;padding:50px 24px;text-align:center">
-  <div style="font-size:40px;margin-bottom:16px">⚠️</div>
-  <div style="font-family:var(--mono);font-size:16px;font-weight:700;color:var(--red);margin-bottom:12px">Không tìm thấy file data.json</div>
-  <div style="font-size:13px;color:var(--text2);max-width:520px;margin:0 auto;line-height:1.7;font-weight:500">
-    Chạy file <strong style="color:var(--accent)">Condor_HR_Export_JSON.ipynb</strong> trên Google Colab
-    để tạo data.json, sau đó upload lên cùng thư mục với file index.html này trên GitHub.
+<!-- ══ ERROR ══ -->
+<div id="errorState">
+  <div class="err-icon">⚠️</div>
+  <div class="err-title">Không tìm thấy data.json / データが見つかりません</div>
+  <div class="err-body">
+    Chạy notebook <strong>Condor_HR</strong> trên Google Colab để tạo <code>data.json</code>,
+    sau đó upload lên GitHub repo <strong>condor-hr</strong> cùng thư mục với <strong>index.html</strong>.
+    <br><br>
+    <span class="err-code">github.com/[username]/condor-hr → Upload data.json</span>
   </div>
 </div>
 
+<!-- ══ DASHBOARD ══ -->
 <div id="dashboard">
 <div class="main">
 
+  <!-- KPI STRIP -->
   <div class="kpi-strip" id="kpiRow"></div>
 
+  <!-- ROW 2: Phân bổ + Bar chart tổ -->
   <div class="two-col">
+
     <div class="panel">
       <div class="ph">
-        <div class="pt">📍 Phân bổ nơi làm việc</div>
+        <div>
+          <div class="pt">📍 Phân bổ nhân sự hôm nay</div>
+          <div class="pt-ja">本日の人員配置状況</div>
+        </div>
       </div>
       <div class="bd-grid">
-        <div class="bd-cell"><div class="bd-lbl">Factory có mặt</div><div class="bd-val" id="bdF" style="color:var(--green)">0</div><div class="bd-sub" id="bdFSub">—</div></div>
-        <div class="bd-cell"><div class="bd-lbl">Office có mặt</div><div class="bd-val" id="bdO" style="color:var(--accent)">0</div><div class="bd-sub" id="bdOSub">—</div></div>
-        <div class="bd-cell"><div class="bd-lbl">Loại CT</div><div class="bd-val" id="bdCT" style="color:var(--yellow)">0</div><div class="bd-sub">Chính thức</div></div>
-        <div class="bd-cell"><div class="bd-lbl">GCN + TV</div><div class="bd-val" id="bdGCN" style="color:var(--purple)">0</div><div class="bd-sub">Gia công / Thử việc</div></div>
+        <div class="bd-cell">
+          <div class="bd-lbl-vi">Factory có mặt</div>
+          <div class="bd-lbl-ja">工場 出勤者</div>
+          <div class="bd-val" id="bdFact" style="color:var(--green)">—</div>
+          <div class="bd-sub" id="bdFactSub">—</div>
+        </div>
+        <div class="bd-cell">
+          <div class="bd-lbl-vi">Office có mặt</div>
+          <div class="bd-lbl-ja">オフィス 出勤者</div>
+          <div class="bd-val" id="bdOff" style="color:var(--blue)">—</div>
+          <div class="bd-sub" id="bdOffSub">—</div>
+        </div>
+        <div class="bd-cell">
+          <div class="bd-lbl-vi">Chính thức (CT)</div>
+          <div class="bd-lbl-ja">正社員</div>
+          <div class="bd-val" id="bdCT" style="color:var(--blue)">—</div>
+          <div class="bd-sub">Hợp đồng chính thức</div>
+        </div>
+        <div class="bd-cell">
+          <div class="bd-lbl-vi">GCN + Thử việc (TV)</div>
+          <div class="bd-lbl-ja">外注 + 試用</div>
+          <div class="bd-val" id="bdGCNTV" style="color:var(--purple)">—</div>
+          <div class="bd-sub">Gia công ngoài + Thử việc</div>
+        </div>
       </div>
     </div>
+
     <div class="panel">
       <div class="ph">
-        <div class="pt">🏭 Sĩ số theo Tổ / Bộ phận</div>
+        <div>
+          <div class="pt">🏭 Sĩ số theo Tổ / Bộ phận</div>
+          <div class="pt-ja">部門別出勤状況</div>
+        </div>
         <div class="badge b-grey" id="toBadge">—</div>
       </div>
-      <div class="bar-list" id="toBar"></div>
+      <div class="bar-list" id="toBarList"></div>
     </div>
+
   </div>
 
-  <div class="section-lbl">Chi tiết vắng mặt hôm nay</div>
+  <!-- ROW 3: 3 bảng vắng -->
+  <div class="section-hdr">
+    <div class="section-hdr-text">
+      <div class="section-hdr-vi">Chi tiết vắng mặt hôm nay</div>
+      <div class="section-hdr-ja">本日の欠勤詳細</div>
+    </div>
+  </div>
   <div class="three-col">
+
     <div class="panel">
       <div class="ph">
-        <div class="pt" style="color:var(--red)">🔴 Vắng không phép</div>
+        <div>
+          <div class="pt" style="color:var(--red)">🔴 Vắng không phép</div>
+          <div class="pt-ja" style="color:#fca5a5">無断欠勤 · 要対応</div>
+        </div>
         <div class="badge b-red" id="bVang">0</div>
       </div>
       <div class="scroll">
-        <table class="tbl"><thead><tr><th>Mã NV</th><th>Họ và Tên</th><th>Tổ</th><th>Nơi</th></tr></thead>
-        <tbody id="tbVang"></tbody></table>
+        <table class="tbl">
+          <thead><tr>
+            <th>Mã NV</th><th>Họ và Tên / 氏名</th><th>Tổ / 部門</th><th>Nơi / 勤務地</th>
+          </tr></thead>
+          <tbody id="tbVang"></tbody>
+        </table>
       </div>
     </div>
+
     <div class="panel">
       <div class="ph">
-        <div class="pt" style="color:var(--yellow)">🟡 Nghỉ có phép</div>
-        <div class="badge b-yellow" id="bNghi">0</div>
+        <div>
+          <div class="pt" style="color:var(--amber)">🟡 Nghỉ có phép</div>
+          <div class="pt-ja" style="color:#fcd34d">有給休暇 · 承認済み</div>
+        </div>
+        <div class="badge b-amber" id="bNghi">0</div>
       </div>
       <div class="scroll">
-        <table class="tbl"><thead><tr><th>Mã NV</th><th>Họ và Tên</th><th>Tổ</th><th>Nơi</th></tr></thead>
-        <tbody id="tbNghi"></tbody></table>
+        <table class="tbl">
+          <thead><tr>
+            <th>Mã NV</th><th>Họ và Tên / 氏名</th><th>Tổ / 部門</th><th>Nơi / 勤務地</th>
+          </tr></thead>
+          <tbody id="tbNghi"></tbody>
+        </table>
       </div>
     </div>
+
     <div class="panel">
       <div class="ph">
-        <div class="pt" style="color:var(--orange)">🔵 Đi công tác</div>
+        <div>
+          <div class="pt" style="color:var(--blue)">🔵 Đi công tác</div>
+          <div class="pt-ja" style="color:#93c5fd">出張中</div>
+        </div>
         <div class="badge b-blue" id="bCT">0</div>
       </div>
       <div class="scroll">
-        <table class="tbl"><thead><tr><th>Mã NV</th><th>Họ và Tên</th><th>Tổ</th><th>Lý do</th></tr></thead>
-        <tbody id="tbCT"></tbody></table>
+        <table class="tbl">
+          <thead><tr>
+            <th>Mã NV</th><th>Họ và Tên / 氏名</th><th>Tổ / 部門</th><th>Lý do / 理由</th>
+          </tr></thead>
+          <tbody id="tbCT"></tbody>
+        </table>
       </div>
     </div>
+
   </div>
 
-  <div class="section-lbl">Toàn bộ nhân viên</div>
+  <!-- ROW 4: Full list -->
+  <div class="section-hdr">
+    <div class="section-hdr-text">
+      <div class="section-hdr-vi">Danh sách toàn bộ nhân viên</div>
+      <div class="section-hdr-ja">全従業員リスト</div>
+    </div>
+  </div>
   <div class="panel">
     <div class="ph">
-      <div class="pt">👥 Danh sách nhân viên</div>
+      <div>
+        <div class="pt">👥 Nhân viên / 従業員</div>
+        <div class="pt-ja">フィルター・検索対応</div>
+      </div>
       <div style="display:flex;gap:8px;align-items:center">
-        <input class="txt-search" id="srch" type="text" placeholder="Tìm kiếm...">
+        <input class="txt-search" id="srch" type="text" placeholder="🔍 Tìm tên, mã NV, tổ...">
         <div class="badge b-grey" id="totalBadge">—</div>
       </div>
     </div>
-    <div class="search-bar" id="filterBar">
-      <button class="filter-btn on" data-f="all">Tất cả</button>
-      <button class="filter-btn" data-f="Factory">Factory</button>
-      <button class="filter-btn" data-f="Office">Office</button>
-      <button class="filter-btn" data-f="CT">CT</button>
-      <button class="filter-btn" data-f="GCN">GCN</button>
-      <button class="filter-btn" data-f="TV">TV</button>
+    <div class="filter-bar">
+      <button class="filter-btn on" data-f="all">Tất cả / 全員</button>
+      <button class="filter-btn" data-f="Factory">🏭 Factory / 工場</button>
+      <button class="filter-btn" data-f="Office">🏢 Office / 事務所</button>
+      <button class="filter-btn" data-f="CT">CT — Chính thức / 正社員</button>
+      <button class="filter-btn" data-f="GCN">GCN — Gia công ngoài / 外注</button>
+      <button class="filter-btn" data-f="TV">TV — Thử việc / 試用</button>
     </div>
-    <div class="scroll" style="max-height:400px">
-      <table class="tbl"><thead><tr><th>#</th><th>Mã NV</th><th>Họ và Tên</th><th>Loại HĐ</th><th>Nơi LV</th><th>Tổ</th><th>Chức vụ</th><th>Hôm nay</th></tr></thead>
-      <tbody id="tbAll"></tbody></table>
+    <div class="scroll" style="max-height:420px">
+      <table class="tbl">
+        <thead><tr>
+          <th>#</th>
+          <th>Mã NV / 社員番号</th>
+          <th>Họ và Tên / 氏名</th>
+          <th>Loại HĐ / 契約</th>
+          <th>Nơi LV / 勤務地</th>
+          <th>Tổ / 部門</th>
+          <th>Chức vụ / 役職</th>
+          <th>Hôm nay / 本日</th>
+        </tr></thead>
+        <tbody id="tbAll"></tbody>
+      </table>
     </div>
   </div>
 
-</div><div class="footer">
-  <div>CONDOR · HR DASHBOARD</div>
-  <div>Dữ liệu tạo lúc: <span id="genTime">—</span></div>
+</div><!-- .main -->
+
+<div class="footer">
+  <span>CONDOR · HR DASHBOARD &nbsp;·&nbsp; <span style="color:var(--muted2)">人事管理システム</span></span>
+  <span>データ更新: <strong id="genTime">—</strong></span>
 </div>
-</div><script>
+</div><!-- #dashboard -->
+
+<script>
 // ── CLOCK ──
-function tick(){
-  const n=new Date(), days=['Chủ nhật','Thứ 2','Thứ 3','Thứ 4','Thứ 5','Thứ 6','Thứ 7'];
-  document.getElementById('clock').textContent=n.toTimeString().slice(0,8);
-  document.getElementById('dateLbl').innerHTML=`${days[n.getDay()]}&nbsp;·&nbsp;${n.toLocaleDateString('vi-VN')}`;
+const DAYS_VI = ['Chủ nhật','Thứ 2','Thứ 3','Thứ 4','Thứ 5','Thứ 6','Thứ 7'];
+const DAYS_JA = ['日','月','火','水','木','金','土'];
+function tick() {
+  const n = new Date();
+  document.getElementById('clock').textContent = n.toTimeString().slice(0,8);
+  const d = n.toLocaleDateString('vi-VN');
+  document.getElementById('dateLbl').textContent =
+    DAYS_VI[n.getDay()] + ' (' + DAYS_JA[n.getDay()] + ')  ·  ' + d;
+  document.getElementById('todayBanner').textContent =
+    'Ngày / 日付: ' + d + ' (' + DAYS_JA[n.getDay()] + '曜日)';
 }
-setInterval(tick,1000); tick();
+setInterval(tick, 1000); tick();
 
 // ── STATE ──
-let EMPLOYEES=[], ABSENCES=[], ABSENT_IDS=new Set();
-let activeFilter='all', searchTerm='';
+let EMPLOYEES = [], ABSENCES = [];
+let activeFilter = 'all', searchTerm = '';
 
-// ── LOAD JSON ──
-async function loadData(){
-  try{
-    const r=await fetch('data.json?_='+Date.now());
-    if(!r.ok) throw new Error(r.status);
-    const d=await r.json();
-    processData(d);
-  } catch(e){
-    document.getElementById('loadingState').style.display='none';
-    document.getElementById('errorState').style.display='block';
+// ── LOAD ──
+async function loadData() {
+  try {
+    const r = await fetch('data.json?_=' + Date.now());
+    if (!r.ok) throw new Error(r.status);
+    processData(await r.json());
+  } catch(e) {
+    document.getElementById('loadingState').style.display = 'none';
+    document.getElementById('errorState').style.display = 'block';
   }
 }
 
-function processData(d){
-  EMPLOYEES=d.employees||[];
-  const today=new Date().toLocaleDateString('vi-VN');
-  ABSENCES=(d.todayAbsences&&d.todayAbsences.length>0)
+function processData(d) {
+  EMPLOYEES = d.employees || [];
+  const todayVN = new Date().toLocaleDateString('vi-VN'); // dd/mm/yyyy
+  ABSENCES = (d.todayAbsences && d.todayAbsences.length > 0)
     ? d.todayAbsences
-    : (d.absences||[]).filter(a=>!a.ngay||a.ngay===today||a.ngay===d.generatedDate);
+    : (d.absences || []).filter(a => !a.ngay || a.ngay === todayVN || a.ngay === d.generatedDate);
 
-  ABSENT_IDS=new Set(ABSENCES.map(a=>String(a.mnv)));
+  // Freshness banner
+  const genDate = new Date(d.generatedAt);
+  const diffH   = Math.round((Date.now() - genDate) / 3600000);
+  const fb = document.getElementById('freshnessBar');
+  const fm = document.getElementById('freshMsg');
+  fb.style.display = 'flex';
+  if (diffH < 2) {
+    fb.className = 'freshbar ok';
+    fm.textContent = '✅  Dữ liệu mới / 最新データ · ' + (diffH < 1 ? 'Vừa cập nhật / 直前に更新' : diffH + 'h trước');
+  } else if (diffH < 10) {
+    fb.className = 'freshbar warn';
+    fm.textContent = '⚠️  Dữ liệu từ ' + diffH + 'h trước — cân nhắc refresh / ' + diffH + '時間前のデータ';
+  } else {
+    fb.className = 'freshbar old';
+    fm.textContent = '🔴  Dữ liệu cũ (' + diffH + 'h) — nên chạy lại Colab / データが古い';
+  }
 
-  // Freshness
-  const genDate=new Date(d.generatedAt);
-  const diffH=Math.round((Date.now()-genDate)/3600000);
-  const fb=document.getElementById('freshnessBar');
-  const fm=document.getElementById('freshMsg');
-  fb.style.display='flex';
-  if(diffH<2){ fm.textContent=`✅ Dữ liệu cập nhật ${diffH<1?'vừa xong':diffH+'h trước'}`; fm.className='fresh-ok'; }
-  else if(diffH<12){ fm.textContent=`⚠️ Dữ liệu từ ${diffH}h trước — cân nhắc refresh`; fm.className='fresh-old'; }
-  else { fm.textContent=`🔴 Dữ liệu cũ (${diffH}h trước) — nên chạy lại Colab`; fm.className='fresh-err'; }
-
-  document.getElementById('genTime').textContent=genDate.toLocaleString('vi-VN');
-  document.getElementById('loadingState').style.display='none';
-  document.getElementById('dashboard').className='on';
+  document.getElementById('genTime').textContent = genDate.toLocaleString('vi-VN');
+  document.getElementById('loadingState').style.display = 'none';
+  document.getElementById('dashboard').className = 'on';
 
   render();
-  setupFilters();
+  setupInteractions();
 }
 
-function getEmp(mnv){ return EMPLOYEES.find(e=>String(e.mnv)===String(mnv))||{}; }
-function pct(a,b){ return b?Math.round(a/b*100)+'%':'—'; }
-function set(id,v){ const el=document.getElementById(id); if(el) el.textContent=v; }
+// ── HELPERS ──
+const $ = id => document.getElementById(id);
+function getEmp(mnv) { return EMPLOYEES.find(e => String(e.mnv) === String(mnv)) || {}; }
+function pct(a, b)   { return b ? Math.round(a / b * 100) + '%' : '—'; }
+function set(id, v)  { const el = $(id); if (el) el.textContent = v; }
 
-function render(){
-  const total=EMPLOYEES.length;
-  const vangList=ABSENCES.filter(a=>a.loai==='Vắng không phép');
-  const nghiList=ABSENCES.filter(a=>a.loai==='Nghỉ phép có phép');
-  const ctList  =ABSENCES.filter(a=>a.loai==='Đi công tác');
-  const totalVang=vangList.length+nghiList.length+ctList.length;
-  const grossEmp=EMPLOYEES.filter(e=>e.phanbo==='CT'||e.phanbo==='GCN');
-  const grossVang=ABSENCES.filter(a=>{ const e=getEmp(a.mnv); return e.phanbo==='CT'||e.phanbo==='GCN'; }).length;
-  const grossCoMat=grossEmp.length-grossVang;
-  const netEmp=EMPLOYEES.filter(e=>e.chucvu&&e.chucvu.includes('Worker Net'));
+function noiChip(noi) {
+  if (!noi) return '<span style="color:var(--muted2)">—</span>';
+  return noi === 'Office'
+    ? `<span class="chip-noi noi-o">🏢 Office</span>`
+    : `<span class="chip-noi noi-f">🏭 Factory</span>`;
+}
+function hdChip(loai) {
+  if (loai === 'CT')  return `<span class="hd-ct">CT 正</span>`;
+  if (loai === 'GCN') return `<span class="hd-gcn">GCN 外</span>`;
+  if (loai === 'TV')  return `<span class="hd-tv">TV 試</span>`;
+  return `<span style="color:var(--muted2)">—</span>`;
+}
+function statusChip(mnv) {
+  const a = ABSENCES.find(x => String(x.mnv) === String(mnv));
+  if (!a) return `<span class="st-present">Có mặt / 出勤</span>`;
+  if (a.loai === 'Vắng không phép')   return `<span class="st-vang">✗ Vắng KP / 無断欠勤</span>`;
+  if (a.loai === 'Nghỉ phép có phép') return `<span class="st-nghi">⏸ Nghỉ phép / 有休</span>`;
+  if (a.loai === 'Đi công tác')       return `<span class="st-congтас">✈ Công tác / 出張</span>`;
+  return `<span style="color:var(--muted);font-size:12px">${a.loai}</span>`;
+}
 
-  // KPIs
-  const kpis=[
-    {cls:'k-blue',  lbl:'Tổng NV',       val:total,         sub:'Toàn công ty',    pct_:''},
-    {cls:'k-green', lbl:'Gross có mặt',  val:grossCoMat,    sub:'CT + GCN',        pct_:pct(grossCoMat,grossEmp.length)},
-    {cls:'k-purple',lbl:'Net có mặt',    val:netEmp.length, sub:'Worker Net',      pct_:pct(netEmp.length,total)},
-    {cls:'k-red',   lbl:'Vắng không phép',val:vangList.length,sub:'Cần xử lý',    pct_:pct(vangList.length,total)},
-    {cls:'k-yellow',lbl:'Nghỉ có phép',  val:nghiList.length,sub:'Đã duyệt',      pct_:pct(nghiList.length,total)},
-    {cls:'k-orange',lbl:'Đi công tác',   val:ctList.length,  sub:'Ngoài VP',      pct_:pct(ctList.length,total)},
+// ── MAIN RENDER ──
+function render() {
+  const total = EMPLOYEES.length;
+
+  // Phân loại HĐ: cột "phanloai" = CT / TV / GCN
+  const ctList  = EMPLOYEES.filter(e => e.phanloai === 'CT');
+  const tvList  = EMPLOYEES.filter(e => e.phanloai === 'TV');
+  const gcnList = EMPLOYEES.filter(e => e.phanloai === 'GCN');
+
+  // Gross = tất cả trừ Worker Net | Net = chỉ Worker Net
+  const grossEmp = EMPLOYEES.filter(e => !e.chucvu || !e.chucvu.includes('Worker Net'));
+  const netEmp   = EMPLOYEES.filter(e => e.chucvu && e.chucvu.includes('Worker Net'));
+
+  const vangList = ABSENCES.filter(a => a.loai === 'Vắng không phép');
+  const nghiList = ABSENCES.filter(a => a.loai === 'Nghỉ phép có phép');
+  const congTacL = ABSENCES.filter(a => a.loai === 'Đi công tác');
+
+  const grossVang  = ABSENCES.filter(a => { const e = getEmp(a.mnv); return !e.chucvu || !e.chucvu.includes('Worker Net'); }).length;
+  const grossCoMat = grossEmp.length - grossVang;
+  const netVang    = ABSENCES.filter(a => { const e = getEmp(a.mnv); return e.chucvu && e.chucvu.includes('Worker Net'); }).length;
+  const netCoMat   = netEmp.length - netVang;
+
+  // ── KPI Cards ──
+  const kpis = [
+    { cls:'k-blue',  ja:'総従業員数',      vi:'Tổng nhân viên',     val:total,            sub:'CT + TV + GCN',    p:'' },
+    { cls:'k-green', ja:'グロス出勤',       vi:'Gross có mặt',       val:grossCoMat,       sub:'Trừ Worker Net',   p:pct(grossCoMat, grossEmp.length) },
+    { cls:'k-teal',  ja:'ネット出勤',       vi:'Net có mặt',         val:netCoMat,         sub:'Worker Net',       p:pct(netCoMat, netEmp.length) },
+    { cls:'k-red',   ja:'無断欠勤',         vi:'Vắng không phép',    val:vangList.length,  sub:'Cần xử lý ngay',  p:pct(vangList.length, total) },
+    { cls:'k-amber', ja:'有給休暇',         vi:'Nghỉ có phép',       val:nghiList.length,  sub:'Đã được duyệt',   p:pct(nghiList.length, total) },
+    { cls:'k-orange',ja:'出張中',           vi:'Đi công tác',        val:congTacL.length,  sub:'Ngoài văn phòng', p:pct(congTacL.length, total) },
   ];
-  document.getElementById('kpiRow').innerHTML=kpis.map((k,i)=>`
-    <div class="kpi ${k.cls}" style="animation-delay:${i*.05+.05}s">
-      <div class="kpi-lbl">${k.lbl}</div>
-      <div class="kpi-val">${k.val}</div>
-      <div class="kpi-sub">${k.sub}</div>
-      ${k.pct_?`<div class="kpi-pct">${k.pct_}</div>`:''}
+  $('kpiRow').innerHTML = kpis.map((k, i) => `
+    <div class="kpi ${k.cls}" style="animation-delay:${i*.07}s">
+      <span class="kpi-label-ja">${k.ja}</span>
+      <span class="kpi-label-vi">${k.vi}</span>
+      <span class="kpi-val">${k.val}</span>
+      <span class="kpi-sub-vi">${k.sub}</span>
+      ${k.p ? `<div class="kpi-pct">${k.p}</div>` : ''}
     </div>`).join('');
 
-  // Breakdown
-  const fAll=EMPLOYEES.filter(e=>e.noiLV==='Factory').length;
-  const oAll=EMPLOYEES.filter(e=>e.noiLV==='Office').length;
-  const fVang=ABSENCES.filter(a=>{ const e=getEmp(a.mnv); return e.noiLV==='Factory'; }).length;
-  const oVang=ABSENCES.filter(a=>{ const e=getEmp(a.mnv); return e.noiLV==='Office'; }).length;
-  set('bdF',fAll-fVang); set('bdFSub',`${fAll} tổng · ${fVang} vắng`);
-  set('bdO',oAll-oVang); set('bdOSub',`${oAll} tổng · ${oVang} vắng`);
-  set('bdCT',EMPLOYEES.filter(e=>e.phanbo==='CT').length);
-  set('bdGCN',EMPLOYEES.filter(e=>e.phanbo==='GCN'||e.phanbo==='TV').length);
+  // ── Breakdown ──
+  const factAll  = EMPLOYEES.filter(e => e.noiLV === 'Factory').length;
+  const offAll   = EMPLOYEES.filter(e => e.noiLV === 'Office').length;
+  const factVang = ABSENCES.filter(a => { const e = getEmp(a.mnv); return e.noiLV === 'Factory'; }).length;
+  const offVang  = ABSENCES.filter(a => { const e = getEmp(a.mnv); return e.noiLV === 'Office'; }).length;
+  set('bdFact',    factAll - factVang);
+  set('bdFactSub', `${factAll} tổng · ${factVang} vắng / 合計${factAll}名 欠勤${factVang}名`);
+  set('bdOff',     offAll - offVang);
+  set('bdOffSub',  `${offAll} tổng · ${offVang} vắng / 合計${offAll}名 欠勤${offVang}名`);
+  set('bdCT',      ctList.length);
+  set('bdGCNTV',   gcnList.length + tvList.length);
 
-  // Bar chart Tổ
-  const toMap={};
-  EMPLOYEES.forEach(e=>{ const k=e.to||'—'; if(!toMap[k]) toMap[k]={t:0,v:0}; toMap[k].t++; });
-  ABSENCES.forEach(a=>{ const e=getEmp(a.mnv); const k=(e.to)||'—'; if(toMap[k]) toMap[k].v++; });
-  const toArr=Object.entries(toMap).sort((a,b)=>b[1].t-a[1].t);
-  const maxT=Math.max(...toArr.map(([,v])=>v.t),1);
-  set('toBadge',toArr.length+' tổ');
-  document.getElementById('toBar').innerHTML=toArr.map(([nm,v])=>{
-    const p=Math.round((v.t-v.v)/maxT*100);
-    const color=v.v>0?'linear-gradient(90deg,var(--green),var(--orange))':'var(--green)';
+  // ── Bar chart Tổ ──
+  const toMap = {};
+  EMPLOYEES.forEach(e => {
+    const k = e.to || '—';
+    if (!toMap[k]) toMap[k] = { t:0, v:0 };
+    toMap[k].t++;
+  });
+  ABSENCES.forEach(a => {
+    const e = getEmp(a.mnv);
+    const k = e.to || '—';
+    if (toMap[k]) toMap[k].v++;
+  });
+  const toArr = Object.entries(toMap).sort((a, b) => b[1].t - a[1].t);
+  const maxT  = Math.max(...toArr.map(([,v]) => v.t), 1);
+  set('toBadge', toArr.length + ' tổ / 部門');
+  $('toBarList').innerHTML = toArr.map(([nm, v]) => {
+    const present = v.t - v.v;
+    const pctW    = Math.round(present / maxT * 100);
+    const color   = v.v > 0
+      ? 'linear-gradient(90deg,#15803d 0%,#4ade80 100%)'
+      : 'linear-gradient(90deg,#1d4ed8 0%,#60a5fa 100%)';
     return `<div class="bar-item">
       <div class="bar-lbl" title="${nm}">${nm}</div>
-      <div class="bar-track"><div class="bar-fill" style="width:${p}%;background:${color}"></div></div>
-      <div class="bar-cnt">${v.t-v.v}<span style="color:var(--text3);font-size:10px">/${v.t}</span></div>
+      <div class="bar-track"><div class="bar-fill" style="width:${pctW}%;background:${color}"></div></div>
+      <div class="bar-cnt">${present}<span style="color:var(--muted2);font-size:9px">/${v.t}</span></div>
     </div>`;
   }).join('');
 
-  // Absence tables
-  set('bVang',vangList.length); set('bNghi',nghiList.length); set('bCT',ctList.length);
-  function noiChip(noi){ return noi?`<span class="chip-noi ${noi==='Office'?'noi-o':'noi-f'}">${noi}</span>`:'—'; }
-  function absRow(a){ const e=getEmp(a.mnv); return `<tr>
-    <td><span class="chip-mnv">${a.mnv||'—'}</span></td>
-    <td style="font-weight:600">${a.hoTen||e.hoTen||'—'}</td>
-    <td><span class="chip-to">${e.to||a.to||'—'}</span></td>
-    <td>${noiChip(e.noiLV)}</td></tr>`; }
-  document.getElementById('tbVang').innerHTML=vangList.length?vangList.map(absRow).join(''):`<tr><td colspan="4" class="empty">Không có nhân viên vắng không phép</td></tr>`;
-  document.getElementById('tbNghi').innerHTML=nghiList.length?nghiList.map(absRow).join(''):`<tr><td colspan="4" class="empty">Không có nhân viên nghỉ phép</td></tr>`;
-  document.getElementById('tbCT').innerHTML=ctList.length?ctList.map(a=>{ const e=getEmp(a.mnv); return `<tr>
-    <td><span class="chip-mnv">${a.mnv||'—'}</span></td>
-    <td style="font-weight:600">${a.hoTen||e.hoTen||'—'}</td>
-    <td><span class="chip-to">${e.to||'—'}</span></td>
-    <td style="font-size:12px;color:var(--text2)">${a.lydo||'—'}</td></tr>`; }).join(''):`<tr><td colspan="4" class="empty">Không có nhân viên đi công tác</td></tr>`;
+  // ── Absence tables ──
+  set('bVang', vangList.length);
+  set('bNghi', nghiList.length);
+  set('bCT',   congTacL.length);
 
-  set('totalBadge',total+' nhân viên');
+  function absRow(a, lydo = false) {
+    const e  = getEmp(a.mnv);
+    const to  = e.to  || a.to  || '—';
+    const noi = e.noiLV || a.noiLV || '';
+    return `<tr class="${a.loai === 'Vắng không phép' ? 'absent' : ''}">
+      <td><span class="chip-mnv">${a.mnv || '—'}</span></td>
+      <td style="font-weight:600">${a.hoTen || e.hoTen || '—'}</td>
+      <td><span class="chip-to">${to}</span></td>
+      <td>${lydo
+        ? `<span style="font-size:12px;color:var(--muted)">${a.lydo || '—'}</span>`
+        : noiChip(noi)}</td>
+    </tr>`;
+  }
+  const empty = txt => `<tr><td colspan="4" class="empty">${txt}</td></tr>`;
+  $('tbVang').innerHTML = vangList.length ? vangList.map(a => absRow(a)).join('') : empty('✅ Không có — 無断欠勤なし');
+  $('tbNghi').innerHTML = nghiList.length ? nghiList.map(a => absRow(a)).join('') : empty('✅ Không có — 有休なし');
+  $('tbCT').innerHTML   = congTacL.length ? congTacL.map(a => absRow(a, true)).join('') : empty('✅ Không có — 出張なし');
+
+  // ── Full list ──
+  set('totalBadge', total + ' người / 名');
   renderTable();
 }
 
-function renderTable(){
-  let data=[...EMPLOYEES];
-  if(activeFilter!=='all'){
-    if(['Factory','Office'].includes(activeFilter)) data=data.filter(e=>e.noiLV===activeFilter);
-    else data=data.filter(e=>e.phanbo===activeFilter);
+// ── FULL TABLE ──
+function renderTable() {
+  let data = [...EMPLOYEES];
+  if (activeFilter !== 'all') {
+    if (['Factory','Office'].includes(activeFilter))
+      data = data.filter(e => e.noiLV === activeFilter);
+    else
+      data = data.filter(e => e.phanloai === activeFilter);
   }
-  if(searchTerm) data=data.filter(e=>(e.hoTen+e.mnv+e.to).toLowerCase().includes(searchTerm));
-  function hdChip(h){ const map={CT:'hd-ct',GCN:'hd-gcn',TV:'hd-tv'}; return `<span class="chip-hd ${map[h]||'hd-ct'}">${h||'—'}</span>`; }
-  function noiChip(noi){ return noi?`<span class="chip-noi ${noi==='Office'?'noi-o':'noi-f'}">${noi}</span>`:'—'; }
-  function status(mnv){
-    const a=ABSENCES.find(x=>String(x.mnv)===String(mnv));
-    if(!a) return `<span class="st-present">● Có mặt</span>`;
-    if(a.loai==='Vắng không phép') return `<span class="st-vang">✗ Vắng KP</span>`;
-    if(a.loai==='Nghỉ phép có phép') return `<span class="st-nghi">⏸ Nghỉ phép</span>`;
-    if(a.loai==='Đi công tác') return `<span class="st-ct">✈ Công tác</span>`;
-    return `<span style="color:var(--text3);font-size:12px">${a.loai}</span>`;
-  }
-  document.getElementById('tbAll').innerHTML=data.length
-    ?data.map((e,i)=>`<tr>
-      <td style="color:var(--text3);font-family:var(--mono);font-size:11px">${i+1}</td>
+  if (searchTerm)
+    data = data.filter(e => (e.hoTen + e.mnv + e.to + e.chucvu).toLowerCase().includes(searchTerm));
+
+  $('tbAll').innerHTML = data.length ? data.map((e, i) => `
+    <tr>
+      <td style="color:var(--muted2);font-family:var(--mono);font-size:11px">${i+1}</td>
       <td><span class="chip-mnv">${e.mnv}</span></td>
       <td style="font-weight:600">${e.hoTen}</td>
-      <td>${hdChip(e.phanbo)}</td>
+      <td>${hdChip(e.phanloai)}</td>
       <td>${noiChip(e.noiLV)}</td>
-      <td><span class="chip-to">${e.to||'—'}</span></td>
-      <td style="font-size:12px;color:var(--text2)">${e.chucvu||'—'}</td>
-      <td>${status(e.mnv)}</td></tr>`).join('')
-    :`<tr><td colspan="8" class="empty">Không có kết quả tìm kiếm thích hợp</td></tr>`;
+      <td><span class="chip-to">${e.to || '—'}</span></td>
+      <td style="font-size:12px;color:var(--muted)">${e.chucvu || '—'}</td>
+      <td>${statusChip(e.mnv)}</td>
+    </tr>`).join('')
+  : `<tr><td colspan="8" class="empty">Không có kết quả / 結果なし</td></tr>`;
 }
 
-function setupFilters(){
-  document.querySelectorAll('.filter-btn').forEach(b=>{
-    b.onclick=()=>{ document.querySelectorAll('.filter-btn').forEach(x=>x.classList.remove('on')); b.classList.add('on'); activeFilter=b.dataset.f; renderTable(); };
+// ── INTERACTIONS ──
+function setupInteractions() {
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.onclick = () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('on'));
+      btn.classList.add('on');
+      activeFilter = btn.dataset.f;
+      renderTable();
+    };
   });
-  document.getElementById('srch').addEventListener('input',e=>{ searchTerm=e.target.value.toLowerCase(); renderTable(); });
+  $('srch').addEventListener('input', e => {
+    searchTerm = e.target.value.toLowerCase();
+    renderTable();
+  });
 }
 
 loadData();
