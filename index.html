@@ -7,140 +7,166 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans+Thai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg:#0d0f14; --surface:#141720; --surface2:#1c2030; --surface3:#242840;
-    --border:#2a2f45; --border2:#353c58;
-    --accent:#4f8ef7; --accent2:#7eb3ff;
-    --red:#f05252; --red-dim:rgba(240,82,82,0.12);
-    --yellow:#f5c842; --yellow-dim:rgba(245,200,66,0.12);
-    --green:#34d399; --green-dim:rgba(52,211,153,0.12);
-    --blue-dim:rgba(79,142,247,0.12);
-    --orange:#fb923c; --purple:#a78bfa;
-    --text:#e2e8f7; --text2:#8892aa; --text3:#545e78;
-    --mono:'IBM Plex Mono',monospace; --sans:'IBM Plex Sans Thai',sans-serif;
-    --r:6px;
+    /* LIGHT MODE BACKGROUNDS */
+    --bg:#f8fafc; 
+    --surface:#ffffff; 
+    --surface2:#f1f5f9; 
+    --surface3:#e2e8f0;
+    --border:#cbd5e1; 
+    --border2:#94a3b8;
+    
+    /* BRAND & STATUS COLORS (OPTIMIZED FOR LIGHT MODE) */
+    --accent:#1d4ed8; 
+    --accent2:#2563eb;
+    --red:#dc2626; 
+    --red-dim:rgba(220,38,38,0.08);
+    --yellow:#b45309; 
+    --yellow-dim:rgba(180,83,9,0.08);
+    --green:#16a34a; 
+    --green-dim:rgba(22,163,74,0.08);
+    --blue-dim:rgba(29,78,216,0.08);
+    --orange:#ea580c; 
+    --purple:#7c3aed;
+    
+    /* LIGHT MODE TEXT COLORS */
+    --text:#0f172a; 
+    --text2:#475569; 
+    --text3:#64748b;
+    --mono:'IBM Plex Mono',monospace; 
+    --sans:'IBM Plex Sans Thai',sans-serif;
+    --r:8px;
+    --shadow: 0 1px 3px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.1);
   }
   *{box-sizing:border-box;margin:0;padding:0}
   body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:14px;min-height:100vh}
-  body::before{content:'';position:fixed;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,0.03) 2px,rgba(0,0,0,0.03) 4px);pointer-events:none;z-index:9999}
 
   /* TOPBAR */
-  .topbar{display:flex;align-items:center;justify-content:space-between;padding:0 24px;height:52px;background:var(--surface);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100}
-  .logo-mark{width:32px;height:32px;background:var(--accent);display:grid;place-items:center;font-family:var(--mono);font-weight:700;font-size:13px;color:#fff;clip-path:polygon(0 0,100% 0,100% 70%,70% 100%,0 100%)}
-  .logo-wrap{display:flex;align-items:center;gap:12px}
-  .logo-text{font-family:var(--mono);font-weight:700;font-size:15px;letter-spacing:2px}
-  .logo-sub{font-family:var(--mono);font-size:10px;color:var(--text3);letter-spacing:3px;margin-top:1px}
+  .topbar{display:flex;align-items:center;justify-content:space-between;padding:0 24px;height:64px;background:var(--surface);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100;box-shadow: var(--shadow)}
+  .logo-mark{width:36px;height:36px;background:var(--accent);display:grid;place-items:center;font-family:var(--mono);font-weight:700;font-size:15px;color:#fff;clip-path:polygon(0 0,100% 0,100% 70%,70% 100%,0 100%)}
+  .logo-wrap{display:flex;align-items:center;gap:14px}
+  /* PHÓNG TO TIÊU ĐỀ CHÍNH */
+  .logo-text{font-family:var(--mono);font-weight:700;font-size:20px;letter-spacing:1px;color:var(--accent)}
+  .logo-sub{font-family:var(--mono);font-size:11px;color:var(--text3);letter-spacing:2px;margin-top:2px;font-weight:500}
   .topbar-right{display:flex;align-items:center;gap:16px}
-  .clock{font-family:var(--mono);font-size:18px;font-weight:600;color:var(--accent);letter-spacing:2px}
-  .date-lbl{font-family:var(--mono);font-size:11px;color:var(--text2);text-align:right;line-height:1.6}
-  .dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 8px var(--green);animation:blink 2s infinite}
+  .clock{font-family:var(--mono);font-size:20px;font-weight:700;color:var(--accent);letter-spacing:1px}
+  .date-lbl{font-family:var(--mono);font-size:12px;color:var(--text2);text-align:right;line-height:1.6}
+  .dot{width:10px;height:10px;border-radius:50%;background:var(--green);box-shadow:0 0 8px var(--green);animation:blink 2s infinite}
   @keyframes blink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
 
   /* LOADING / ERROR */
   #loadingState{display:flex;flex-direction:column;align-items:center;justify-content:center;height:60vh;gap:16px}
-  .spinner{width:36px;height:36px;border:3px solid var(--border2);border-top-color:var(--accent);border-radius:50%;animation:spin 1s linear infinite}
+  .spinner{width:36px;height:36px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin 1s linear infinite}
   @keyframes spin{to{transform:rotate(360deg)}}
   .load-text{font-family:var(--mono);font-size:13px;color:var(--text3);letter-spacing:2px}
 
   /* DATA FRESHNESS */
-  .freshness-bar{display:flex;align-items:center;justify-content:space-between;padding:8px 24px;background:var(--surface2);border-bottom:1px solid var(--border);font-family:var(--mono);font-size:11px}
+  .freshness-bar{display:flex;align-items:center;justify-content:space-between;padding:10px 24px;background:var(--surface2);border-bottom:1px solid var(--border);font-family:var(--mono);font-size:12px;font-weight:500}
   .fresh-ok{color:var(--green)} .fresh-old{color:var(--yellow)} .fresh-err{color:var(--red)}
   .refresh-hint{color:var(--text3)}
 
   /* MAIN */
-  .main{padding:20px 24px;display:grid;gap:16px}
+  .main{padding:24px;display:grid;gap:20px}
   #dashboard{display:none}
   #dashboard.on{display:block}
 
   /* KPI */
-  .kpi-strip{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
-  @media(max-width:1100px){.kpi-strip{grid-template-columns:repeat(3,1fr)}}
-  @media(max-width:700px){.kpi-strip{grid-template-columns:repeat(2,1fr)}}
-  .kpi{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:16px;position:relative;overflow:hidden;animation:up .4s ease both}
-  .kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:2px}
+  .kpi-strip{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+  @media(max-width:1200px){.kpi-strip{grid-template-columns:repeat(3,1fr)}}
+  @media(max-width:768px){.kpi-strip{grid-template-columns:repeat(2,1fr)}}
+  .kpi{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:18px 16px;position:relative;overflow:hidden;box-shadow:var(--shadow);animation:up .4s ease both}
+  .kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:4px}
   .k-blue::before{background:var(--accent)} .k-green::before{background:var(--green)}
   .k-red::before{background:var(--red)} .k-yellow::before{background:var(--yellow)}
   .k-purple::before{background:var(--purple)} .k-orange::before{background:var(--orange)}
-  .kpi-lbl{font-family:var(--mono);font-size:10px;color:var(--text3);letter-spacing:2px;text-transform:uppercase;margin-bottom:8px}
+  .kpi-lbl{font-family:var(--mono);font-size:11px;color:var(--text3);letter-spacing:1px;text-transform:uppercase;margin-bottom:6px;font-weight:600}
   .kpi-val{font-family:var(--mono);font-size:32px;font-weight:700;line-height:1}
   .k-blue .kpi-val{color:var(--accent)} .k-green .kpi-val{color:var(--green)}
   .k-red .kpi-val{color:var(--red)} .k-yellow .kpi-val{color:var(--yellow)}
   .k-purple .kpi-val{color:var(--purple)} .k-orange .kpi-val{color:var(--orange)}
-  .kpi-sub{font-size:11px;color:var(--text3);margin-top:4px}
-  .kpi-pct{position:absolute;bottom:12px;right:14px;font-family:var(--mono);font-size:11px;color:var(--text3)}
+  .kpi-sub{font-size:12px;color:var(--text2);margin-top:6px;font-weight:500}
+  .kpi-pct{position:absolute;top:18px;right:16px;font-family:var(--mono);font-size:12px;font-weight:700;background:var(--surface2);padding:2px 6px;border-radius:4px;color:var(--text2)}
   @keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 
   /* PANEL */
-  .panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);overflow:hidden;animation:up .4s ease both}
-  .ph{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:1px solid var(--border);background:var(--surface2)}
-  .pt{font-family:var(--mono);font-weight:600;font-size:12px;letter-spacing:2px;text-transform:uppercase;display:flex;align-items:center;gap:8px}
-  .badge{font-family:var(--mono);font-size:11px;padding:2px 8px;border-radius:3px;font-weight:600}
-  .b-red{background:var(--red-dim);color:var(--red);border:1px solid rgba(240,82,82,.3)}
-  .b-yellow{background:var(--yellow-dim);color:var(--yellow);border:1px solid rgba(245,200,66,.3)}
-  .b-green{background:var(--green-dim);color:var(--green);border:1px solid rgba(52,211,153,.3)}
-  .b-blue{background:var(--blue-dim);color:var(--accent);border:1px solid rgba(79,142,247,.3)}
+  .panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden;animation:up .4s ease both}
+  .ph{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;border-bottom:1px solid var(--border);background:var(--surface2)}
+  /* PHÓNG TO TIÊU ĐỀ KHỐI / PANEL */
+  .pt{font-family:var(--sans);font-weight:700;font-size:15px;color:var(--text);display:flex;align-items:center;gap:8px}
+  .badge{font-family:var(--mono);font-size:11px;padding:3px 8px;border-radius:4px;font-weight:700}
+  .b-red{background:var(--red-dim);color:var(--red);border:1px solid rgba(220,38,38,.25)}
+  .b-yellow{background:var(--yellow-dim);color:var(--yellow);border:1px solid rgba(180,83,9,.25)}
+  .b-green{background:var(--green-dim);color:var(--green);border:1px solid rgba(22,163,74,.25)}
+  .b-blue{background:var(--blue-dim);color:var(--accent);border:1px solid rgba(29,78,216,.25)}
   .b-grey{background:var(--surface3);color:var(--text2);border:1px solid var(--border)}
 
   /* TABLE */
   .tbl{width:100%;border-collapse:collapse}
-  .tbl th{font-family:var(--mono);font-size:10px;font-weight:600;color:var(--text3);letter-spacing:1.5px;text-transform:uppercase;padding:8px 12px;text-align:left;border-bottom:1px solid var(--border);background:var(--surface2)}
-  .tbl td{padding:9px 12px;border-bottom:1px solid var(--border);font-size:13px;color:var(--text);vertical-align:middle}
+  .tbl th{font-family:var(--sans);font-size:11px;font-weight:700;color:var(--text2);letter-spacing:0.5px;text-transform:uppercase;padding:10px 14px;text-align:left;border-bottom:2px solid var(--border);background:var(--surface2)}
+  .tbl td{padding:11px 14px;border-bottom:1px solid var(--border);font-size:13px;color:var(--text);vertical-align:middle;font-weight:500}
   .tbl tr:last-child td{border-bottom:none}
   .tbl tbody tr:hover td{background:var(--surface2)}
-  .chip-mnv{font-family:var(--mono);font-size:11px;background:var(--surface3);color:var(--accent2);padding:2px 7px;border-radius:3px;border:1px solid var(--border2)}
-  .chip-to{font-size:11px;color:var(--text2);background:var(--surface3);padding:2px 7px;border-radius:3px}
-  .chip-noi{font-size:11px;padding:2px 7px;border-radius:3px;font-family:var(--mono)}
-  .noi-f{background:rgba(52,211,153,.1);color:var(--green);border:1px solid rgba(52,211,153,.25)}
-  .noi-o{background:var(--blue-dim);color:var(--accent);border:1px solid rgba(79,142,247,.25)}
-  .chip-hd{font-size:11px;font-weight:600;padding:3px 9px;border-radius:3px;font-family:var(--mono)}
-  .hd-ct{background:rgba(250,204,21,.1);color:#fde047;border:1px solid rgba(250,204,21,.25)}
-  .hd-gcn{background:rgba(167,139,250,.1);color:var(--purple);border:1px solid rgba(167,139,250,.25)}
-  .hd-tv{background:rgba(251,146,60,.1);color:var(--orange);border:1px solid rgba(251,146,60,.25)}
+  
+  /* CHIPS & BADGES IN TABLE */
+  .chip-mnv{font-family:var(--mono);font-size:11px;font-weight:600;background:var(--surface2);color:var(--accent);padding:3px 7px;border-radius:4px;border:1px solid var(--border)}
+  .chip-to{font-size:12px;color:var(--text);font-weight:500;background:var(--surface3);padding:3px 8px;border-radius:4px}
+  .chip-noi{font-size:11px;padding:3px 7px;border-radius:4px;font-family:var(--mono);font-weight:700}
+  .noi-f{background:rgba(22,163,74,.1);color:var(--green);border:1px solid rgba(22,163,74,.2)}
+  .noi-o{background:var(--blue-dim);color:var(--accent);border:1px solid rgba(29,78,216,.2)}
+  .chip-hd{font-size:11px;font-weight:700;padding:3px 9px;border-radius:4px;font-family:var(--mono)}
+  .hd-ct{background:rgba(180,83,9,.1);color:var(--yellow);border:1px solid rgba(180,83,9,.2)}
+  .hd-gcn{background:rgba(124,58,237,.1);color:var(--purple);border:1px solid rgba(124,58,237,.2)}
+  .hd-tv{background:rgba(234,88,12,.1);color:var(--orange);border:1px solid rgba(234,88,12,.2)}
 
-  /* BAR */
-  .bar-list{padding:12px 16px;display:flex;flex-direction:column;gap:10px}
-  .bar-item{display:flex;align-items:center;gap:10px}
-  .bar-lbl{font-family:var(--mono);font-size:11px;color:var(--text2);width:140px;flex-shrink:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .bar-track{flex:1;height:6px;background:var(--surface3);border-radius:3px;overflow:hidden}
-  .bar-fill{height:100%;border-radius:3px;transition:width 1.2s cubic-bezier(.22,1,.36,1)}
-  .bar-cnt{font-family:var(--mono);font-size:11px;color:var(--text3);width:36px;text-align:right}
+  /* BAR CHART */
+  .bar-list{padding:16px;display:flex;flex-direction:column;gap:12px}
+  .bar-item{display:flex;align-items:center;gap:12px}
+  .bar-lbl{font-family:var(--sans);font-size:13px;font-weight:600;color:var(--text2);width:140px;flex-shrink:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .bar-track{flex:1;height:8px;background:var(--surface2);border-radius:4px;overflow:hidden;border:1px solid var(--border)}
+  .bar-fill{height:100%;border-radius:4px;transition:width 1.2s cubic-bezier(.22,1,.36,1)}
+  .bar-cnt{font-family:var(--mono);font-size:12px;font-weight:700;color:var(--text);width:45px;text-align:right}
 
-  /* BREAKDOWN */
+  /* BREAKDOWN CRDS */
   .bd-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border)}
-  .bd-cell{background:var(--surface);padding:14px 16px}
-  .bd-lbl{font-family:var(--mono);font-size:10px;color:var(--text3);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px}
-  .bd-val{font-family:var(--mono);font-size:24px;font-weight:700}
-  .bd-sub{font-size:11px;color:var(--text3);margin-top:2px}
+  .bd-cell{background:var(--surface);padding:16px}
+  .bd-lbl{font-family:var(--mono);font-size:11px;color:var(--text3);letter-spacing:1px;text-transform:uppercase;margin-bottom:6px;font-weight:600}
+  .bd-val{font-family:var(--mono);font-size:28px;font-weight:700}
+  .bd-sub{font-size:12px;color:var(--text2);margin-top:4px;font-weight:500}
 
   /* LAYOUT */
-  .two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-  .three-col{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
-  @media(max-width:900px){.two-col,.three-col{grid-template-columns:1fr}}
-  .section-lbl{font-family:var(--mono);font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--text3);display:flex;align-items:center;gap:12px}
-  .section-lbl::after{content:'';flex:1;height:1px;background:var(--border)}
+  .two-col{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  .three-col{display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px}
+  @media(max-width:950px){.two-col,.three-col{grid-template-columns:1fr}}
+  
+  /* PHÓNG TO TIÊU ĐỀ PHÂN ĐOẠN / SECTION */
+  .section-lbl{font-family:var(--sans);font-size:16px;font-weight:700;letter-spacing:0.5px;color:var(--text);display:flex;align-items:center;gap:12px;margin-top:10px}
+  .section-lbl::after{content:'';flex:1;height:2px;background:var(--border)}
 
   /* SCROLL */
-  .scroll{max-height:300px;overflow-y:auto}
-  .scroll::-webkit-scrollbar{width:4px}
-  .scroll::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px}
+  .scroll{max-height:320px;overflow-y:auto}
+  .scroll::-webkit-scrollbar{width:6px}
+  .scroll::-webkit-scrollbar-track{background:var(--surface2)}
+  .scroll::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
+  .scroll::-webkit-scrollbar-thumb:hover{background:var(--border2)}
 
-  /* SEARCH */
-  .search-bar{display:flex;gap:8px;padding:10px 16px;border-bottom:1px solid var(--border);flex-wrap:wrap}
-  .filter-btn{font-family:var(--mono);font-size:11px;letter-spacing:1px;padding:4px 12px;border-radius:3px;cursor:pointer;border:1px solid var(--border2);background:transparent;color:var(--text2);transition:all .15s}
-  .filter-btn.on{border-color:var(--accent);color:var(--accent);background:var(--blue-dim)}
-  .filter-btn:hover:not(.on){color:var(--text)}
-  .txt-search{background:var(--surface3);border:1px solid var(--border2);color:var(--text);padding:4px 10px;border-radius:3px;font-family:var(--mono);font-size:11px;outline:none;width:160px}
+  /* SEARCH & FILTERS */
+  .search-bar{display:flex;gap:8px;padding:12px 18px;border-bottom:1px solid var(--border);background:var(--surface2);flex-wrap:wrap}
+  .filter-btn{font-family:var(--sans);font-size:12px;font-weight:600;padding:5px 14px;border-radius:4px;cursor:pointer;border:1px solid var(--border2);background:var(--surface);color:var(--text2);transition:all .15s}
+  .filter-btn.on{border-color:var(--accent);color:#ffffff;background:var(--accent)}
+  .filter-btn:hover:not(.on){color:var(--text);border-color:var(--text)}
+  .txt-search{background:var(--surface);border:1px solid var(--border2);color:var(--text);padding:5px 12px;border-radius:4px;font-family:var(--sans);font-size:12px;outline:none;width:200px;font-weight:500}
+  .txt-search:focus{border-color:var(--accent);box-shadow: 0 0 0 2px var(--blue-dim)}
 
-  /* STATUS */
-  .st-present{color:var(--green);font-family:var(--mono);font-size:11px}
-  .st-vang{color:var(--red);font-family:var(--mono);font-size:11px}
-  .st-nghi{color:var(--yellow);font-family:var(--mono);font-size:11px}
-  .st-ct{color:var(--orange);font-family:var(--mono);font-size:11px}
+  /* STATUS ATTENDANCE */
+  .st-present{color:var(--green);font-family:var(--sans);font-size:12px;font-weight:700}
+  .st-vang{color:var(--red);font-family:var(--sans);font-size:12px;font-weight:700}
+  .st-nghi{color:var(--yellow);font-family:var(--sans);font-size:12px;font-weight:700}
+  .st-ct{color:var(--orange);font-family:var(--sans);font-size:12px;font-weight:700}
 
   /* FOOTER */
-  .footer{margin:16px 24px 24px;padding:12px 16px;background:var(--surface);border:1px solid var(--border);border-radius:var(--r);display:flex;justify-content:space-between;font-family:var(--mono);font-size:11px;color:var(--text3)}
+  .footer{margin:20px 24px 32px;padding:14px 18px;background:var(--surface);border:1px solid var(--border);border-radius:var(--r);box-shadow:var(--shadow);display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;color:var(--text2);font-weight:500}
 
   /* EMPTY */
-  .empty{padding:20px;text-align:center;color:var(--text3);font-family:var(--mono);font-size:12px}
+  .empty{padding:30px;text-align:center;color:var(--text3);font-family:var(--sans);font-size:13px;font-weight:500}
 </style>
 </head>
 <body>
@@ -172,10 +198,10 @@
   <div class="load-text">ĐANG TẢI DỮ LIỆU...</div>
 </div>
 
-<div id="errorState" style="display:none;padding:40px 24px;text-align:center">
-  <div style="font-size:32px;margin-bottom:12px">⚠️</div>
-  <div style="font-family:var(--mono);font-size:14px;color:var(--red);margin-bottom:8px">Không tìm thấy file data.json</div>
-  <div style="font-size:12px;color:var(--text3);max-width:500px;margin:0 auto;line-height:1.7">
+<div id="errorState" style="display:none;padding:50px 24px;text-align:center">
+  <div style="font-size:40px;margin-bottom:16px">⚠️</div>
+  <div style="font-family:var(--mono);font-size:16px;font-weight:700;color:var(--red);margin-bottom:12px">Không tìm thấy file data.json</div>
+  <div style="font-size:13px;color:var(--text2);max-width:520px;margin:0 auto;line-height:1.7;font-weight:500">
     Chạy file <strong style="color:var(--accent)">Condor_HR_Export_JSON.ipynb</strong> trên Google Colab
     để tạo data.json, sau đó upload lên cùng thư mục với file index.html này trên GitHub.
   </div>
@@ -184,10 +210,8 @@
 <div id="dashboard">
 <div class="main">
 
-  <!-- KPI -->
   <div class="kpi-strip" id="kpiRow"></div>
 
-  <!-- ROW 2 -->
   <div class="two-col">
     <div class="panel">
       <div class="ph">
@@ -196,7 +220,7 @@
       <div class="bd-grid">
         <div class="bd-cell"><div class="bd-lbl">Factory có mặt</div><div class="bd-val" id="bdF" style="color:var(--green)">0</div><div class="bd-sub" id="bdFSub">—</div></div>
         <div class="bd-cell"><div class="bd-lbl">Office có mặt</div><div class="bd-val" id="bdO" style="color:var(--accent)">0</div><div class="bd-sub" id="bdOSub">—</div></div>
-        <div class="bd-cell"><div class="bd-lbl">Loại CT</div><div class="bd-val" id="bdCT" style="color:#fde047">0</div><div class="bd-sub">Chính thức</div></div>
+        <div class="bd-cell"><div class="bd-lbl">Loại CT</div><div class="bd-val" id="bdCT" style="color:var(--yellow)">0</div><div class="bd-sub">Chính thức</div></div>
         <div class="bd-cell"><div class="bd-lbl">GCN + TV</div><div class="bd-val" id="bdGCN" style="color:var(--purple)">0</div><div class="bd-sub">Gia công / Thử việc</div></div>
       </div>
     </div>
@@ -209,7 +233,6 @@
     </div>
   </div>
 
-  <!-- ROW 3: Vắng -->
   <div class="section-lbl">Chi tiết vắng mặt hôm nay</div>
   <div class="three-col">
     <div class="panel">
@@ -244,7 +267,6 @@
     </div>
   </div>
 
-  <!-- ROW 4: Full list -->
   <div class="section-lbl">Toàn bộ nhân viên</div>
   <div class="panel">
     <div class="ph">
@@ -262,20 +284,17 @@
       <button class="filter-btn" data-f="GCN">GCN</button>
       <button class="filter-btn" data-f="TV">TV</button>
     </div>
-    <div class="scroll" style="max-height:380px">
+    <div class="scroll" style="max-height:400px">
       <table class="tbl"><thead><tr><th>#</th><th>Mã NV</th><th>Họ và Tên</th><th>Loại HĐ</th><th>Nơi LV</th><th>Tổ</th><th>Chức vụ</th><th>Hôm nay</th></tr></thead>
       <tbody id="tbAll"></tbody></table>
     </div>
   </div>
 
-</div><!-- .main -->
-<div class="footer">
+</div><div class="footer">
   <div>CONDOR · HR DASHBOARD</div>
   <div>Dữ liệu tạo lúc: <span id="genTime">—</span></div>
 </div>
-</div><!-- #dashboard -->
-
-<script>
+</div><script>
 // ── CLOCK ──
 function tick(){
   const n=new Date(), days=['Chủ nhật','Thứ 2','Thứ 3','Thứ 4','Thứ 5','Thứ 6','Thứ 7'];
@@ -303,8 +322,7 @@ async function loadData(){
 
 function processData(d){
   EMPLOYEES=d.employees||[];
-  const today=new Date().toLocaleDateString('vi-VN'); // dd/mm/yyyy
-  // Lấy vắng hôm nay: ưu tiên todayAbsences, fallback absences theo ngày
+  const today=new Date().toLocaleDateString('vi-VN');
   ABSENCES=(d.todayAbsences&&d.todayAbsences.length>0)
     ? d.todayAbsences
     : (d.absences||[]).filter(a=>!a.ngay||a.ngay===today||a.ngay===d.generatedDate);
@@ -380,11 +398,11 @@ function render(){
   set('toBadge',toArr.length+' tổ');
   document.getElementById('toBar').innerHTML=toArr.map(([nm,v])=>{
     const p=Math.round((v.t-v.v)/maxT*100);
-    const color=v.v>0?'linear-gradient(90deg,var(--green),var(--yellow))':'var(--green)';
+    const color=v.v>0?'linear-gradient(90deg,var(--green),var(--orange))':'var(--green)';
     return `<div class="bar-item">
       <div class="bar-lbl" title="${nm}">${nm}</div>
       <div class="bar-track"><div class="bar-fill" style="width:${p}%;background:${color}"></div></div>
-      <div class="bar-cnt">${v.t-v.v}<span style="color:var(--text3);font-size:9px">/${v.t}</span></div>
+      <div class="bar-cnt">${v.t-v.v}<span style="color:var(--text3);font-size:10px">/${v.t}</span></div>
     </div>`;
   }).join('');
 
@@ -393,16 +411,16 @@ function render(){
   function noiChip(noi){ return noi?`<span class="chip-noi ${noi==='Office'?'noi-o':'noi-f'}">${noi}</span>`:'—'; }
   function absRow(a){ const e=getEmp(a.mnv); return `<tr>
     <td><span class="chip-mnv">${a.mnv||'—'}</span></td>
-    <td>${a.hoTen||e.hoTen||'—'}</td>
+    <td style="font-weight:600">${a.hoTen||e.hoTen||'—'}</td>
     <td><span class="chip-to">${e.to||a.to||'—'}</span></td>
     <td>${noiChip(e.noiLV)}</td></tr>`; }
-  document.getElementById('tbVang').innerHTML=vangList.length?vangList.map(absRow).join(''):`<tr><td colspan="4" class="empty">Không có</td></tr>`;
-  document.getElementById('tbNghi').innerHTML=nghiList.length?nghiList.map(absRow).join(''):`<tr><td colspan="4" class="empty">Không có</td></tr>`;
+  document.getElementById('tbVang').innerHTML=vangList.length?vangList.map(absRow).join(''):`<tr><td colspan="4" class="empty">Không có nhân viên vắng không phép</td></tr>`;
+  document.getElementById('tbNghi').innerHTML=nghiList.length?nghiList.map(absRow).join(''):`<tr><td colspan="4" class="empty">Không có nhân viên nghỉ phép</td></tr>`;
   document.getElementById('tbCT').innerHTML=ctList.length?ctList.map(a=>{ const e=getEmp(a.mnv); return `<tr>
     <td><span class="chip-mnv">${a.mnv||'—'}</span></td>
-    <td>${a.hoTen||e.hoTen||'—'}</td>
+    <td style="font-weight:600">${a.hoTen||e.hoTen||'—'}</td>
     <td><span class="chip-to">${e.to||'—'}</span></td>
-    <td style="font-size:12px;color:var(--text2)">${a.lydo||'—'}</td></tr>`; }).join(''):`<tr><td colspan="4" class="empty">Không có</td></tr>`;
+    <td style="font-size:12px;color:var(--text2)">${a.lydo||'—'}</td></tr>`; }).join(''):`<tr><td colspan="4" class="empty">Không có nhân viên đi công tác</td></tr>`;
 
   set('totalBadge',total+' nhân viên');
   renderTable();
@@ -423,19 +441,19 @@ function renderTable(){
     if(a.loai==='Vắng không phép') return `<span class="st-vang">✗ Vắng KP</span>`;
     if(a.loai==='Nghỉ phép có phép') return `<span class="st-nghi">⏸ Nghỉ phép</span>`;
     if(a.loai==='Đi công tác') return `<span class="st-ct">✈ Công tác</span>`;
-    return `<span style="color:var(--text3);font-size:11px">${a.loai}</span>`;
+    return `<span style="color:var(--text3);font-size:12px">${a.loai}</span>`;
   }
   document.getElementById('tbAll').innerHTML=data.length
     ?data.map((e,i)=>`<tr>
       <td style="color:var(--text3);font-family:var(--mono);font-size:11px">${i+1}</td>
       <td><span class="chip-mnv">${e.mnv}</span></td>
-      <td>${e.hoTen}</td>
+      <td style="font-weight:600">${e.hoTen}</td>
       <td>${hdChip(e.phanbo)}</td>
       <td>${noiChip(e.noiLV)}</td>
       <td><span class="chip-to">${e.to||'—'}</span></td>
       <td style="font-size:12px;color:var(--text2)">${e.chucvu||'—'}</td>
       <td>${status(e.mnv)}</td></tr>`).join('')
-    :`<tr><td colspan="8" class="empty">Không có kết quả</td></tr>`;
+    :`<tr><td colspan="8" class="empty">Không có kết quả tìm kiếm thích hợp</td></tr>`;
 }
 
 function setupFilters(){
