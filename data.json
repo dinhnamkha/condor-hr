@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T00:40:57.528414",
+  "generatedAt": "2026-05-27T00:42:58.027899",
   "generatedDate": "27/05/2026",
   "totalEmployees": 57,
   "employees": [
@@ -570,7 +570,7 @@
       "lydo": "Mua mũi mài cho Bác Ozaki"
     },
     {
-      "ngay": "27/05/2025",
+      "ngay": "27/05/2026",
       "mnv": "46",
       "hoTen": "Hoàng Thị Thanh Huyền",
       "noiLV": "Office",
@@ -579,7 +579,7 @@
       "lydo": ""
     },
     {
-      "ngay": "27/05/2025",
+      "ngay": "27/05/2026",
       "mnv": "1",
       "hoTen": "Võ Ngọc Hiếu",
       "noiLV": "Office",
@@ -597,6 +597,24 @@
       "to": "",
       "loai": "Đi công tác",
       "lydo": "Mua mũi mài cho Bác Ozaki"
+    },
+    {
+      "ngay": "27/05/2026",
+      "mnv": "46",
+      "hoTen": "Hoàng Thị Thanh Huyền",
+      "noiLV": "Office",
+      "to": "",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "27/05/2026",
+      "mnv": "1",
+      "hoTen": "Võ Ngọc Hiếu",
+      "noiLV": "Office",
+      "to": "",
+      "loai": "Đi công tác",
+      "lydo": "Công tác TDM"
     }
   ]
 }
