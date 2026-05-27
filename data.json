@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T00:36:32.040094",
+  "generatedAt": "2026-05-27T00:37:45.526020",
   "generatedDate": "27/05/2026",
   "totalEmployees": 57,
   "employees": [
@@ -559,6 +559,33 @@
       "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
+    },
+    {
+      "ngay": "27/05/2025",
+      "mnv": "426",
+      "hoTen": "Nguyễn Văn Hậu",
+      "noiLV": "Factory",
+      "to": "",
+      "loai": "Đi công tác",
+      "lydo": "Mua mũi mài cho Bác Ozaki"
+    },
+    {
+      "ngay": "27/05/2025",
+      "mnv": "46",
+      "hoTen": "Hoàng Thị Thanh Huyền",
+      "noiLV": "Office",
+      "to": "",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "27/05/2025",
+      "mnv": "1",
+      "hoTen": "Võ Ngọc Hiếu",
+      "noiLV": "Office",
+      "to": "",
+      "loai": "Đi công tác",
+      "lydo": "Công tác TDM"
     }
   ],
   "todayAbsences": []
