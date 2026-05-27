@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-26T10:27:41.035071",
-  "generatedDate": "26/05/2026",
+  "generatedAt": "2026-05-27T00:32:37.372477",
+  "generatedDate": "27/05/2026",
   "totalEmployees": 57,
   "employees": [
     {
@@ -561,60 +561,5 @@
       "lydo": ""
     }
   ],
-  "todayAbsences": [
-    {
-      "ngay": "26/05/2026",
-      "mnv": "345",
-      "hoTen": "Đinh Nam Kha",
-      "noiLV": "Office",
-      "to": "",
-      "loai": "Vắng không phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "26/05/2026",
-      "mnv": "343",
-      "hoTen": "Bùi Tiến Đạt",
-      "noiLV": "Office",
-      "to": "",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "26/05/2026",
-      "mnv": "426",
-      "hoTen": "Nguyễn Văn Hậu",
-      "noiLV": "Factory",
-      "to": "",
-      "loai": "Đi công tác",
-      "lydo": "Công tác Hoàn Cầu"
-    },
-    {
-      "ngay": "26/05/2026",
-      "mnv": "46",
-      "hoTen": "Hoàng Thị Thanh Huyền",
-      "noiLV": "Office",
-      "to": "",
-      "loai": "Đi công tác",
-      "lydo": ""
-    },
-    {
-      "ngay": "26/05/2026",
-      "mnv": "183",
-      "hoTen": "Nguyễn Thị Ngọc Mai",
-      "noiLV": "Office",
-      "to": "",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "26/05/2026",
-      "mnv": "437",
-      "hoTen": "Hoàng Minh Khuê",
-      "noiLV": "Factory",
-      "to": "",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    }
-  ]
+  "todayAbsences": []
 }
