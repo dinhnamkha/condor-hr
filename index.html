@@ -229,50 +229,6 @@ body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:14p
   <!-- 7 KPI -->
   <div class="kpi-strip" id="kpiRow"></div>
 
-  <!-- Phân bổ + Bar chart -->
-  <div class="two-col">
-    <div class="panel">
-      <div class="ph">
-        <div>
-          <div class="pt">📍 Phân bổ nhân sự hôm nay</div>
-          <div class="pt-ja">本日の人員配置状況</div>
-        </div>
-      </div>
-      <div class="bd-grid">
-        <div class="bd-cell">
-          <div class="bd-vi">Factory có mặt</div><div class="bd-ja">工場 出勤者</div>
-          <div class="bd-val" id="bdFact" style="color:var(--green)">—</div>
-          <div class="bd-sub" id="bdFactSub">—</div>
-        </div>
-        <div class="bd-cell">
-          <div class="bd-vi">Office có mặt</div><div class="bd-ja">オフィス 出勤者</div>
-          <div class="bd-val" id="bdOff" style="color:var(--blue)">—</div>
-          <div class="bd-sub" id="bdOffSub">—</div>
-        </div>
-        <div class="bd-cell">
-          <div class="bd-vi">Chính thức (CT)</div><div class="bd-ja">正社員</div>
-          <div class="bd-val" id="bdCT" style="color:var(--blue)">—</div>
-          <div class="bd-sub">Hợp đồng chính thức</div>
-        </div>
-        <div class="bd-cell">
-          <div class="bd-vi">GCN + Thử việc (TV)</div><div class="bd-ja">外注 + 試用</div>
-          <div class="bd-val" id="bdGCNTV" style="color:var(--purple)">—</div>
-          <div class="bd-sub">Gia công ngoài + Thử việc</div>
-        </div>
-      </div>
-    </div>
-    <div class="panel">
-      <div class="ph">
-        <div>
-          <div class="pt">🏭 Sĩ số theo Tổ / Bộ phận</div>
-          <div class="pt-ja">部門別出勤状況</div>
-        </div>
-        <div class="badge b-grey" id="toBadge">—</div>
-      </div>
-      <div class="bar-list" id="toBarList"></div>
-    </div>
-  </div>
-
   <!-- 4 bảng vắng -->
   <div class="section-hdr">
     <div>
@@ -327,7 +283,6 @@ body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:14p
       </div>
     </div>
 
-    <!-- TELEWORK — MỚI -->
     <div class="panel">
       <div class="ph">
         <div>
@@ -343,6 +298,50 @@ body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:14p
       </div>
     </div>
 
+  </div>
+
+  <!-- Phân bổ + Bar chart -->
+  <div class="two-col">
+    <div class="panel">
+      <div class="ph">
+        <div>
+          <div class="pt">📍 Phân bổ nhân sự hôm nay</div>
+          <div class="pt-ja">本日の人員配置状況</div>
+        </div>
+      </div>
+      <div class="bd-grid">
+        <div class="bd-cell">
+          <div class="bd-vi">Factory có mặt</div><div class="bd-ja">工場 出勤者</div>
+          <div class="bd-val" id="bdFact" style="color:var(--green)">—</div>
+          <div class="bd-sub" id="bdFactSub">—</div>
+        </div>
+        <div class="bd-cell">
+          <div class="bd-vi">Office có mặt</div><div class="bd-ja">オフィス 出勤者</div>
+          <div class="bd-val" id="bdOff" style="color:var(--blue)">—</div>
+          <div class="bd-sub" id="bdOffSub">—</div>
+        </div>
+        <div class="bd-cell">
+          <div class="bd-vi">Chính thức (CT)</div><div class="bd-ja">正社員</div>
+          <div class="bd-val" id="bdCT" style="color:var(--blue)">—</div>
+          <div class="bd-sub">Hợp đồng chính thức</div>
+        </div>
+        <div class="bd-cell">
+          <div class="bd-vi">GCN + Thử việc (TV)</div><div class="bd-ja">外注 + 試用</div>
+          <div class="bd-val" id="bdGCNTV" style="color:var(--purple)">—</div>
+          <div class="bd-sub">Gia công ngoài + Thử việc</div>
+        </div>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="ph">
+        <div>
+          <div class="pt">🏭 Sĩ số theo Tổ / Bộ phận</div>
+          <div class="pt-ja">部門別出勤状況</div>
+        </div>
+        <div class="badge b-grey" id="toBadge">—</div>
+      </div>
+      <div class="bar-list" id="toBarList"></div>
+    </div>
   </div>
 
   <!-- Full list -->
