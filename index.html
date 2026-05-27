@@ -287,7 +287,7 @@ body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:14p
       <div class="ph">
         <div>
           <div class="pt" style="color:var(--violet)">🟣 Telework</div>
-          <div class="pt-ja" style="color:#c4b5fd">テレワーク · リモート勤務</div>
+          <div class="pt-ja" style="color:#c4b5fd">テレワーク</div>
         </div>
         <div class="badge b-violet" id="bTelew">0</div>
       </div>
@@ -522,7 +522,7 @@ function render(){
   const kpis=[
     {cls:'k-blue',  ja:'総従業員数',  vi:'Tổng nhân viên', val:total,           sub:'CT + TV + GCN', p:''},
     {cls:'k-green', ja:'グロス出勤',  vi:'Gross có mặt',   val:grossCoMat,      sub:'Trừ Worker Net', p:pct(grossCoMat,grossEmp.length)},
-    {cls:'k-teal',  ja:'ネット出勤',  vi:'Net có mặt',     val:netCoMat,        sub:'Worker Net',     p:pct(netCoMat,netEmp.length)},
+    {cls:'k-teal',  ja:'場内外注出勤',  vi:'Net có mặt',     val:netCoMat,        sub:'Worker Net',     p:pct(netCoMat,netEmp.length)},
     {cls:'k-red',   ja:'無断欠勤',    vi:'Vắng không phép',val:vangL.length,    sub:'Cần xử lý ngay', p:pct(vangL.length,total)},
     {cls:'k-amber', ja:'有給休暇',    vi:'Nghỉ có phép',   val:nghiL.length,    sub:'Đã duyệt',       p:pct(nghiL.length,total)},
     {cls:'k-orange',ja:'出張中',      vi:'Đi công tác',    val:ctAbs.length,    sub:'Ngoài VP',       p:pct(ctAbs.length,total)},
