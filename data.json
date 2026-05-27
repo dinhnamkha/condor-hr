@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T00:38:44.403095",
+  "generatedAt": "2026-05-27T00:40:57.528414",
   "generatedDate": "27/05/2026",
   "totalEmployees": 57,
   "employees": [
@@ -561,7 +561,7 @@
       "lydo": ""
     },
     {
-      "ngay": "27/05/2025",
+      "ngay": "27/05/2026",
       "mnv": "426",
       "hoTen": "Nguyễn Văn Hậu",
       "noiLV": "Factory",
@@ -588,5 +588,15 @@
       "lydo": "Công tác TDM"
     }
   ],
-  "todayAbsences": []
+  "todayAbsences": [
+    {
+      "ngay": "27/05/2026",
+      "mnv": "426",
+      "hoTen": "Nguyễn Văn Hậu",
+      "noiLV": "Factory",
+      "to": "",
+      "loai": "Đi công tác",
+      "lydo": "Mua mũi mài cho Bác Ozaki"
+    }
+  ]
 }
