@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T01:18:07.281810",
+  "generatedAt": "2026-05-27T01:38:45.458370",
   "generatedDate": "27/05/2026",
   "totalEmployees": 57,
   "employees": [
@@ -550,6 +550,15 @@
       "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
+    },
+    {
+      "ngay": "27/05/2026",
+      "mnv": "462",
+      "hoTen": "Lê Văn Tùng",
+      "noiLV": "Factory",
+      "to": "WareHouse",
+      "loai": "Vắng không phép",
+      "lydo": ""
     }
   ],
   "todayAbsences": [
@@ -641,6 +650,15 @@
       "noiLV": "Factory",
       "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "27/05/2026",
+      "mnv": "462",
+      "hoTen": "Lê Văn Tùng",
+      "noiLV": "Factory",
+      "to": "WareHouse",
+      "loai": "Vắng không phép",
       "lydo": ""
     }
   ]
