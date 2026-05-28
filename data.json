@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T00:49:43.815578",
+  "generatedAt": "2026-05-28T01:08:57.089137",
   "generatedDate": "28/05/2026",
   "totalEmployees": 57,
   "employees": [
@@ -712,6 +712,42 @@
       "to": "Kinzoku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
+    },
+    {
+      "ngay": "28/05/2026",
+      "mnv": "127",
+      "hoTen": "Trần Thị Thu Trang",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "28/05/2026",
+      "mnv": "460",
+      "hoTen": "Trần Văn Hoàng",
+      "noiLV": "Factory",
+      "to": "Kinzoku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "28/05/2026",
+      "mnv": "3017",
+      "hoTen": "Hoàng Thị Thơ",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "9h vào công ty"
+    },
+    {
+      "ngay": "28/05/2026",
+      "mnv": "59",
+      "hoTen": "Đặng Kim Phụng",
+      "noiLV": "Factory",
+      "to": "Housei",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "13h vào công ty"
     }
   ],
   "todayAbsences": [
@@ -777,6 +813,42 @@
       "to": "Kinzoku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
+    },
+    {
+      "ngay": "28/05/2026",
+      "mnv": "127",
+      "hoTen": "Trần Thị Thu Trang",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "28/05/2026",
+      "mnv": "460",
+      "hoTen": "Trần Văn Hoàng",
+      "noiLV": "Factory",
+      "to": "Kinzoku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "28/05/2026",
+      "mnv": "3017",
+      "hoTen": "Hoàng Thị Thơ",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "9h vào công ty"
+    },
+    {
+      "ngay": "28/05/2026",
+      "mnv": "59",
+      "hoTen": "Đặng Kim Phụng",
+      "noiLV": "Factory",
+      "to": "Housei",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "13h vào công ty"
     }
   ]
 }
