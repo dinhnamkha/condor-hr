@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T00:39:50.359101",
+  "generatedAt": "2026-05-28T00:49:43.815578",
   "generatedDate": "28/05/2026",
   "totalEmployees": 57,
   "employees": [
@@ -685,6 +685,33 @@
       "to": "Product Control",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
+    },
+    {
+      "ngay": "28/05/2026",
+      "mnv": "46",
+      "hoTen": "Hoàng Thị Thanh Huyền",
+      "noiLV": "Office",
+      "to": "Office",
+      "loai": "Đi công tác",
+      "lydo": "Dipping móc treo VY3"
+    },
+    {
+      "ngay": "28/05/2026",
+      "mnv": "134",
+      "hoTen": "Nguyễn Minh Trí",
+      "noiLV": "Factory",
+      "to": "Product Control",
+      "loai": "Đi công tác",
+      "lydo": "Dipping móc treo VY3"
+    },
+    {
+      "ngay": "28/05/2026",
+      "mnv": "453",
+      "hoTen": "Trần Chí Nguyện",
+      "noiLV": "Factory",
+      "to": "Kinzoku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
     }
   ],
   "todayAbsences": [
@@ -722,6 +749,33 @@
       "noiLV": "Office",
       "to": "Office",
       "loai": "Telework",
+      "lydo": ""
+    },
+    {
+      "ngay": "28/05/2026",
+      "mnv": "46",
+      "hoTen": "Hoàng Thị Thanh Huyền",
+      "noiLV": "Office",
+      "to": "Office",
+      "loai": "Đi công tác",
+      "lydo": "Dipping móc treo VY3"
+    },
+    {
+      "ngay": "28/05/2026",
+      "mnv": "134",
+      "hoTen": "Nguyễn Minh Trí",
+      "noiLV": "Factory",
+      "to": "Product Control",
+      "loai": "Đi công tác",
+      "lydo": "Dipping móc treo VY3"
+    },
+    {
+      "ngay": "28/05/2026",
+      "mnv": "453",
+      "hoTen": "Trần Chí Nguyện",
+      "noiLV": "Factory",
+      "to": "Kinzoku",
+      "loai": "Nghỉ phép có phép",
       "lydo": ""
     }
   ]
