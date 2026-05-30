@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T01:25:35.375852",
+  "generatedAt": "2026-05-30T01:32:30.066565",
   "generatedDate": "30/05/2026",
   "totalEmployees": 57,
   "employees": [
@@ -829,6 +829,24 @@
       "to": "Product Control",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
+    },
+    {
+      "ngay": "30/05/2026",
+      "mnv": "460",
+      "hoTen": "Trần Văn Hoàng",
+      "noiLV": "Factory",
+      "to": "Kinzoku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "30/05/2026",
+      "mnv": "3052",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
+      "loai": "",
+      "lydo": ""
     }
   ],
   "todayAbsences": [
@@ -902,6 +920,24 @@
       "noiLV": "Factory",
       "to": "Product Control",
       "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "30/05/2026",
+      "mnv": "460",
+      "hoTen": "Trần Văn Hoàng",
+      "noiLV": "Factory",
+      "to": "Kinzoku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "30/05/2026",
+      "mnv": "3052",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
+      "loai": "",
       "lydo": ""
     }
   ]
