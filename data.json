@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-01T01:32:07.077424",
+  "generatedAt": "2026-06-01T01:37:55.319842",
   "generatedDate": "01/06/2026",
   "totalEmployees": 57,
   "employees": [
@@ -885,7 +885,7 @@
       "lydo": ""
     },
     {
-      "ngay": "",
+      "ngay": "01/06/2026",
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
@@ -894,20 +894,29 @@
       "lydo": ""
     },
     {
-      "ngay": "",
+      "ngay": "01/06/2026",
       "mnv": "412",
       "hoTen": "Nguyễn Chí Thanh",
       "noiLV": "Factory",
       "to": "Housei",
-      "loai": "",
+      "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
-      "ngay": "",
+      "ngay": "01/06/2026",
       "mnv": "394",
       "hoTen": "Lê Nhất Phương",
       "noiLV": "Factory",
       "to": "Product Control",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Từ 09:30~12:00"
+    },
+    {
+      "ngay": "01/06/2026",
+      "mnv": "462",
+      "hoTen": "Lê Văn Tùng",
+      "noiLV": "Factory",
+      "to": "WareHouse",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     }
@@ -950,7 +959,7 @@
       "lydo": ""
     },
     {
-      "ngay": "",
+      "ngay": "01/06/2026",
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
@@ -959,20 +968,29 @@
       "lydo": ""
     },
     {
-      "ngay": "",
+      "ngay": "01/06/2026",
       "mnv": "412",
       "hoTen": "Nguyễn Chí Thanh",
       "noiLV": "Factory",
       "to": "Housei",
-      "loai": "",
+      "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
-      "ngay": "",
+      "ngay": "01/06/2026",
       "mnv": "394",
       "hoTen": "Lê Nhất Phương",
       "noiLV": "Factory",
       "to": "Product Control",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Từ 09:30~12:00"
+    },
+    {
+      "ngay": "01/06/2026",
+      "mnv": "462",
+      "hoTen": "Lê Văn Tùng",
+      "noiLV": "Factory",
+      "to": "WareHouse",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     }
