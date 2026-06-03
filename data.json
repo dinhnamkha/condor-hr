@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-03T01:50:09.675804",
+  "generatedAt": "2026-06-03T01:54:48.840153",
   "generatedDate": "03/06/2026",
-  "totalEmployees": 57,
+  "totalEmployees": 58,
   "employees": [
     {
       "mnv": "1",
@@ -10,14 +10,6 @@
       "to": "Office",
       "noiLV": "Office",
       "chucvu": "1.General Manager"
-    },
-    {
-      "mnv": "14",
-      "phanloai": "CT",
-      "hoTen": "Nguyễn Thị Kim Oanh",
-      "to": "Housei",
-      "noiLV": "Factory",
-      "chucvu": "6.NV chất lượng LB"
     },
     {
       "mnv": "37",
@@ -245,7 +237,7 @@
     },
     {
       "mnv": "451",
-      "phanloai": "TV",
+      "phanloai": "CT",
       "hoTen": "Lê Công Cuộc",
       "to": "Product Control",
       "noiLV": "Factory",
@@ -314,6 +306,22 @@
       "to": "Kinzoku",
       "noiLV": "Factory",
       "chucvu": "7.Staff"
+    },
+    {
+      "mnv": "464",
+      "phanloai": "TV",
+      "hoTen": "Huỳnh Phát Đạt",
+      "to": "",
+      "noiLV": "",
+      "chucvu": ""
+    },
+    {
+      "mnv": "465",
+      "phanloai": "TV",
+      "hoTen": "Lê Kim Phụng",
+      "to": "",
+      "noiLV": "",
+      "chucvu": ""
     },
     {
       "mnv": "3001",
@@ -464,9 +472,9 @@
     {
       "ngay": "27/05/2026",
       "mnv": "14",
-      "hoTen": "Nguyễn Thị Kim Oanh",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -590,27 +598,27 @@
     {
       "ngay": "28/05/2026",
       "mnv": "14",
-      "hoTen": "Nguyễn Thị Kim Oanh",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "29/05/2026",
       "mnv": "14",
-      "hoTen": "Nguyễn Thị Kim Oanh",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "30/05/2026",
       "mnv": "14",
-      "hoTen": "Nguyễn Thị Kim Oanh",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
