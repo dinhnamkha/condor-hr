@@ -1,469 +1,469 @@
 {
-  "generatedAt": "2026-06-04T02:16:09.851239",
+  "generatedAt": "2026-06-04T02:17:49.747652",
   "generatedDate": "04/06/2026",
   "totalEmployees": 58,
   "employees": [
     {
       "mnv": "1",
       "phanloai": "CT",
-      "hoTen": "Hiếu",
-      "to": "",
+      "hoTen": "Võ Ngọc Hiếu",
+      "to": "Office",
       "noiLV": "Office",
       "chucvu": "1.General Manager"
     },
     {
       "mnv": "37",
       "phanloai": "CT",
-      "hoTen": "Mai",
-      "to": "",
+      "hoTen": "Phạm Thị Mai",
+      "to": "Housei",
       "noiLV": "Factory",
       "chucvu": "6.NV kỹ thuật LB"
     },
     {
       "mnv": "38",
       "phanloai": "CT",
-      "hoTen": "Huyền",
-      "to": "",
+      "hoTen": "Bùi Thị Bích Huyền",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
     },
     {
       "mnv": "46",
       "phanloai": "CT",
-      "hoTen": "Huyền",
-      "to": "",
+      "hoTen": "Hoàng Thị Thanh Huyền",
+      "to": "Office",
       "noiLV": "Office",
       "chucvu": "3.Manager C"
     },
     {
       "mnv": "47",
       "phanloai": "CT",
-      "hoTen": "Nga",
-      "to": "",
+      "hoTen": "Dương Thị Nga",
+      "to": "Housei",
       "noiLV": "Factory",
       "chucvu": "6.Leader A"
     },
     {
       "mnv": "59",
       "phanloai": "CT",
-      "hoTen": "Phụng",
-      "to": "",
+      "hoTen": "Đặng Kim Phụng",
+      "to": "Housei",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
     },
     {
       "mnv": "108",
       "phanloai": "CT",
-      "hoTen": "Coi",
-      "to": "",
+      "hoTen": "Trần Thị Coi",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "6.Leader A"
     },
     {
       "mnv": "127",
       "phanloai": "CT",
-      "hoTen": "Trang",
-      "to": "",
+      "hoTen": "Trần Thị Thu Trang",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "5.Supervisor A"
     },
     {
       "mnv": "132",
       "phanloai": "CT",
-      "hoTen": "Tùng",
-      "to": "",
+      "hoTen": "Hoàng Đình Thái Bình Tùng",
+      "to": "Office",
       "noiLV": "Office",
       "chucvu": "2.Senior Manager"
     },
     {
       "mnv": "134",
       "phanloai": "CT",
-      "hoTen": "Trí",
-      "to": "",
+      "hoTen": "Nguyễn Minh Trí",
+      "to": "Product Control",
       "noiLV": "Factory",
       "chucvu": "3.Manager B"
     },
     {
       "mnv": "154",
       "phanloai": "CT",
-      "hoTen": "Dũng",
-      "to": "",
+      "hoTen": "Bùi Văn Dũng",
+      "to": "Kinzoku",
       "noiLV": "Factory",
       "chucvu": "5.Phó Super Leader SA"
     },
     {
       "mnv": "160",
       "phanloai": "CT",
-      "hoTen": "Hiếu",
-      "to": "",
+      "hoTen": "Trương Ngọc Hiếu",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "6.NV kỹ thuật LA"
     },
     {
       "mnv": "175",
       "phanloai": "CT",
-      "hoTen": "Quỳnh",
-      "to": "",
+      "hoTen": "Nông Thị Quỳnh",
+      "to": "Office",
       "noiLV": "Office",
       "chucvu": "6.Leader A"
     },
     {
       "mnv": "183",
       "phanloai": "CT",
-      "hoTen": "Mai",
-      "to": "",
+      "hoTen": "Nguyễn Thị Ngọc Mai",
+      "to": "Office",
       "noiLV": "Office",
       "chucvu": "3.Manager B"
     },
     {
       "mnv": "207",
       "phanloai": "CT",
-      "hoTen": "Lan",
-      "to": "",
+      "hoTen": "Ninh Hoàng Lan",
+      "to": "Housei",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
     },
     {
       "mnv": "248",
       "phanloai": "CT",
-      "hoTen": "Quốc",
-      "to": "",
+      "hoTen": "Hà Trung Quốc",
+      "to": "Product Control",
       "noiLV": "Factory",
       "chucvu": "4.Chief B"
     },
     {
       "mnv": "269",
       "phanloai": "CT",
-      "hoTen": "Anh",
-      "to": "",
+      "hoTen": "Nguyễn Tuấn Anh",
+      "to": "Office",
       "noiLV": "Office",
       "chucvu": "7.Staff"
     },
     {
       "mnv": "305",
       "phanloai": "CT",
-      "hoTen": "Quốc",
-      "to": "",
+      "hoTen": "Trần Văn Quốc",
+      "to": "Kinzoku",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
     },
     {
       "mnv": "311",
       "phanloai": "CT",
-      "hoTen": "Linh",
-      "to": "",
+      "hoTen": "Nguyễn Trúc Linh",
+      "to": "Kinzoku",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
     },
     {
       "mnv": "317",
       "phanloai": "CT",
-      "hoTen": "Khánh",
-      "to": "",
+      "hoTen": "Ngô Quốc Khánh",
+      "to": "Kinzoku",
       "noiLV": "Factory",
       "chucvu": "6.NV kỹ thuật LA"
     },
     {
       "mnv": "343",
       "phanloai": "CT",
-      "hoTen": "Đạt",
-      "to": "",
+      "hoTen": "Bùi Tiến Đạt",
+      "to": "Office",
       "noiLV": "Office",
       "chucvu": "4.Chief B"
     },
     {
       "mnv": "345",
       "phanloai": "CT",
-      "hoTen": "Kha",
-      "to": "",
+      "hoTen": "Đinh Nam Kha",
+      "to": "Office",
       "noiLV": "Office",
       "chucvu": "4.Chief C"
     },
     {
       "mnv": "394",
       "phanloai": "CT",
-      "hoTen": "Phương",
-      "to": "",
+      "hoTen": "Lê Nhất Phương",
+      "to": "Product Control",
       "noiLV": "Factory",
       "chucvu": "3.Manager C"
     },
     {
       "mnv": "412",
       "phanloai": "CT",
-      "hoTen": "Thanh",
-      "to": "",
+      "hoTen": "Nguyễn Chí Thanh",
+      "to": "Housei",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
     },
     {
       "mnv": "426",
       "phanloai": "CT",
-      "hoTen": "Hậu",
-      "to": "",
+      "hoTen": "Nguyễn Văn Hậu",
+      "to": "Product Control",
       "noiLV": "Factory",
       "chucvu": "4.Chief B"
     },
     {
       "mnv": "437",
       "phanloai": "CT",
-      "hoTen": "Khuê",
-      "to": "",
+      "hoTen": "Hoàng Minh Khuê",
+      "to": "WareHouse",
       "noiLV": "Factory",
       "chucvu": "5.Supervisor C"
     },
     {
       "mnv": "438",
       "phanloai": "CT",
-      "hoTen": "Quang",
-      "to": "",
+      "hoTen": "Đặng Đình Quang",
+      "to": "Kinzoku",
       "noiLV": "Factory",
       "chucvu": "5.Super Leader SA"
     },
     {
       "mnv": "445",
       "phanloai": "CT",
-      "hoTen": "Phúc",
-      "to": "",
+      "hoTen": "Huỳnh Ngọc Phúc",
+      "to": "Office",
       "noiLV": "Office",
       "chucvu": "6.Leader A"
     },
     {
       "mnv": "448",
       "phanloai": "CT",
-      "hoTen": "Phe",
-      "to": "",
+      "hoTen": "Diệp Sa Phe",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
     },
     {
       "mnv": "451",
       "phanloai": "CT",
-      "hoTen": "Cuộc",
-      "to": "",
+      "hoTen": "Lê Công Cuộc",
+      "to": "Product Control",
       "noiLV": "Factory",
       "chucvu": "7.Staff"
     },
     {
       "mnv": "452",
       "phanloai": "CT",
-      "hoTen": "Đức",
-      "to": "",
+      "hoTen": "Nông Tiến Đức",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
     },
     {
       "mnv": "453",
       "phanloai": "CT",
-      "hoTen": "Nguyện",
-      "to": "",
+      "hoTen": "Trần Chí Nguyện",
+      "to": "Kinzoku",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
     },
     {
       "mnv": "456",
       "phanloai": "CT",
-      "hoTen": "Nghĩa",
-      "to": "",
+      "hoTen": "Trần Văn Nghĩa",
+      "to": "Kinzoku",
       "noiLV": "Factory",
       "chucvu": "7.Staff"
     },
     {
       "mnv": "459",
       "phanloai": "TV",
-      "hoTen": "Ánh",
-      "to": "",
+      "hoTen": "Trần Thị Ngọc Ánh",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
     },
     {
       "mnv": "460",
       "phanloai": "CT",
-      "hoTen": "Hoàng",
-      "to": "",
+      "hoTen": "Trần Văn Hoàng",
+      "to": "Kinzoku",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
       "mnv": "461",
       "phanloai": "TV",
-      "hoTen": "Hinh",
-      "to": "",
+      "hoTen": "Đoàn Ngọc Hinh",
+      "to": "Kinzoku",
       "noiLV": "Factory",
       "chucvu": "7.Staff"
     },
     {
       "mnv": "462",
       "phanloai": "TV",
-      "hoTen": "Tùng",
-      "to": "",
+      "hoTen": "Lê Văn Tùng",
+      "to": "WareHouse",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
       "mnv": "463",
       "phanloai": "TV",
-      "hoTen": "Trường",
-      "to": "",
+      "hoTen": "Lê Quang Trường",
+      "to": "Kinzoku",
       "noiLV": "Factory",
       "chucvu": "7.Staff"
     },
     {
       "mnv": "464",
       "phanloai": "TV",
-      "hoTen": "Đạt",
-      "to": "",
+      "hoTen": "Huỳnh Phát Đạt",
+      "to": "Kinzoku",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
       "mnv": "465",
       "phanloai": "TV",
-      "hoTen": "Phụng",
-      "to": "",
+      "hoTen": "Lê Kim Phụng",
+      "to": "Housei",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
       "mnv": "3001",
       "phanloai": "GCN",
-      "hoTen": "Hằng",
-      "to": "",
+      "hoTen": "Trần Thị Thu Hằng",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
       "mnv": "3003",
       "phanloai": "GCN",
-      "hoTen": "Mộng",
-      "to": "",
+      "hoTen": "Bùi Thị Mộng",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
       "mnv": "3016",
       "phanloai": "GCN",
-      "hoTen": "Lan",
-      "to": "",
+      "hoTen": "Danh Thị Lan",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
       "mnv": "3017",
       "phanloai": "GCN",
-      "hoTen": "Thơ",
-      "to": "",
+      "hoTen": "Hoàng Thị Thơ",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
       "mnv": "3031",
       "phanloai": "GCN",
-      "hoTen": "Trinh",
-      "to": "",
+      "hoTen": "Bùi Thị Trinh",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
       "mnv": "3032",
       "phanloai": "GCN",
-      "hoTen": "Điệp",
-      "to": "",
+      "hoTen": "Phạm Thị Điệp",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
       "mnv": "3034",
       "phanloai": "GCN",
-      "hoTen": "Hoa",
-      "to": "",
+      "hoTen": "Bùi Thị Hoa",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
       "mnv": "3035",
       "phanloai": "GCN",
-      "hoTen": "Diệu",
-      "to": "",
+      "hoTen": "Nguyễn Thị Diệu",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
       "mnv": "3041",
       "phanloai": "GCN",
-      "hoTen": "My",
-      "to": "",
+      "hoTen": "Trương Thị Diễm My",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
       "mnv": "3052",
       "phanloai": "GCN",
-      "hoTen": "Lành",
-      "to": "",
+      "hoTen": "Bùi Thị Lành",
+      "to": "Housei",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
       "mnv": "3053",
       "phanloai": "GCN",
-      "hoTen": "Tình",
-      "to": "",
+      "hoTen": "Nguyễn Thị Tình",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
       "mnv": "3060",
       "phanloai": "GCN",
-      "hoTen": "Huy",
-      "to": "",
+      "hoTen": "Nguyễn Ngô Kiến Huy",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
       "mnv": "3062",
       "phanloai": "GCN",
-      "hoTen": "Đường",
-      "to": "",
+      "hoTen": "Nguyễn Minh Đường",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
       "mnv": "3063",
       "phanloai": "GCN",
-      "hoTen": "Chi",
-      "to": "",
+      "hoTen": "Đỗ Thị Diễm Chi",
+      "to": "Housei",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
       "mnv": "3068",
       "phanloai": "GCN",
-      "hoTen": "Hải",
-      "to": "",
+      "hoTen": "Nguyễn Văn Hải",
+      "to": "Housei",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
       "mnv": "3069",
       "phanloai": "GCN",
-      "hoTen": "Hằng",
-      "to": "",
+      "hoTen": "Võ Thuý Hằng",
+      "to": "Housei",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
       "mnv": "3073",
       "phanloai": "GCN",
-      "hoTen": "Tuyết",
-      "to": "",
+      "hoTen": "Đỗ Thị Diễm Tuyết",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     },
     {
       "mnv": "3074",
       "phanloai": "GCN",
-      "hoTen": "Hoà",
-      "to": "",
+      "hoTen": "Lê Phước Hoà",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "9.Worker Net"
     }
@@ -483,7 +483,7 @@
       "mnv": "37",
       "hoTen": "Phạm Thị Mai",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Housei",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -492,7 +492,7 @@
       "mnv": "460",
       "hoTen": "Trần Văn Hoàng",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Kinzoku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -501,7 +501,7 @@
       "mnv": "46",
       "hoTen": "Hoàng Thị Thanh Huyền",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -510,7 +510,7 @@
       "mnv": "1",
       "hoTen": "Võ Ngọc Hiếu",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Đi công tác",
       "lydo": "Công tác TDM"
     },
@@ -519,7 +519,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -528,7 +528,7 @@
       "mnv": "426",
       "hoTen": "Nguyễn Văn Hậu",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Product Control",
       "loai": "Đi công tác",
       "lydo": "Mua mũi mài cho Bác Ozaki"
     },
@@ -537,7 +537,7 @@
       "mnv": "160",
       "hoTen": "Trương Ngọc Hiếu",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -546,7 +546,7 @@
       "mnv": "3060",
       "hoTen": "Nguyễn Ngô Kiến Huy",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Purasuchikku",
       "loai": "Vắng không phép",
       "lydo": ""
     },
@@ -555,7 +555,7 @@
       "mnv": "3017",
       "hoTen": "Hoàng Thị Thơ",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -564,7 +564,7 @@
       "mnv": "462",
       "hoTen": "Lê Văn Tùng",
       "noiLV": "Factory",
-      "to": "",
+      "to": "WareHouse",
       "loai": "Vắng không phép",
       "lydo": ""
     },
@@ -573,7 +573,7 @@
       "mnv": "160",
       "hoTen": "Trương Ngọc Hiếu",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -582,7 +582,7 @@
       "mnv": "160",
       "hoTen": "Trương Ngọc Hiếu",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -591,7 +591,7 @@
       "mnv": "160",
       "hoTen": "Trương Ngọc Hiếu",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -627,7 +627,7 @@
       "mnv": "37",
       "hoTen": "Phạm Thị Mai",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Housei",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -636,7 +636,7 @@
       "mnv": "37",
       "hoTen": "Phạm Thị Mai",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Housei",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -645,7 +645,7 @@
       "mnv": "37",
       "hoTen": "Phạm Thị Mai",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Housei",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -654,7 +654,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -663,7 +663,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -672,7 +672,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -681,7 +681,7 @@
       "mnv": "46",
       "hoTen": "Hoàng Thị Thanh Huyền",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Đi công tác",
       "lydo": "Dipping móc treo VY3"
     },
@@ -690,7 +690,7 @@
       "mnv": "134",
       "hoTen": "Nguyễn Minh Trí",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Product Control",
       "loai": "Đi công tác",
       "lydo": "Dipping móc treo VY3"
     },
@@ -699,7 +699,7 @@
       "mnv": "453",
       "hoTen": "Trần Chí Nguyện",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Kinzoku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -708,7 +708,7 @@
       "mnv": "127",
       "hoTen": "Trần Thị Thu Trang",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -717,7 +717,7 @@
       "mnv": "460",
       "hoTen": "Trần Văn Hoàng",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Kinzoku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -726,7 +726,7 @@
       "mnv": "3017",
       "hoTen": "Hoàng Thị Thơ",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": "9h vào công ty"
     },
@@ -735,7 +735,7 @@
       "mnv": "59",
       "hoTen": "Đặng Kim Phụng",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Housei",
       "loai": "Nghỉ phép có phép",
       "lydo": "13h vào công ty"
     },
@@ -744,7 +744,7 @@
       "mnv": "3073",
       "hoTen": "Đỗ Thị Diễm Tuyết",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -753,7 +753,7 @@
       "mnv": "343",
       "hoTen": "Bùi Tiến Đạt",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -762,7 +762,7 @@
       "mnv": "343",
       "hoTen": "Bùi Tiến Đạt",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -771,7 +771,7 @@
       "mnv": "460",
       "hoTen": "Trần Văn Hoàng",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Kinzoku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -780,7 +780,7 @@
       "mnv": "3035",
       "hoTen": "Nguyễn Thị Diệu",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -789,7 +789,7 @@
       "mnv": "3041",
       "hoTen": "Trương Thị Diễm My",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": "13:00 vào công ty"
     },
@@ -798,7 +798,7 @@
       "mnv": "134",
       "hoTen": "Nguyễn Minh Trí",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Product Control",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -807,7 +807,7 @@
       "mnv": "132",
       "hoTen": "Hoàng Đình Thái Bình Tùng",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -816,7 +816,7 @@
       "mnv": "248",
       "hoTen": "Hà Trung Quốc",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Product Control",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -825,7 +825,7 @@
       "mnv": "460",
       "hoTen": "Trần Văn Hoàng",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Kinzoku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -834,7 +834,7 @@
       "mnv": "3052",
       "hoTen": "Bùi Thị Lành",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Housei",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -843,7 +843,7 @@
       "mnv": "462",
       "hoTen": "Lê Văn Tùng",
       "noiLV": "Factory",
-      "to": "",
+      "to": "WareHouse",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -852,7 +852,7 @@
       "mnv": "183",
       "hoTen": "Nguyễn Thị Ngọc Mai",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -861,7 +861,7 @@
       "mnv": "160",
       "hoTen": "Trương Ngọc Hiếu",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -870,7 +870,7 @@
       "mnv": "108",
       "hoTen": "Trần Thị Coi",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -879,7 +879,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -888,7 +888,7 @@
       "mnv": "412",
       "hoTen": "Nguyễn Chí Thanh",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Housei",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -897,7 +897,7 @@
       "mnv": "394",
       "hoTen": "Lê Nhất Phương",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Product Control",
       "loai": "Nghỉ phép có phép",
       "lydo": "Từ 09:30~12:00"
     },
@@ -906,7 +906,7 @@
       "mnv": "462",
       "hoTen": "Lê Văn Tùng",
       "noiLV": "Factory",
-      "to": "",
+      "to": "WareHouse",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -915,7 +915,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -924,7 +924,7 @@
       "mnv": "343",
       "hoTen": "Bùi Tiến Đạt",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -933,7 +933,7 @@
       "mnv": "394",
       "hoTen": "Lê Nhất Phương",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Product Control",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -942,7 +942,7 @@
       "mnv": "160",
       "hoTen": "Trương Ngọc Hiếu",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -951,7 +951,7 @@
       "mnv": "108",
       "hoTen": "Trần Thị Coi",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -960,7 +960,7 @@
       "mnv": "311",
       "hoTen": "Nguyễn Trúc Linh",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Kinzoku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -969,7 +969,7 @@
       "mnv": "463",
       "hoTen": "Lê Quang Trường",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Kinzoku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -978,7 +978,7 @@
       "mnv": "3068",
       "hoTen": "Nguyễn Văn Hải",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Housei",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -987,7 +987,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -996,7 +996,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1005,7 +1005,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1014,7 +1014,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1023,7 +1023,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1032,7 +1032,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1041,7 +1041,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1050,7 +1050,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1059,7 +1059,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1068,7 +1068,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1077,7 +1077,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1086,7 +1086,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1095,7 +1095,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1104,7 +1104,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1113,7 +1113,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1122,7 +1122,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1131,7 +1131,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1140,7 +1140,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1149,7 +1149,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1158,7 +1158,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1167,7 +1167,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1176,7 +1176,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1185,7 +1185,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1194,7 +1194,7 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     },
@@ -1203,7 +1203,7 @@
       "mnv": "343",
       "hoTen": "Bùi Tiến Đạt",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Đi công tác",
       "lydo": "Công tác An Lập"
     },
@@ -1212,7 +1212,7 @@
       "mnv": "134",
       "hoTen": "Nguyễn Minh Trí",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Product Control",
       "loai": "Đi công tác",
       "lydo": "Công tác An Lập"
     },
@@ -1221,7 +1221,7 @@
       "mnv": "1",
       "hoTen": "Võ Ngọc Hiếu",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
       "loai": "Đi công tác",
       "lydo": "Công tác An Lập"
     },
@@ -1230,7 +1230,7 @@
       "mnv": "426",
       "hoTen": "Nguyễn Văn Hậu",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Product Control",
       "loai": "Đi công tác",
       "lydo": "Công tác An Lập"
     },
@@ -1239,7 +1239,7 @@
       "mnv": "311",
       "hoTen": "Nguyễn Trúc Linh",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Kinzoku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -1248,7 +1248,7 @@
       "mnv": "160",
       "hoTen": "Trương Ngọc Hiếu",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -1257,7 +1257,7 @@
       "mnv": "3068",
       "hoTen": "Nguyễn Văn Hải",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Housei",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -1266,8 +1266,35 @@
       "mnv": "453",
       "hoTen": "Trần Chí Nguyện",
       "noiLV": "Factory",
-      "to": "",
+      "to": "Kinzoku",
       "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "04/06/2026",
+      "mnv": "3068",
+      "hoTen": "Nguyễn Văn Hải",
+      "noiLV": "Factory",
+      "to": "Housei",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "04/06/2026",
+      "mnv": "160",
+      "hoTen": "Trương Ngọc Hiếu",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "04/06/2026",
+      "mnv": "343",
+      "hoTen": "Bùi Tiến Đạt",
+      "noiLV": "Office",
+      "to": "Office",
+      "loai": "Telework",
       "lydo": ""
     }
   ],
@@ -1277,7 +1304,34 @@
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
-      "to": "",
+      "to": "Office",
+      "loai": "Telework",
+      "lydo": ""
+    },
+    {
+      "ngay": "04/06/2026",
+      "mnv": "3068",
+      "hoTen": "Nguyễn Văn Hải",
+      "noiLV": "Factory",
+      "to": "Housei",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "04/06/2026",
+      "mnv": "160",
+      "hoTen": "Trương Ngọc Hiếu",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "04/06/2026",
+      "mnv": "343",
+      "hoTen": "Bùi Tiến Đạt",
+      "noiLV": "Office",
+      "to": "Office",
       "loai": "Telework",
       "lydo": ""
     }
