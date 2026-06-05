@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-05T02:38:32.734250",
+  "generatedAt": "2026-06-05T02:44:47.205963",
   "generatedDate": "05/06/2026",
-  "totalEmployees": 61,
+  "totalEmployees": 62,
   "employees": [
     {
       "mnv": "1",
@@ -313,7 +313,7 @@
       "hoTen": "Huỳnh Phát Đạt",
       "to": "Kinzoku",
       "noiLV": "Factory",
-      "chucvu": "9.Worker Net"
+      "chucvu": "7.Staff"
     },
     {
       "mnv": "465",
@@ -321,7 +321,7 @@
       "hoTen": "Lê Kim Phụng",
       "to": "Housei",
       "noiLV": "Factory",
-      "chucvu": "9.Worker Net"
+      "chucvu": "8.Worker Gross"
     },
     {
       "mnv": "468",
@@ -329,7 +329,7 @@
       "hoTen": "Đào Ngọc Hẹ",
       "to": "Housei",
       "noiLV": "Factory",
-      "chucvu": "9.Worker Net"
+      "chucvu": "8.Worker Gross"
     },
     {
       "mnv": "469",
@@ -337,7 +337,7 @@
       "hoTen": "Trần Thị Thuỳ Linh",
       "to": "Housei",
       "noiLV": "Factory",
-      "chucvu": "9.Worker Net"
+      "chucvu": "8.Worker Gross"
     },
     {
       "mnv": "471",
@@ -345,7 +345,15 @@
       "hoTen": "Lê Thế Nghiêm",
       "to": "Housei",
       "noiLV": "Factory",
-      "chucvu": "9.Worker Net"
+      "chucvu": "8.Worker Gross"
+    },
+    {
+      "mnv": "472",
+      "phanloai": "TV",
+      "hoTen": "Nguyễn Thị Mỷ Hiền",
+      "to": "Housei",
+      "noiLV": "Factory",
+      "chucvu": "8.Worker Gross"
     },
     {
       "mnv": "3001",
