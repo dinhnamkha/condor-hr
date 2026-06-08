@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-06T03:04:46.224092",
-  "generatedDate": "06/06/2026",
+  "generatedAt": "2026-06-08T08:31:13.388741",
+  "generatedDate": "08/06/2026",
   "totalEmployees": 62,
   "employees": [
     {
@@ -1242,7 +1242,7 @@
   ],
   "todayAbsences": [
     {
-      "ngay": "06/06/2026",
+      "ngay": "08/06/2026",
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
@@ -1251,39 +1251,12 @@
       "lydo": ""
     },
     {
-      "ngay": "06/06/2026",
+      "ngay": "08/06/2026",
       "mnv": "37",
       "hoTen": "Phạm Thị Mai",
       "noiLV": "Factory",
       "to": "Housei",
       "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "06/06/2026",
-      "mnv": "160",
-      "hoTen": "Trương Ngọc Hiếu",
-      "noiLV": "Factory",
-      "to": "Purasuchikku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "06/06/2026",
-      "mnv": "3068",
-      "hoTen": "Nguyễn Văn Hải",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "06/06/2026",
-      "mnv": "343",
-      "hoTen": "Bùi Tiến Đạt",
-      "noiLV": "Office",
-      "to": "Office",
-      "loai": "Telework",
       "lydo": ""
     }
   ]
