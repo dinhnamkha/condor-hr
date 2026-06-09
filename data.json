@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-08T08:31:13.388741",
-  "generatedDate": "08/06/2026",
+  "generatedAt": "2026-06-09T01:47:46.364347",
+  "generatedDate": "09/06/2026",
   "totalEmployees": 62,
   "employees": [
     {
@@ -1238,11 +1238,146 @@
       "to": "Office",
       "loai": "Telework",
       "lydo": ""
+    },
+    {
+      "ngay": "08/06/2026",
+      "mnv": "343",
+      "hoTen": "Bùi Tiến Đạt",
+      "noiLV": "Office",
+      "to": "Office",
+      "loai": "Telework",
+      "lydo": ""
+    },
+    {
+      "ngay": "08/06/2026",
+      "mnv": "3068",
+      "hoTen": "Nguyễn Văn Hải",
+      "noiLV": "Factory",
+      "to": "Housei",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "08/06/2026",
+      "mnv": "38",
+      "hoTen": "Bùi Thị Bích Huyền",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3001",
+      "hoTen": "Trần Thị Thu Hằng",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3003",
+      "hoTen": "Bùi Thị Mộng",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3016",
+      "hoTen": "Danh Thị Lan",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3017",
+      "hoTen": "Hoàng Thị Thơ",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3031",
+      "hoTen": "Bùi Thị Trinh",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3032",
+      "hoTen": "Phạm Thị Điệp",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3034",
+      "hoTen": "Bùi Thị Hoa",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3035",
+      "hoTen": "Nguyễn Thị Diệu",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3041",
+      "hoTen": "Trương Thị Diễm My",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3053",
+      "hoTen": "Nguyễn Thị Tình",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3073",
+      "hoTen": "Đỗ Thị Diễm Tuyết",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3074",
+      "hoTen": "Lê Phước Hoà",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
     }
   ],
   "todayAbsences": [
     {
-      "ngay": "08/06/2026",
+      "ngay": "09/06/2026",
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
@@ -1251,13 +1386,121 @@
       "lydo": ""
     },
     {
-      "ngay": "08/06/2026",
+      "ngay": "09/06/2026",
       "mnv": "37",
       "hoTen": "Phạm Thị Mai",
       "noiLV": "Factory",
       "to": "Housei",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3001",
+      "hoTen": "Trần Thị Thu Hằng",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3003",
+      "hoTen": "Bùi Thị Mộng",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3016",
+      "hoTen": "Danh Thị Lan",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3017",
+      "hoTen": "Hoàng Thị Thơ",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3031",
+      "hoTen": "Bùi Thị Trinh",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3032",
+      "hoTen": "Phạm Thị Điệp",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3034",
+      "hoTen": "Bùi Thị Hoa",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3035",
+      "hoTen": "Nguyễn Thị Diệu",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3041",
+      "hoTen": "Trương Thị Diễm My",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3053",
+      "hoTen": "Nguyễn Thị Tình",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3073",
+      "hoTen": "Đỗ Thị Diễm Tuyết",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
+    },
+    {
+      "ngay": "09/06/2026",
+      "mnv": "3074",
+      "hoTen": "Lê Phước Hoà",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Hết NVL"
     }
   ]
 }
