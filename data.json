@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-10T01:36:19.441898",
-  "generatedDate": "10/06/2026",
+  "generatedAt": "2026-06-11T01:31:19.612059",
+  "generatedDate": "11/06/2026",
   "totalEmployees": 63,
   "employees": [
     {
@@ -1525,35 +1525,6 @@
       "to": "Office",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
-    }
-  ],
-  "todayAbsences": [
-    {
-      "ngay": "10/06/2026",
-      "mnv": "175",
-      "hoTen": "Nông Thị Quỳnh",
-      "noiLV": "Office",
-      "to": "Office",
-      "loai": "Telework",
-      "lydo": ""
-    },
-    {
-      "ngay": "10/06/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "10/06/2026",
-      "mnv": "38",
-      "hoTen": "Bùi Thị Bích Huyền",
-      "noiLV": "Factory",
-      "to": "Purasuchikku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
     },
     {
       "ngay": "10/06/2026",
@@ -1662,31 +1633,24 @@
       "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": "Hết NVL"
-    },
+    }
+  ],
+  "todayAbsences": [
     {
-      "ngay": "10/06/2026",
-      "mnv": "3068",
-      "hoTen": "Nguyễn Văn Hải",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "10/06/2026",
-      "mnv": "3069",
-      "hoTen": "Võ Thuý Hằng",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "10/06/2026",
-      "mnv": "46",
-      "hoTen": "Hoàng Thị Thanh Huyền",
+      "ngay": "11/06/2026",
+      "mnv": "175",
+      "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
       "to": "Office",
+      "loai": "Telework",
+      "lydo": ""
+    },
+    {
+      "ngay": "11/06/2026",
+      "mnv": "37",
+      "hoTen": "Phạm Thị Mai",
+      "noiLV": "Factory",
+      "to": "Housei",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     }
