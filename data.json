@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-12T03:27:02.901117",
-  "generatedDate": "12/06/2026",
-  "totalEmployees": 63,
+  "generatedAt": "2026-06-15T01:39:40.671134",
+  "generatedDate": "15/06/2026",
+  "totalEmployees": 62,
   "employees": [
     {
       "mnv": "1",
@@ -351,14 +351,6 @@
       "mnv": "474",
       "phanloai": "TV",
       "hoTen": "Trương Thanh Phong",
-      "to": "Kinzoku",
-      "noiLV": "Factory",
-      "chucvu": "8.Worker Gross"
-    },
-    {
-      "mnv": "475",
-      "phanloai": "TV",
-      "hoTen": "Lê Văn Dương",
       "to": "Kinzoku",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
@@ -1813,11 +1805,65 @@
       "to": "Office",
       "loai": "Đi công tác",
       "lydo": ""
+    },
+    {
+      "ngay": "13/06/2026",
+      "mnv": "343",
+      "hoTen": "Bùi Tiến Đạt",
+      "noiLV": "Office",
+      "to": "Office",
+      "loai": "Telework",
+      "lydo": ""
+    },
+    {
+      "ngay": "13/06/2026",
+      "mnv": "311",
+      "hoTen": "Nguyễn Trúc Linh",
+      "noiLV": "Factory",
+      "to": "Kinzoku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "13/06/2026",
+      "mnv": "3041",
+      "hoTen": "Trương Thị Diễm My",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "13/06/2026",
+      "mnv": "3053",
+      "hoTen": "Nguyễn Thị Tình",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "15/06/2026",
+      "mnv": "453",
+      "hoTen": "Trần Chí Nguyện",
+      "noiLV": "Factory",
+      "to": "Kinzoku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "15/06/2026",
+      "mnv": "463",
+      "hoTen": "Lê Quang Trường",
+      "noiLV": "Factory",
+      "to": "Kinzoku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
     }
   ],
   "todayAbsences": [
     {
-      "ngay": "12/06/2026",
+      "ngay": "15/06/2026",
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
@@ -1826,7 +1872,7 @@
       "lydo": ""
     },
     {
-      "ngay": "12/06/2026",
+      "ngay": "15/06/2026",
       "mnv": "37",
       "hoTen": "Phạm Thị Mai",
       "noiLV": "Factory",
@@ -1835,156 +1881,21 @@
       "lydo": ""
     },
     {
-      "ngay": "12/06/2026",
-      "mnv": "3001",
-      "hoTen": "Trần Thị Thu Hằng",
+      "ngay": "15/06/2026",
+      "mnv": "453",
+      "hoTen": "Trần Chí Nguyện",
       "noiLV": "Factory",
-      "to": "Purasuchikku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": "Hết NVL"
-    },
-    {
-      "ngay": "12/06/2026",
-      "mnv": "3003",
-      "hoTen": "Bùi Thị Mộng",
-      "noiLV": "Factory",
-      "to": "Purasuchikku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": "Hết NVL"
-    },
-    {
-      "ngay": "12/06/2026",
-      "mnv": "3016",
-      "hoTen": "Danh Thị Lan",
-      "noiLV": "Factory",
-      "to": "Purasuchikku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": "Hết NVL"
-    },
-    {
-      "ngay": "12/06/2026",
-      "mnv": "3017",
-      "hoTen": "Hoàng Thị Thơ",
-      "noiLV": "Factory",
-      "to": "Purasuchikku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": "Hết NVL"
-    },
-    {
-      "ngay": "12/06/2026",
-      "mnv": "3031",
-      "hoTen": "Bùi Thị Trinh",
-      "noiLV": "Factory",
-      "to": "Purasuchikku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": "Hết NVL"
-    },
-    {
-      "ngay": "12/06/2026",
-      "mnv": "3032",
-      "hoTen": "Phạm Thị Điệp",
-      "noiLV": "Factory",
-      "to": "Purasuchikku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": "Hết NVL"
-    },
-    {
-      "ngay": "12/06/2026",
-      "mnv": "3034",
-      "hoTen": "Bùi Thị Hoa",
-      "noiLV": "Factory",
-      "to": "Purasuchikku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": "Hết NVL"
-    },
-    {
-      "ngay": "12/06/2026",
-      "mnv": "3035",
-      "hoTen": "Nguyễn Thị Diệu",
-      "noiLV": "Factory",
-      "to": "Purasuchikku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": "Hết NVL"
-    },
-    {
-      "ngay": "12/06/2026",
-      "mnv": "3041",
-      "hoTen": "Trương Thị Diễm My",
-      "noiLV": "Factory",
-      "to": "Purasuchikku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": "Hết NVL"
-    },
-    {
-      "ngay": "12/06/2026",
-      "mnv": "3053",
-      "hoTen": "Nguyễn Thị Tình",
-      "noiLV": "Factory",
-      "to": "Purasuchikku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": "Hết NVL"
-    },
-    {
-      "ngay": "12/06/2026",
-      "mnv": "3073",
-      "hoTen": "Đỗ Thị Diễm Tuyết",
-      "noiLV": "Factory",
-      "to": "Purasuchikku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": "Hết NVL"
-    },
-    {
-      "ngay": "12/06/2026",
-      "mnv": "3074",
-      "hoTen": "Lê Phước Hoà",
-      "noiLV": "Factory",
-      "to": "Purasuchikku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": "Hết NVL"
-    },
-    {
-      "ngay": "12/06/2026",
-      "mnv": "38",
-      "hoTen": "Bùi Thị Bích Huyền",
-      "noiLV": "Factory",
-      "to": "Purasuchikku",
+      "to": "Kinzoku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
-      "ngay": "12/06/2026",
-      "mnv": "471",
-      "hoTen": "Lê Thế Nghiêm",
+      "ngay": "15/06/2026",
+      "mnv": "463",
+      "hoTen": "Lê Quang Trường",
       "noiLV": "Factory",
-      "to": "Housei",
+      "to": "Kinzoku",
       "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "12/06/2026",
-      "mnv": "452",
-      "hoTen": "Nông Tiến Đức",
-      "noiLV": "Factory",
-      "to": "Purasuchikku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "12/06/2026",
-      "mnv": "1",
-      "hoTen": "Võ Ngọc Hiếu",
-      "noiLV": "Office",
-      "to": "Office",
-      "loai": "Đi công tác",
-      "lydo": ""
-    },
-    {
-      "ngay": "12/06/2026",
-      "mnv": "183",
-      "hoTen": "Nguyễn Thị Ngọc Mai",
-      "noiLV": "Office",
-      "to": "Office",
-      "loai": "Đi công tác",
       "lydo": ""
     }
   ]
