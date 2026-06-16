@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T03:39:50.928162",
+  "generatedAt": "2026-06-16T03:40:32.990844",
   "generatedDate": "16/06/2026",
   "totalEmployees": 62,
   "employees": [
@@ -1886,6 +1886,15 @@
       "to": "Housei",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
+    },
+    {
+      "ngay": "16/06/2026",
+      "mnv": "445",
+      "hoTen": "Huỳnh Ngọc Phúc",
+      "noiLV": "Office",
+      "to": "Office",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
     }
   ],
   "todayAbsences": [
@@ -1931,6 +1940,15 @@
       "hoTen": "Nguyễn Thị Phương",
       "noiLV": "Factory",
       "to": "Housei",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "16/06/2026",
+      "mnv": "445",
+      "hoTen": "Huỳnh Ngọc Phúc",
+      "noiLV": "Office",
+      "to": "Office",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     }
