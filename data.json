@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-15T01:43:27.028276",
-  "generatedDate": "15/06/2026",
+  "generatedAt": "2026-06-16T03:35:58.701931",
+  "generatedDate": "16/06/2026",
   "totalEmployees": 62,
   "employees": [
     {
@@ -119,7 +119,7 @@
       "mnv": "207",
       "phanloai": "CT",
       "hoTen": "Ninh Hoàng Lan",
-      "to": "Housei",
+      "to": "Purasuchikku",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
     },
@@ -1863,7 +1863,7 @@
   ],
   "todayAbsences": [
     {
-      "ngay": "15/06/2026",
+      "ngay": "16/06/2026",
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
@@ -1872,29 +1872,11 @@
       "lydo": ""
     },
     {
-      "ngay": "15/06/2026",
+      "ngay": "16/06/2026",
       "mnv": "37",
       "hoTen": "Phạm Thị Mai",
       "noiLV": "Factory",
       "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "15/06/2026",
-      "mnv": "453",
-      "hoTen": "Trần Chí Nguyện",
-      "noiLV": "Factory",
-      "to": "Kinzoku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "15/06/2026",
-      "mnv": "463",
-      "hoTen": "Lê Quang Trường",
-      "noiLV": "Factory",
-      "to": "Kinzoku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     }
