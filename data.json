@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T03:35:58.701931",
+  "generatedAt": "2026-06-16T03:38:59.348388",
   "generatedDate": "16/06/2026",
   "totalEmployees": 62,
   "employees": [
@@ -1859,6 +1859,33 @@
       "to": "Kinzoku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
+    },
+    {
+      "ngay": "16/06/2026",
+      "mnv": "463",
+      "hoTen": "Lê Quang Trường",
+      "noiLV": "Factory",
+      "to": "Kinzoku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "16/06/2026",
+      "mnv": "426",
+      "hoTen": "Nguyễn Văn Hậu",
+      "noiLV": "Factory",
+      "to": "Product Control",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "16/06/2026",
+      "mnv": "473",
+      "hoTen": "Nguyễn Thị Phương",
+      "noiLV": "Factory",
+      "to": "Housei",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
     }
   ],
   "todayAbsences": [
@@ -1875,6 +1902,33 @@
       "ngay": "16/06/2026",
       "mnv": "37",
       "hoTen": "Phạm Thị Mai",
+      "noiLV": "Factory",
+      "to": "Housei",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "16/06/2026",
+      "mnv": "463",
+      "hoTen": "Lê Quang Trường",
+      "noiLV": "Factory",
+      "to": "Kinzoku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "16/06/2026",
+      "mnv": "426",
+      "hoTen": "Nguyễn Văn Hậu",
+      "noiLV": "Factory",
+      "to": "Product Control",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "16/06/2026",
+      "mnv": "473",
+      "hoTen": "Nguyễn Thị Phương",
       "noiLV": "Factory",
       "to": "Housei",
       "loai": "Nghỉ phép có phép",
