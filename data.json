@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-16T03:41:27.038292",
-  "generatedDate": "16/06/2026",
+  "generatedAt": "2026-06-17T02:15:06.362298",
+  "generatedDate": "17/06/2026",
   "totalEmployees": 62,
   "employees": [
     {
@@ -1895,47 +1895,9 @@
       "to": "Office",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
-    }
-  ],
-  "todayAbsences": [
-    {
-      "ngay": "16/06/2026",
-      "mnv": "175",
-      "hoTen": "Nông Thị Quỳnh",
-      "noiLV": "Office",
-      "to": "Office",
-      "loai": "Telework",
-      "lydo": ""
     },
     {
-      "ngay": "16/06/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "16/06/2026",
-      "mnv": "463",
-      "hoTen": "Lê Quang Trường",
-      "noiLV": "Factory",
-      "to": "Kinzoku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "16/06/2026",
-      "mnv": "426",
-      "hoTen": "Nguyễn Văn Hậu",
-      "noiLV": "Factory",
-      "to": "Product Control",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "16/06/2026",
+      "ngay": "17/06/2026",
       "mnv": "473",
       "hoTen": "Nguyễn Thị Phương",
       "noiLV": "Factory",
@@ -1944,13 +1906,87 @@
       "lydo": ""
     },
     {
-      "ngay": "16/06/2026",
-      "mnv": "445",
-      "hoTen": "Huỳnh Ngọc Phúc",
+      "ngay": "17/06/2026",
+      "mnv": "1",
+      "hoTen": "Võ Ngọc Hiếu",
+      "noiLV": "Office",
+      "to": "Office",
+      "loai": "Đi công tác",
+      "lydo": ""
+    },
+    {
+      "ngay": "17/06/2026",
+      "mnv": "426",
+      "hoTen": "Nguyễn Văn Hậu",
+      "noiLV": "Factory",
+      "to": "Product Control",
+      "loai": "Đi công tác",
+      "lydo": ""
+    },
+    {
+      "ngay": "17/06/2026",
+      "mnv": "343",
+      "hoTen": "Bùi Tiến Đạt",
       "noiLV": "Office",
       "to": "Office",
       "loai": "Nghỉ phép có phép",
+      "lydo": "Đi trễ từ 8h~10h"
+    }
+  ],
+  "todayAbsences": [
+    {
+      "ngay": "17/06/2026",
+      "mnv": "175",
+      "hoTen": "Nông Thị Quỳnh",
+      "noiLV": "Office",
+      "to": "Office",
+      "loai": "Telework",
       "lydo": ""
+    },
+    {
+      "ngay": "17/06/2026",
+      "mnv": "37",
+      "hoTen": "Phạm Thị Mai",
+      "noiLV": "Factory",
+      "to": "Housei",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "17/06/2026",
+      "mnv": "473",
+      "hoTen": "Nguyễn Thị Phương",
+      "noiLV": "Factory",
+      "to": "Housei",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "17/06/2026",
+      "mnv": "1",
+      "hoTen": "Võ Ngọc Hiếu",
+      "noiLV": "Office",
+      "to": "Office",
+      "loai": "Đi công tác",
+      "lydo": ""
+    },
+    {
+      "ngay": "17/06/2026",
+      "mnv": "426",
+      "hoTen": "Nguyễn Văn Hậu",
+      "noiLV": "Factory",
+      "to": "Product Control",
+      "loai": "Đi công tác",
+      "lydo": ""
+    },
+    {
+      "ngay": "17/06/2026",
+      "mnv": "343",
+      "hoTen": "Bùi Tiến Đạt",
+      "noiLV": "Office",
+      "to": "Office",
+      "loai": "Nghỉ phép có phép",
+      "lydo": "Đi trễ từ 8h~10h"
     }
   ]
 }
