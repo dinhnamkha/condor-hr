@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-18T02:31:41.326632",
-  "generatedDate": "18/06/2026",
+  "generatedAt": "2026-06-19T01:54:34.534899",
+  "generatedDate": "19/06/2026",
   "totalEmployees": 62,
   "employees": [
     {
@@ -1976,38 +1976,36 @@
       "to": "Kinzoku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
-    }
-  ],
-  "todayAbsences": [
+    },
     {
-      "ngay": "18/06/2026",
-      "mnv": "175",
-      "hoTen": "Nông Thị Quỳnh",
+      "ngay": "19/06/2026",
+      "mnv": "1",
+      "hoTen": "Võ Ngọc Hiếu",
       "noiLV": "Office",
       "to": "Office",
-      "loai": "Telework",
+      "loai": "Đi công tác",
       "lydo": ""
     },
     {
-      "ngay": "18/06/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
+      "ngay": "19/06/2026",
+      "mnv": "183",
+      "hoTen": "Nguyễn Thị Ngọc Mai",
+      "noiLV": "Office",
+      "to": "Office",
+      "loai": "Đi công tác",
+      "lydo": ""
+    },
+    {
+      "ngay": "19/06/2026",
+      "mnv": "471",
+      "hoTen": "Lê Thế Nghiêm",
       "noiLV": "Factory",
       "to": "Housei",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
-      "ngay": "18/06/2026",
-      "mnv": "3032",
-      "hoTen": "Phạm Thị Điệp",
-      "noiLV": "Factory",
-      "to": "Purasuchikku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "18/06/2026",
+      "ngay": "19/06/2026",
       "mnv": "3063",
       "hoTen": "Đỗ Thị Diễm Chi",
       "noiLV": "Factory",
@@ -2016,29 +2014,94 @@
       "lydo": ""
     },
     {
-      "ngay": "18/06/2026",
-      "mnv": "3068",
-      "hoTen": "Nguyễn Văn Hải",
+      "ngay": "19/06/2026",
+      "mnv": "3052",
+      "hoTen": "Bùi Thị Lành",
       "noiLV": "Factory",
       "to": "Housei",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
-      "ngay": "18/06/2026",
-      "mnv": "3069",
-      "hoTen": "Võ Thuý Hằng",
+      "ngay": "19/06/2026",
+      "mnv": "3060",
+      "hoTen": "Nguyễn Ngô Kiến Huy",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    }
+  ],
+  "todayAbsences": [
+    {
+      "ngay": "19/06/2026",
+      "mnv": "175",
+      "hoTen": "Nông Thị Quỳnh",
+      "noiLV": "Office",
+      "to": "Office",
+      "loai": "Telework",
+      "lydo": ""
+    },
+    {
+      "ngay": "19/06/2026",
+      "mnv": "37",
+      "hoTen": "Phạm Thị Mai",
       "noiLV": "Factory",
       "to": "Housei",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
-      "ngay": "18/06/2026",
-      "mnv": "453",
-      "hoTen": "Trần Chí Nguyện",
+      "ngay": "19/06/2026",
+      "mnv": "1",
+      "hoTen": "Võ Ngọc Hiếu",
+      "noiLV": "Office",
+      "to": "Office",
+      "loai": "Đi công tác",
+      "lydo": ""
+    },
+    {
+      "ngay": "19/06/2026",
+      "mnv": "183",
+      "hoTen": "Nguyễn Thị Ngọc Mai",
+      "noiLV": "Office",
+      "to": "Office",
+      "loai": "Đi công tác",
+      "lydo": ""
+    },
+    {
+      "ngay": "19/06/2026",
+      "mnv": "471",
+      "hoTen": "Lê Thế Nghiêm",
       "noiLV": "Factory",
-      "to": "Kinzoku",
+      "to": "Housei",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "19/06/2026",
+      "mnv": "3063",
+      "hoTen": "Đỗ Thị Diễm Chi",
+      "noiLV": "Factory",
+      "to": "Housei",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "19/06/2026",
+      "mnv": "3052",
+      "hoTen": "Bùi Thị Lành",
+      "noiLV": "Factory",
+      "to": "Housei",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "19/06/2026",
+      "mnv": "3060",
+      "hoTen": "Nguyễn Ngô Kiến Huy",
+      "noiLV": "Factory",
+      "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     }
