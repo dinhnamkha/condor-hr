@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T06:25:06.081141",
+  "generatedAt": "2026-06-22T06:27:21.074298",
   "generatedDate": "22/06/2026",
   "totalEmployees": 62,
   "employees": [
@@ -2282,6 +2282,33 @@
       "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
+    },
+    {
+      "ngay": "22/06/2026",
+      "mnv": "1",
+      "hoTen": "Võ Ngọc Hiếu",
+      "noiLV": "Office",
+      "to": "Office",
+      "loai": "Đi công tác",
+      "lydo": "Đón khách China"
+    },
+    {
+      "ngay": "22/06/2026",
+      "mnv": "343",
+      "hoTen": "Bùi Tiến Đạt",
+      "noiLV": "Office",
+      "to": "Office",
+      "loai": "Đi công tác",
+      "lydo": "Đón khách China"
+    },
+    {
+      "ngay": "22/06/2026",
+      "mnv": "394",
+      "hoTen": "Lê Nhất Phương",
+      "noiLV": "Factory",
+      "to": "Product Control",
+      "loai": "Đi công tác",
+      "lydo": "Đón khách China"
     }
   ],
   "todayAbsences": [
@@ -2356,6 +2383,33 @@
       "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
+    },
+    {
+      "ngay": "22/06/2026",
+      "mnv": "1",
+      "hoTen": "Võ Ngọc Hiếu",
+      "noiLV": "Office",
+      "to": "Office",
+      "loai": "Đi công tác",
+      "lydo": "Đón khách China"
+    },
+    {
+      "ngay": "22/06/2026",
+      "mnv": "343",
+      "hoTen": "Bùi Tiến Đạt",
+      "noiLV": "Office",
+      "to": "Office",
+      "loai": "Đi công tác",
+      "lydo": "Đón khách China"
+    },
+    {
+      "ngay": "22/06/2026",
+      "mnv": "394",
+      "hoTen": "Lê Nhất Phương",
+      "noiLV": "Factory",
+      "to": "Product Control",
+      "loai": "Đi công tác",
+      "lydo": "Đón khách China"
     }
   ]
 }
