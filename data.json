@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T01:44:03.247924",
+  "generatedAt": "2026-06-23T01:44:39.212902",
   "generatedDate": "23/06/2026",
   "totalEmployees": 62,
   "employees": [
@@ -2363,6 +2363,24 @@
       "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
+    },
+    {
+      "ngay": "23/06/2026",
+      "mnv": "394",
+      "hoTen": "Lê Nhất Phương",
+      "noiLV": "Factory",
+      "to": "Product Control",
+      "loai": "Đi công tác",
+      "lydo": ""
+    },
+    {
+      "ngay": "23/06/2026",
+      "mnv": "471",
+      "hoTen": "Lê Thế Nghiêm",
+      "noiLV": "Factory",
+      "to": "Housei",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
     }
   ],
   "todayAbsences": [
@@ -2444,6 +2462,24 @@
       "hoTen": "Bùi Thị Mộng",
       "noiLV": "Factory",
       "to": "Purasuchikku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "23/06/2026",
+      "mnv": "394",
+      "hoTen": "Lê Nhất Phương",
+      "noiLV": "Factory",
+      "to": "Product Control",
+      "loai": "Đi công tác",
+      "lydo": ""
+    },
+    {
+      "ngay": "23/06/2026",
+      "mnv": "471",
+      "hoTen": "Lê Thế Nghiêm",
+      "noiLV": "Factory",
+      "to": "Housei",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     }
