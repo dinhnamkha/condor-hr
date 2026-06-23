@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T01:45:44.142492",
+  "generatedAt": "2026-06-23T01:49:34.091981",
   "generatedDate": "23/06/2026",
   "totalEmployees": 62,
   "employees": [
@@ -2317,7 +2317,7 @@
       "noiLV": "Office",
       "to": "Office",
       "loai": "Đi công tác",
-      "lydo": ""
+      "lydo": "Triển lãm"
     },
     {
       "ngay": "24/06/2026",
@@ -2445,7 +2445,7 @@
       "noiLV": "Office",
       "to": "Office",
       "loai": "Đi công tác",
-      "lydo": ""
+      "lydo": "Triển lãm"
     },
     {
       "ngay": "23/06/2026",
