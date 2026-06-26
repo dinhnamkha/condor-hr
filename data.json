@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-25T01:40:16.210148",
-  "generatedDate": "25/06/2026",
+  "generatedAt": "2026-06-26T02:07:46.160310",
+  "generatedDate": "26/06/2026",
   "totalEmployees": 62,
   "employees": [
     {
@@ -2140,42 +2140,6 @@
       "lydo": ""
     },
     {
-      "ngay": "26/06/2026",
-      "mnv": "3068",
-      "hoTen": "Nguyễn Văn Hải",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "27/06/2026",
-      "mnv": "3068",
-      "hoTen": "Nguyễn Văn Hải",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "29/06/2026",
-      "mnv": "3068",
-      "hoTen": "Nguyễn Văn Hải",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "30/06/2026",
-      "mnv": "3068",
-      "hoTen": "Nguyễn Văn Hải",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
       "ngay": "22/06/2026",
       "mnv": "3069",
       "hoTen": "Võ Thuý Hằng",
@@ -2204,42 +2168,6 @@
     },
     {
       "ngay": "25/06/2026",
-      "mnv": "3069",
-      "hoTen": "Võ Thuý Hằng",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "26/06/2026",
-      "mnv": "3069",
-      "hoTen": "Võ Thuý Hằng",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "27/06/2026",
-      "mnv": "3069",
-      "hoTen": "Võ Thuý Hằng",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "29/06/2026",
-      "mnv": "3069",
-      "hoTen": "Võ Thuý Hằng",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "30/06/2026",
       "mnv": "3069",
       "hoTen": "Võ Thuý Hằng",
       "noiLV": "Factory",
@@ -2498,11 +2426,38 @@
       "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
+    },
+    {
+      "ngay": "26/06/2026",
+      "mnv": "3052",
+      "hoTen": "Bùi Thị Lành",
+      "noiLV": "Factory",
+      "to": "Housei",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "26/06/2026",
+      "mnv": "132",
+      "hoTen": "Hoàng Đình Thái Bình Tùng",
+      "noiLV": "Office",
+      "to": "Office",
+      "loai": "Đi công tác",
+      "lydo": "Công tác Trung Tín: 10:00~15:00"
+    },
+    {
+      "ngay": "26/06/2026",
+      "mnv": "426",
+      "hoTen": "Nguyễn Văn Hậu",
+      "noiLV": "Factory",
+      "to": "Product Control",
+      "loai": "Đi công tác",
+      "lydo": "Công tác Trung Tín: 10:00~15:00"
     }
   ],
   "todayAbsences": [
     {
-      "ngay": "25/06/2026",
+      "ngay": "26/06/2026",
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
@@ -2511,7 +2466,7 @@
       "lydo": ""
     },
     {
-      "ngay": "25/06/2026",
+      "ngay": "26/06/2026",
       "mnv": "37",
       "hoTen": "Phạm Thị Mai",
       "noiLV": "Factory",
@@ -2520,7 +2475,7 @@
       "lydo": ""
     },
     {
-      "ngay": "25/06/2026",
+      "ngay": "26/06/2026",
       "mnv": "47",
       "hoTen": "Dương Thị Nga",
       "noiLV": "Factory",
@@ -2529,25 +2484,7 @@
       "lydo": ""
     },
     {
-      "ngay": "25/06/2026",
-      "mnv": "3068",
-      "hoTen": "Nguyễn Văn Hải",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "25/06/2026",
-      "mnv": "3069",
-      "hoTen": "Võ Thuý Hằng",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "25/06/2026",
+      "ngay": "26/06/2026",
       "mnv": "343",
       "hoTen": "Bùi Tiến Đạt",
       "noiLV": "Office",
@@ -2556,7 +2493,7 @@
       "lydo": "Triển lãm"
     },
     {
-      "ngay": "25/06/2026",
+      "ngay": "26/06/2026",
       "mnv": "471",
       "hoTen": "Lê Thế Nghiêm",
       "noiLV": "Factory",
@@ -2565,49 +2502,31 @@
       "lydo": ""
     },
     {
-      "ngay": "25/06/2026",
-      "mnv": "394",
-      "hoTen": "Lê Nhất Phương",
+      "ngay": "26/06/2026",
+      "mnv": "3052",
+      "hoTen": "Bùi Thị Lành",
       "noiLV": "Factory",
-      "to": "Product Control",
-      "loai": "Đi công tác",
-      "lydo": "Triển lãm"
+      "to": "Housei",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
     },
     {
-      "ngay": "25/06/2026",
-      "mnv": "1",
-      "hoTen": "Võ Ngọc Hiếu",
+      "ngay": "26/06/2026",
+      "mnv": "132",
+      "hoTen": "Hoàng Đình Thái Bình Tùng",
       "noiLV": "Office",
       "to": "Office",
       "loai": "Đi công tác",
-      "lydo": "Triển lãm"
+      "lydo": "Công tác Trung Tín: 10:00~15:00"
     },
     {
-      "ngay": "25/06/2026",
-      "mnv": "453",
-      "hoTen": "Trần Chí Nguyện",
+      "ngay": "26/06/2026",
+      "mnv": "426",
+      "hoTen": "Nguyễn Văn Hậu",
       "noiLV": "Factory",
-      "to": "Kinzoku",
-      "loai": "Vắng không phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "25/06/2026",
-      "mnv": "475",
-      "hoTen": "Nguyễn Văn Thưởng",
-      "noiLV": "Factory",
-      "to": "Kinzoku",
-      "loai": "Vắng không phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "25/06/2026",
-      "mnv": "3017",
-      "hoTen": "Hoàng Thị Thơ",
-      "noiLV": "Factory",
-      "to": "Purasuchikku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
+      "to": "Product Control",
+      "loai": "Đi công tác",
+      "lydo": "Công tác Trung Tín: 10:00~15:00"
     }
   ]
 }
