@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-04T02:25:45.232561",
-  "generatedDate": "04/07/2026",
-  "totalEmployees": 68,
+  "generatedAt": "2026-07-06T01:22:56.089961",
+  "generatedDate": "06/07/2026",
+  "totalEmployees": 69,
   "employees": [
     {
       "mnv": "1",
@@ -386,6 +386,14 @@
       "to": "WareHouse",
       "noiLV": "Factory",
       "chucvu": "8.Worker Gross"
+    },
+    {
+      "mnv": "484",
+      "phanloai": "TV",
+      "hoTen": "Phạm Hữu Phúc",
+      "to": "Housei",
+      "noiLV": "Factory",
+      "chucvu": ""
     },
     {
       "mnv": "3001",
@@ -3401,11 +3409,38 @@
       "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": "Hư máy xoăn 017"
+    },
+    {
+      "ngay": "06/07/2026",
+      "mnv": "456",
+      "hoTen": "Trần Văn Nghĩa",
+      "noiLV": "Factory",
+      "to": "Kinzoku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "06/07/2026",
+      "mnv": "465",
+      "hoTen": "Lê Kim Phụng",
+      "noiLV": "Factory",
+      "to": "Housei",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "06/07/2026",
+      "mnv": "3063",
+      "hoTen": "Đỗ Thị Diễm Chi",
+      "noiLV": "Factory",
+      "to": "Housei",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
     }
   ],
   "todayAbsences": [
     {
-      "ngay": "04/07/2026",
+      "ngay": "06/07/2026",
       "mnv": "37",
       "hoTen": "Phạm Thị Mai",
       "noiLV": "Factory",
@@ -3414,12 +3449,39 @@
       "lydo": ""
     },
     {
-      "ngay": "04/07/2026",
+      "ngay": "06/07/2026",
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
       "to": "Office",
       "loai": "Telework",
+      "lydo": ""
+    },
+    {
+      "ngay": "06/07/2026",
+      "mnv": "456",
+      "hoTen": "Trần Văn Nghĩa",
+      "noiLV": "Factory",
+      "to": "Kinzoku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "06/07/2026",
+      "mnv": "465",
+      "hoTen": "Lê Kim Phụng",
+      "noiLV": "Factory",
+      "to": "Housei",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "06/07/2026",
+      "mnv": "3063",
+      "hoTen": "Đỗ Thị Diễm Chi",
+      "noiLV": "Factory",
+      "to": "Housei",
+      "loai": "Nghỉ phép có phép",
       "lydo": ""
     }
   ]
