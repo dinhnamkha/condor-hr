@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-07T01:45:34.656749",
-  "generatedDate": "07/07/2026",
+  "generatedAt": "2026-07-08T01:22:19.080412",
+  "generatedDate": "08/07/2026",
   "totalEmployees": 69,
   "employees": [
     {
@@ -3466,8 +3466,8 @@
     },
     {
       "ngay": "07/07/2026",
-      "mnv": "465",
-      "hoTen": "Lê Kim Phụng",
+      "mnv": "59",
+      "hoTen": "Đặng Kim Phụng",
       "noiLV": "Factory",
       "to": "Housei",
       "loai": "Nghỉ phép có phép",
@@ -3508,11 +3508,29 @@
       "to": "Office",
       "loai": "Telework",
       "lydo": ""
+    },
+    {
+      "ngay": "08/07/2026",
+      "mnv": "412",
+      "hoTen": "Nguyễn Chí Thanh",
+      "noiLV": "Factory",
+      "to": "Housei",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "08/07/2026",
+      "mnv": "477",
+      "hoTen": "Lê Anh Tuấn",
+      "noiLV": "Factory",
+      "to": "Product Control",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
     }
   ],
   "todayAbsences": [
     {
-      "ngay": "07/07/2026",
+      "ngay": "08/07/2026",
       "mnv": "37",
       "hoTen": "Phạm Thị Mai",
       "noiLV": "Factory",
@@ -3521,7 +3539,7 @@
       "lydo": ""
     },
     {
-      "ngay": "07/07/2026",
+      "ngay": "08/07/2026",
       "mnv": "175",
       "hoTen": "Nông Thị Quỳnh",
       "noiLV": "Office",
@@ -3530,75 +3548,21 @@
       "lydo": ""
     },
     {
-      "ngay": "07/07/2026",
-      "mnv": "317",
-      "hoTen": "Ngô Quốc Khánh",
-      "noiLV": "Factory",
-      "to": "Kinzoku",
-      "loai": "Đi công tác",
-      "lydo": "Thanh Luân"
-    },
-    {
-      "ngay": "07/07/2026",
-      "mnv": "453",
-      "hoTen": "Trần Chí Nguyện",
-      "noiLV": "Factory",
-      "to": "Kinzoku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "07/07/2026",
-      "mnv": "456",
-      "hoTen": "Trần Văn Nghĩa",
-      "noiLV": "Factory",
-      "to": "Kinzoku",
-      "loai": "Đi công tác",
-      "lydo": "Thanh Luân"
-    },
-    {
-      "ngay": "07/07/2026",
-      "mnv": "465",
-      "hoTen": "Lê Kim Phụng",
+      "ngay": "08/07/2026",
+      "mnv": "412",
+      "hoTen": "Nguyễn Chí Thanh",
       "noiLV": "Factory",
       "to": "Housei",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
-      "ngay": "07/07/2026",
-      "mnv": "160",
-      "hoTen": "Trương Ngọc Hiếu",
+      "ngay": "08/07/2026",
+      "mnv": "477",
+      "hoTen": "Lê Anh Tuấn",
       "noiLV": "Factory",
-      "to": "Purasuchikku",
+      "to": "Product Control",
       "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "07/07/2026",
-      "mnv": "3034",
-      "hoTen": "Bùi Thị Hoa",
-      "noiLV": "Factory",
-      "to": "Purasuchikku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "07/07/2026",
-      "mnv": "3062",
-      "hoTen": "Nguyễn Minh Đường",
-      "noiLV": "Factory",
-      "to": "Purasuchikku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "07/07/2026",
-      "mnv": "343",
-      "hoTen": "Bùi Tiến Đạt",
-      "noiLV": "Office",
-      "to": "Office",
-      "loai": "Telework",
       "lydo": ""
     }
   ]
