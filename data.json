@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-13T07:52:30.088018",
-  "generatedDate": "13/07/2026",
-  "totalEmployees": 69,
+  "generatedAt": "2026-07-14T02:47:16.301976",
+  "generatedDate": "14/07/2026",
+  "totalEmployees": 67,
   "employees": [
     {
       "mnv": "1",
@@ -10,14 +10,6 @@
       "to": "Office",
       "noiLV": "Office",
       "chucvu": "1.General Manager"
-    },
-    {
-      "mnv": "37",
-      "phanloai": "CT",
-      "hoTen": "Phạm Thị Mai",
-      "to": "Housei",
-      "noiLV": "Factory",
-      "chucvu": "6.NV kỹ thuật LB"
     },
     {
       "mnv": "38",
@@ -348,14 +340,6 @@
       "chucvu": "Staff"
     },
     {
-      "mnv": "478",
-      "phanloai": "TV",
-      "hoTen": "Nguyễn Văn Danh",
-      "to": "Kinzoku",
-      "noiLV": "Factory",
-      "chucvu": "8.Worker Gross"
-    },
-    {
       "mnv": "481",
       "phanloai": "TV",
       "hoTen": "Nguyễn Ngọc Vũ",
@@ -385,15 +369,15 @@
       "hoTen": "Châu Minh Chánh",
       "to": "Kinzoku",
       "noiLV": "Factory",
-      "chucvu": ""
+      "chucvu": "8.Worker Gross"
     },
     {
-      "mnv": "486",
+      "mnv": "487",
       "phanloai": "TV",
-      "hoTen": "Dương Khang",
-      "to": "Kinzoku",
+      "hoTen": "Đặng Thanh Thiện",
+      "to": "Housei",
       "noiLV": "Factory",
-      "chucvu": ""
+      "chucvu": "8.Worker Gross"
     },
     {
       "mnv": "3001",
@@ -911,234 +895,234 @@
     {
       "ngay": "01/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "02/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "03/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "04/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "05/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "06/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "08/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "09/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "10/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "11/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "12/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "13/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "15/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "16/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "17/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "18/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "19/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "20/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "22/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "23/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "24/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "25/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "26/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "27/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "29/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "30/06/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -2567,9 +2551,9 @@
     {
       "ngay": "30/06/2026",
       "mnv": "478",
-      "hoTen": "Nguyễn Văn Danh",
-      "noiLV": "Factory",
-      "to": "Kinzoku",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -2648,9 +2632,9 @@
     {
       "ngay": "01/07/2026",
       "mnv": "478",
-      "hoTen": "Nguyễn Văn Danh",
-      "noiLV": "Factory",
-      "to": "Kinzoku",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -2675,243 +2659,81 @@
     {
       "ngay": "01/07/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "02/07/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "03/07/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "04/07/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "06/07/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "07/07/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "08/07/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "09/07/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
     {
       "ngay": "10/07/2026",
       "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "11/07/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "13/07/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "14/07/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "15/07/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "16/07/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "17/07/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "18/07/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "20/07/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "21/07/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "22/07/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "23/07/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "24/07/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "25/07/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "27/07/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "28/07/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "29/07/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "30/07/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "31/07/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
+      "hoTen": "",
+      "noiLV": "",
+      "to": "",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     },
@@ -3715,47 +3537,36 @@
       "to": "Purasuchikku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
-    }
-  ],
-  "todayAbsences": [
-    {
-      "ngay": "13/07/2026",
-      "mnv": "37",
-      "hoTen": "Phạm Thị Mai",
-      "noiLV": "Factory",
-      "to": "Housei",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
     },
     {
-      "ngay": "13/07/2026",
-      "mnv": "175",
-      "hoTen": "Nông Thị Quỳnh",
+      "ngay": "14/07/2026",
+      "mnv": "343",
+      "hoTen": "Bùi Tiến Đạt",
       "noiLV": "Office",
       "to": "Office",
-      "loai": "Telework",
+      "loai": "Đi công tác",
       "lydo": ""
     },
     {
-      "ngay": "13/07/2026",
+      "ngay": "14/07/2026",
+      "mnv": "394",
+      "hoTen": "Lê Nhất Phương",
+      "noiLV": "Factory",
+      "to": "Product Control",
+      "loai": "Đi công tác",
+      "lydo": ""
+    },
+    {
+      "ngay": "14/07/2026",
       "mnv": "438",
       "hoTen": "Đặng Đình Quang",
       "noiLV": "Factory",
       "to": "Kinzoku",
-      "loai": "Nghỉ phép có phép",
+      "loai": "Đi công tác",
       "lydo": ""
     },
     {
-      "ngay": "13/07/2026",
-      "mnv": "448",
-      "hoTen": "Diệp Sa Phe",
-      "noiLV": "Factory",
-      "to": "Purasuchikku",
-      "loai": "Nghỉ phép có phép",
-      "lydo": ""
-    },
-    {
-      "ngay": "13/07/2026",
+      "ngay": "14/07/2026",
       "mnv": "453",
       "hoTen": "Trần Chí Nguyện",
       "noiLV": "Factory",
@@ -3764,20 +3575,67 @@
       "lydo": ""
     },
     {
-      "ngay": "13/07/2026",
+      "ngay": "14/07/2026",
       "mnv": "464",
       "hoTen": "Huỳnh Phát Đạt",
       "noiLV": "Factory",
       "to": "Kinzoku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
+    }
+  ],
+  "todayAbsences": [
+    {
+      "ngay": "14/07/2026",
+      "mnv": "175",
+      "hoTen": "Nông Thị Quỳnh",
+      "noiLV": "Office",
+      "to": "Office",
+      "loai": "Telework",
+      "lydo": ""
     },
     {
-      "ngay": "13/07/2026",
-      "mnv": "3035",
-      "hoTen": "Nguyễn Thị Diệu",
+      "ngay": "14/07/2026",
+      "mnv": "343",
+      "hoTen": "Bùi Tiến Đạt",
+      "noiLV": "Office",
+      "to": "Office",
+      "loai": "Đi công tác",
+      "lydo": ""
+    },
+    {
+      "ngay": "14/07/2026",
+      "mnv": "394",
+      "hoTen": "Lê Nhất Phương",
       "noiLV": "Factory",
-      "to": "Purasuchikku",
+      "to": "Product Control",
+      "loai": "Đi công tác",
+      "lydo": ""
+    },
+    {
+      "ngay": "14/07/2026",
+      "mnv": "438",
+      "hoTen": "Đặng Đình Quang",
+      "noiLV": "Factory",
+      "to": "Kinzoku",
+      "loai": "Đi công tác",
+      "lydo": ""
+    },
+    {
+      "ngay": "14/07/2026",
+      "mnv": "453",
+      "hoTen": "Trần Chí Nguyện",
+      "noiLV": "Factory",
+      "to": "Kinzoku",
+      "loai": "Nghỉ phép có phép",
+      "lydo": ""
+    },
+    {
+      "ngay": "14/07/2026",
+      "mnv": "464",
+      "hoTen": "Huỳnh Phát Đạt",
+      "noiLV": "Factory",
+      "to": "Kinzoku",
       "loai": "Nghỉ phép có phép",
       "lydo": ""
     }
